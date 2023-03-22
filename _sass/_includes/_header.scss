@@ -9,19 +9,28 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Header
 
 .header {
-	margin-top: 40px;
+	margin-top: 30px;
 
 	@include mq(tabletp) {
-		margin-top: 50px;
+		margin-top: 25px;
 	}
 
 	@include mq(tabletl) {
-		margin-top: 60px;
+		margin-top: 25px;
 	}
 
 	@include mq(laptop) {
-		margin-top: 80px;
+		margin-top: 30px;
 	}
+}
+
+.header .wrap {
+    max-width: 100%;
+    padding: 0 10px;
+
+    @include mq(tabletp) {
+        max-width: 97%;
+    }
 }
 
 .header__logo {
@@ -36,6 +45,7 @@
 }
 
 .header__logo__img {
+	float: left;
 	width: 100%;
 	height: auto;
 }
@@ -70,7 +80,7 @@
 		position: absolute;
 		top: 50%;
 		right: 20px;
-		@include translate(0,-50%);
+		@include translate(0,-20%);
 	}
 }
 
@@ -79,7 +89,7 @@
 	z-index: 10002;
 	top: 50%;
 	right: 30px;
-	@include translate(0,-50%);
+	@include translate(-30%, 10%);
 	cursor: pointer;
 	font-size: 15px;
 	line-height: 20px;
@@ -99,7 +109,7 @@
 	position: relative;
 	width: 24px;
 	height: 20px;
-	margin-left: 8px;
+	// margin-left: 8px;
 
 	span, span:before, span:after {
 		content: '';

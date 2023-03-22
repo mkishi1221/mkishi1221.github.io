@@ -11,18 +11,39 @@
 .footer {
 	@include transition(all 0.4s ease-in-out 0.8s);
 	padding: 40px 0;
+	padding-bottom: 20px;
 
 	@include mq(tabletp) {
-		padding: 50px 0;
+		padding-top: 50px 0;
+		padding-bottom: 20px;
 	}
 
 	@include mq(tabletl) {
-		padding: 60px 0;
+		padding-top: 60px 0;
+		padding-bottom: 20px;
 	}
 
 	@include mq(laptop) {
-		padding: 80px 0;
+		padding-top: 80px 0;
+		padding-bottom: 20px 0;
 	}
+}
+
+.footer .wrap {
+    max-width: 97%;
+    padding: 0 10px;
+
+	@include mq(tabletp) {
+		max-width: 90%;
+	}
+
+	@include mq(tabletl) {
+		max-width: 90%;
+	}
+
+    @include mq(tabletp) {
+        max-width: 97%;
+    }
 }
 
 .footer__logo {

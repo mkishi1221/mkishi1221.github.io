@@ -21,7 +21,7 @@
 .content-wrap {
 
 	@include mq(tabletp) {
-		max-width: 90%;
+		max-width: 99.5%;
 		margin: 0 auto;
 	}
 }
@@ -33,7 +33,7 @@
 		margin-right: auto;
 		padding-left: 30px;
 		padding-right: 30px;
-		max-width: 500px;
+		// max-width: 500px;
 
 		@include mq(tabletp) {
 			padding-left: 0;
@@ -84,6 +84,7 @@
 
 		@include mq(laptop) {
 			margin: 40px auto;
+			max-width: 60%;
 		}
 	}
 
@@ -295,14 +296,21 @@
 .image-wrap,
 .video-wrap {
 	position: relative;
-	max-width: 90%;
+	max-width: 95%;
 	margin: 20px auto;
 
 	@include mq(tabletp) {
 		margin: 30px auto;
+		max-width: 100%;
+	}
+
+	@include mq(tabletl) {
+		margin: 30px auto;
+		max-width: 70%;
 	}
 
 	@include mq(laptop) {
+		max-width: 70%;
 		margin: 40px auto;
 	}
 
