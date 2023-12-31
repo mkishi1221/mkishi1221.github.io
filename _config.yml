@@ -1,7 +1,6 @@
 site: Masayuki Kishi's personal website
-
 url: https://mkishi1221.github.io/
-baseurl: 
+# baseurl: 
 
 collections:
   pages:
