@@ -9,19 +9,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Header
 
 .header {
-	margin-top: 30px;
-
-	@include mq(tabletp) {
-		margin-top: 25px;
-	}
-
-	@include mq(tabletl) {
-		margin-top: 25px;
-	}
-
-	@include mq(laptop) {
-		margin-top: 30px;
-	}
+	margin-top: 25px;
 }
 
 .header .wrap {
@@ -80,7 +68,7 @@
 		position: absolute;
 		top: 50%;
 		right: 20px;
-		@include translate(0,-20%);
+		@include translate(0,-10%);
 	}
 }
 
@@ -190,8 +178,8 @@
 	padding: 30px;
 
 	@include mq(tabletp) {
-		padding: 40px 0 0;
-		max-width: 70%;
+		padding: 50px 0 0;
+		max-width: 80%;
 	}
 
 	@include mq(tabletl) {
@@ -205,7 +193,7 @@
 
 	@include mq(tabletl) {
 		display: inline-block;
-		margin-left: 20px;
+		margin-left: 50px;
 
 		&:first-child {
 			margin-left: 0;

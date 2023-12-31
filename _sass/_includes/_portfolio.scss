@@ -17,16 +17,77 @@
 	padding: $grid-spacing/2;
 	float: left;
 	width: 33.33%;
+	@include mq(phones) {
+		width: 100%;
+	}
+	@include mq(phonel) {
+		width: 100%;
+	}
+	@include mq(tabletp) {
+		width: 50%;
+	}
+	@include mq(tabletl) {
+		width: 50%;
+	}
+	@include mq(laptop) {
+		width: 33.33%;
+	}
+	@include mq(desktop) {
+		width: 33.33%;
+	}
+
 }
 
 .portfolio-item__link {
 	position: relative;
 	display: block;
 
-	@include mq(tabletl) {
-
+	@include mq(phones) {
 		&:hover {
+			.portfolio-item__content {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
 
+	@include mq(phonel) {
+		&:hover {
+			.portfolio-item__content {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
+	@include mq(tabletp) {
+		&:hover {
+			.portfolio-item__content {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
+	@include mq(tabletl) {
+		&:hover {
+			.portfolio-item__content {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
+	@include mq(laptop) {
+		&:hover {
+			.portfolio-item__content {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+	@include mq(desktop) {
+		&:hover {
 			.portfolio-item__content {
 				opacity: 1;
 				visibility: visible;
@@ -61,31 +122,54 @@
 
 .portfolio-item__title {
 	color: $overlay-text-color;
-	font-size: $grid-item-title-small;
+	font-size: $grid-item-title-medium;
 	font-weight: $grid-item-title-weight;
 	letter-spacing: $grid-item-title-spacing;
 
+	@include mq(phones) {
+		font-size: $grid-item-title-medium;
+	}
+	@include mq(phonel) {
+		font-size: $grid-item-title-medium;
+	}
 	@include mq(tabletp) {
 		font-size: $grid-item-title-medium;
 	}
-
+	@include mq(tabletl) {
+		font-size: $grid-item-title-large;
+	}
 	@include mq(laptop) {
 		font-size: $grid-item-title-large;
 	}
+	@include mq(desktop) {
+		font-size: $grid-item-title-large;
+	}
+
 }
 
 .portfolio-item__subtitle {
-	margin-top: 5px;
+	margin-top: 20px;
 	color: rgba($overlay-text-color, 0.7);
-	font-size: $grid-item-subtitle-small;
+	font-size: $grid-item-subtitle-medium;
 	font-weight: $grid-item-subtitle-weight;
 	letter-spacing: $grid-item-subtitle-spacing;
 
+	@include mq(phones) {
+		font-size: $grid-item-subtitle-medium;
+	}
+	@include mq(phonel) {
+		font-size: $grid-item-subtitle-medium;
+	}
 	@include mq(tabletp) {
 		font-size: $grid-item-subtitle-medium;
 	}
-
+	@include mq(tabletl) {
+		font-size: $grid-item-subtitle-large;
+	}
 	@include mq(laptop) {
+		font-size: $grid-item-subtitle-large;
+	}
+	@include mq(desktop) {
 		font-size: $grid-item-subtitle-large;
 	}
 }

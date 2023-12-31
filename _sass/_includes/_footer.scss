@@ -34,11 +34,11 @@
     padding: 0 10px;
 
 	@include mq(tabletp) {
-		max-width: 90%;
+		max-width: 95%;
 	}
 
 	@include mq(tabletl) {
-		max-width: 90%;
+		max-width: 95%;
 	}
 
     @include mq(tabletp) {
