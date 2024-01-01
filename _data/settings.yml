@@ -10,8 +10,8 @@ menu_settings:
   menu_items:
     - title: 'projects'
       url: '/'
-    - title: 'blog'
-      url: '/blog/'
+    # - title: 'blog'
+    #   url: '/blog/'
     - title: 'about'
       url: '/about'
     - title: 'contact'
@@ -64,11 +64,11 @@ color_settings:
   background_color: '#ffffff'
   background_alt_color: '#f4f5f6'
   text_dark_color: '#2A2F36'
-  text_medium_color: '#6C7A89'
+  text_medium_color: '#56616C'
   text_light_color: '#ABB7B7'
-  accent_color: '#F2784B'
+  accent_color: '#0d0d0d'
   border_color: '#dddddd'
-  overlay_background_color: '#F2784B'
+  overlay_background_color: '#0d0d0d'
   overlay_text_color: '#ffffff'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
@@ -79,6 +79,7 @@ font_settings:
   body_font: '"Poppins", sans-serif'
   regular_weight: 400
   bold_weight: 600
+  link_weight: 400
   site_title:
     small_size: 25
     medium_size: 30
@@ -101,7 +102,7 @@ font_settings:
     small_size: 15
     medium_size: 17
     large_size: 19
-    weight: 200
+    weight: 300
     letter_spacing: 0
   h1:
     small_size: 25
@@ -146,12 +147,12 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 15
-    medium_size: 17
-    large_size: 19
+    small_size: 12
+    medium_size: 14
+    large_size: 16
     weight: 400
     letter_spacing: 0
-    line_height: 1.6
+    line_height: 1.8
   blockquote:
     small_size: 25
     medium_size: 35

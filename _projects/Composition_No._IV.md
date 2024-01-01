@@ -1,18 +1,16 @@
 ---
 title: 'Composition No. IV'
 subtitle: 'What is good design for consciousness?'
-date: 2017-07-14 00:00:00
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
+date: 2023-07-14 00:00:00
+description: Can objects in our environment affect our thinking and behavior? Can design influence our society's values? What is good design for consciousness?
 featured_image: '/images/Comp/Comp_Square.jpg'
 ---
 
-<div><img src="/images/Comp/Comp_Banner.jpg" class="banner"></div>
-
-<!-- ![moo1](/images/demo/demo-landscape.jpg) -->
+<div class="banner"><img src="/images/Comp/Comp_Banner.jpg" class="banner_img"></div>
 
 ## Composition No. IV 
 ​
-*Can objects in our environment affect our thinking and behavior? Can design influence our society's values? What is good design for consciousness?*
+**Can objects in our environment affect our thinking and behavior? Can design influence our society's values? What is good design for consciousness?**
 
 This project took special interest in the stories and values found in objects of ordinary life. Could simple objects such as a table tell complex meaningful stories? Within the context of a rapidly changing society, the project investigated whether these stories could help suggest a way of life that can help us become psychologically resilient to nihilism, change and trauma.
 
@@ -23,40 +21,24 @@ The prototyping process took 4 months to manufacture over 100 parts, producing 3
 
 The concept was displayed at Made In Brunel at the Bargehouse, Oxo Tower Wharf in Southbank, London June 2017. Click here to read the [Official Press Release](https://www.brunel.ac.uk/news-and-events/news/articles/How-can-furniture-design-encourage-self-acceptance)
 
-![](/images/Comp/comp_1.jpg)
-
-![](/images/Comp/comp_2.jpg)
-
-![](/images/Comp/comp_3.jpg)
-
-![](/images/Comp/comp_4.jpg)
-
-![](/images/Comp/comp_5.jpg)
-
-![](/images/Comp/comp_6.jpg)
-
-![](/images/Comp/comp_7.jpg)
-
-![](/images/Comp/comp_8.jpg)
-
-![](/images/Comp/comp_9.jpg)
-
-![](/images/Comp/comp_9_1.jpg)
-
-![](/images/Comp/comp_9_2.jpg)
-
-![](/images/Comp/comp_10.jpg)
-
-![](/images/Comp/comp_11.jpg)
-
-![](/images/Comp/comp_12.jpg)
-
-![](/images/Comp/comp_13.jpg)
-
-![](/images/Comp/comp_14.jpg)
-
-![](/images/Comp/comp_15.jpg)
-
-![](/images/Comp/comp_16.jpg)
-
-![](/images/Comp/comp_17.jpg)
+<div class="gallery" data-columns="2">
+	<img src="/images/Comp/comp_1.jpg">
+    <img src="/images/Comp/comp_2.jpg">
+    <img src="/images/Comp/comp_3.jpg">
+    <img src="/images/Comp/comp_4.jpg">
+    <img src="/images/Comp/comp_5.jpg">
+    <img src="/images/Comp/comp_6.jpg">
+    <img src="/images/Comp/comp_7.jpg">
+    <img src="/images/Comp/comp_8.jpg">
+    <img src="/images/Comp/comp_9.jpg">
+    <img src="/images/Comp/comp_9_1.jpg">
+    <img src="/images/Comp/comp_9_2.jpg">
+    <img src="/images/Comp/comp_10.jpg">
+    <img src="/images/Comp/comp_11.jpg">
+    <img src="/images/Comp/comp_12.jpg">
+    <img src="/images/Comp/comp_13.jpg">
+    <img src="/images/Comp/comp_14.jpg">
+    <img src="/images/Comp/comp_15.jpg">
+    <img src="/images/Comp/comp_16.jpg">
+    <img src="/images/Comp/comp_17.jpg">
+</div>
