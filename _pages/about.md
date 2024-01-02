@@ -1,7 +1,7 @@
 ---
 title: About Masayuki
-subtitle: Masayuki is a product manager and designer at Amutri.
-description: Masayuki is a product manager at Amutri revolutionising how people communicate big ideas visually
+subtitle: I'm spearheading the development of Amutri, aiming to revolutionise the way people communicate big ideas visually.
+description: Masayuki is a product manager at Amutri, dedicated to providing solutions that tackle the challenges associated with complex, time-consuming, and costly 3D content creation for architectural projects.
 featured_image: /images/amutri/amutri_banner.jpg
 ---
 
