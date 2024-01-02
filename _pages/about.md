@@ -9,11 +9,11 @@ featured_image: /images/amutri/amutri_banner.jpg
 
 ## About
 
-** I am a product manager at Amutri revolutionising how people communicate big ideas visually**
+**I'm spearheading the development of Amutri, aiming to revolutionise the way people communicate big ideas visually.**
 
-I am a product designer with over 10 years of design experience. I've had the privilege to work on projects on a global scale, working at consultancies and startups across London, Dubai and Tokyo. My experience involves everything from designing physical products and interiors, developing machine translation and NLP solutions for major Japanese corporations and finding product market fit for new software startups.
+As a product designer with over a decade of experience, I've had the opportunity to contribute to projects on a global scale, collaborating with consultancies and startups in London, Dubai, and Tokyo. I have been involved in a diverse range of projects from designing physical products and interiors, crafting machine translation and NLP solutions for major Japanese corporations, and identifying product-market fit for emerging software startups.
 
-I am currently working as a product manager to build Amutri; a cutting-edge cloud-rendered BIM to 3D visualisation platform. Our startup provides solutions that address the problem of complex, lengthy, and expensive 3D content creation for architectural projects.
+In my current role as a product manager, I am actively involved in building Amutri, a state-of-the-art cloud-rendered BIM to 3D visualization platform. Our startup is dedicated to providing solutions that tackle the challenges associated with complex, time-consuming, and costly 3D content creation for architectural projects.
 
 [Click here to find out more about Amutri](https://www.amutri.com/)
 
