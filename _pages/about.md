@@ -30,7 +30,7 @@ featured_image: /images/amutri/amutri_banner.jpg
 * 2017 Industrial designer at Giovanni Pellone Design.
 * 2019 UIUX designer, developer and language analyst at Cistate Solutions Inc.
 * 2021 Moved to Vienna, Austria to work full time on Forehuman, a domain registrar startup
-* 2022 Moved to Falmouth, UK to join Launchpad, a startup incubator at Falmouth University
+* 2022 Moved to Falmouth, UK to join Launchpad venture studio, at Falmouth University
 * 2023 Joined Amutri as Product Manager
 
 ## Get in touch
