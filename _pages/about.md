@@ -9,7 +9,7 @@ featured_image: /images/amutri/amutri_banner.jpg
 
 ## About
 
-**I'm spearheading the development of Amutri, revolutionising how people communicate big ideas visually.**
+**I'm spearheading the development of Amutri and revolutionising how people communicate big ideas visually.**
 
 As a product designer with over a decade of experience, I've had the opportunity to contribute to projects on a global scale, collaborating with consultancies and startups in London, Dubai, and Tokyo. I have been involved in a diverse range of projects from designing physical products and interiors, crafting machine translation and NLP solutions for major Japanese corporations, and identifying product-market fit for emerging software startups.
 
