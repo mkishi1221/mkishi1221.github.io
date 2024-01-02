@@ -1,7 +1,7 @@
 ---
 title: About Masayuki
-subtitle: Masayuki is a product manager and designer with over 10 years of design experience. His experience involves everything from designing physical products and interiors, developing machine translation and NLP solutions for major Japanese corporations and finding product market fit for new software startups.
-description: Masayuki is a product manager and designer currently working at Amutri.
+subtitle: Masayuki is a product manager and designer at Amutri.
+description: Masayuki is a product manager at Amutri revolutionising how people communicate big ideas visually
 featured_image: /images/amutri/amutri_banner.jpg
 ---
 
@@ -9,9 +9,13 @@ featured_image: /images/amutri/amutri_banner.jpg
 
 ## About
 
-**Masayuki currently works as a product manager at Amutri.**
+** I am a product manager at Amutri revolutionising how people communicate big ideas visually**
 
- Masayuki is a product designer with over 10 years of design experience. Throughout his career, Masayuki has contributed to projects on a global scale, working at consultancies and startups across London, Dubai and Tokyo. His experience involves everything from designing physical products and interiors, developing machine translation and NLP solutions for major Japanese corporations and finding product market fit for new software startups.
+I am a product designer with over 10 years of design experience. I've had the privilege to work on projects on a global scale, working at consultancies and startups across London, Dubai and Tokyo. My experience involves everything from designing physical products and interiors, developing machine translation and NLP solutions for major Japanese corporations and finding product market fit for new software startups.
+
+I am currently working as a product manager to build Amutri; a cutting-edge cloud-rendered BIM to 3D visualisation platform. Our startup provides solutions that address the problem of complex, lengthy, and expensive 3D content creation for architectural projects.
+
+[Click here to find out more about Amutri](https://www.amutri.com/)
 
 ## History
 
