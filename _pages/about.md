@@ -33,7 +33,7 @@ In my current role as a product manager, I am actively involved in building Amut
 * 2017 Moved to Tokyo, Japan
 * 2017 Industrial designer at Giovanni Pellone Design.
 * 2019 UIUX designer, developer and language analyst at Cistate Solutions Inc.
-* 2021 Moved to Vienna, Austria to work full time on Forehuman, a domain registrar startup
+* 2021 Moved to Vienna, Austria to work full time on Domainsmith, a domain registrar startup
 * 2022 Moved to Falmouth, UK to join Launchpad venture studio, at Falmouth University
 * 2023 Joined Amutri as Product Manager
 
