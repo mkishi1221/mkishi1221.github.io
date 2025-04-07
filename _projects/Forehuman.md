@@ -20,7 +20,7 @@ Cutting-edge technology built on natural language processing offers an unprecede
 
 Domainsmith's technology aims to revolutionise how individuals and businesses develop online brands that amplify their online presence and contribute to their overall success.
 
-Looking for a new domain for your website? [Contact me on Linkedin to get domain name ideas for free.](https://www.linkedin.com/in/mkishi/)
+Looking for a new domain for your website? [Contact me on Linkedin.](https://www.linkedin.com/in/mkishi/)
 
 <div class="gallery" data-columns="2">
 	<img src="/images/domainsmith/domainsmith_1.png">
