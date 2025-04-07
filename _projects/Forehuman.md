@@ -18,7 +18,7 @@ This AI-driven web application allows users to skip the process of endlessly loo
 
 Cutting-edge technology built on natural language processing offers an unprecedented level of convenience and efficiency, empowering users to effortlessly discover catchy and attention-grabbing domain names that align perfectly with their brand identities.
 
-Domainsmith's technology aims to revolutionise how individuals and businesses develop online brands that amplify their online presence and contribute to their overall success.
+Domainsmith's experimental technology aims to revolutionise how individuals and businesses develop online brands that amplify their online presence and contribute to their overall success.
 
 Looking for a new domain for your website? [Contact me on Linkedin.](https://www.linkedin.com/in/mkishi/)
 
