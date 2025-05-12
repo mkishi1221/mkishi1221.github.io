@@ -3,7 +3,7 @@
 
 I'm a product designer turned product manager and developer. I’ve led teams across the UK and Japan in software development, startup growth, and NLP solutions for major Japanese corporations.
 
-- I bring over a decade of design experience and have guided products from early validation through to delivery. I've used  fast, low-cost testing to uncover user needs, assess technical feasibility, and align with business priorities.
+- I bring over a decade of product design experience and have guided products from early validation through to delivery. I've used fast, low-cost testing to uncover user needs, assess technical feasibility, and align with business priorities.
 - I thrive on shaping complex products that demand both technical depth and strong design sensibility. From machine translation to 3D visualisation, I’ve worked on challenges where engineering and design go hand in hand.
 - I care deeply about creating inclusive teams where people feel safe, supported, and empowered. That starts with understanding how individuals work, what they need, and how to help them grow together.
 
@@ -11,8 +11,7 @@ I'm a product designer turned product manager and developer. I’ve led teams ac
 
 Before diving into my work history, here’s a snapshot of the areas I specialise in and the environments where I do my best work.
 
-- **Product leadership:** Defining product vision and strategy while building cross-functional teams that are collaborative, inclusive, and performance-driven. I've also been responsible for the day-to-day execution needed to turn strategy into results.
-- **Product management:** Organising and communicating key information that drives product direction. I work closely with teams, stakeholders, and customers to uncover user needs, validate assumptions, and inform strategic decisions.
+- **Product management:** Organising and communicating key information that drives product direction. I work closely with teams, stakeholders, and customers to uncover user needs, validate assumptions, and inform strategic decisions. I've also been responsible for the day-to-day execution needed to turn strategy into results.
 - **Team management and development process design:** Aligning user, business, and technical needs to create clear, well-informed PRDs and technical briefs. Enabling innovation through frequent, incremental improvements informed by testing, feedback, and technical validation.
 - **Knowledge management:** Guiding teams to maintain clear documentation, shared resources, and processes that help teams onboard quickly, collaborate effectively, and retain critical knowledge. Managing knowledge personally also deepens my understanding of complex products and helps me keep up to date on technical needs.
 - **Design, research and Development:** I bring hands-on experience across UI/UX, brand and marketing design, exploratory data analysis and applied data science, automated QA, GitHub-based code review, DevOps, and AWS deployments. I thrive in early-stage teams, stepping into critical gaps to maintain momentum and ensure high-quality delivery.
@@ -23,38 +22,20 @@ If you'd like to learn more or discuss working together, feel free to [drop me a
 
 ## Amutri (November 2022 – Current)
 
-### Senior Product Manager
+### Product Manager
 
 Amutri is a cloud-rendered 3D visualisation platform that helps engineering teams present and explore complex technical ideas. Users can upload their CAD files and convert them into visually rich real-time rendered 3D Presentations that can be shared across their organisation.
 
-I lead the product vision at Amutri, serving as the strategic link between engineering, product marketing, and customer-facing teams to ensure alignment across the business.
+I'm responsible for leading the development team at Amutri, serving as the strategic link between engineering, product marketing, and customer-facing teams to ensure alignment across the business.
 
-I am responsible for:
-
-- Defining and evolving the product vision and roadmap to align user needs with business objectives.
-- Leading multi-disciplinary teams spanning development, 3D content creation, and product marketing.
-- Driving improvements in deployment speed, release reliability, and operational efficiency by optimizing AWS-based workflows.
-- Designing and building internal tools to enhance infrastructure monitoring, reduce errors, and accelerate support workflows.
-- Owning and maintaining the product knowledge base for internal teams and external users.
-- Overseeing product quality through test strategy design, release validation, and ongoing performance monitoring.
-- Leading R&D efforts into next-generation 3D interaction, including the integration of natural language processing and real-time graphics technologies.
-
-Most recently, we completed a successful pilot with Rolls-Royce SMR and have since onboarded multiple teams onto the Amutri platform.
-
-Here's a short video of the product:
-
-<p><iframe src="https://www.youtube.com/embed/a6egHqd2qzU" frameborder="0" allowfullscreen></iframe></p>
-
-### Product Manager (October 2023 – March 2025)
-
-Led cross-functional teams, drove product innovation, and supported business development efforts. Played a key role in scaling the team, launching new features, and working directly with customers and partners to validate and expand the product offering.
-
-- I led and grew the development team across engineering and 3D content creation. Responsible for hiring, product strategy, design process, and day-to-day execution and delivery.
+- I led the development team across frontend, backend, Unreal Engine and 3D content creation. Responsible for development strategy, design process, and day-to-day execution and delivery.
 - Spearheaded the design and launch of core features including Secure Sharing, Guided Tours, and Smart Insights — directly enabling a six-figure pilot with Rolls-Royce SMR.
 - Led customer onboarding and insight gathering with enterprise partners such as Rolls-Royce SMR and AtkinsRéalis.
-- Defined and managed product requirements, user research, and documentation for both internal teams and external stakeholders.
+- Defined and managed product requirements, user research, and owning the product knowledge base for internal teams and external users.
 - Directed product marketing initiatives including website development, sales collateral, and investor presentations.
-- Represented Amutri at industry events and maintained direct engagement with investors and strategic partners.
+- Designing and building internal data science tools to enhance infrastructure monitoring, reduce errors, and accelerate support workflows.
+- Overseeing product quality through test strategy design, release validation, and ongoing performance monitoring.
+- Leading R&D efforts into next-generation 3D interaction, including the integration of natural language processing and real-time graphics technologies.
 
 Additionally, I represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University — a press-covered event highlighting regional tech innovation. Attendees included Stephen Welton (Chair, British Business Bank), Meg Salt (The FSE Group), and Professor Emma Hunt (Vice-Chancellor, Falmouth University).
 
@@ -66,9 +47,9 @@ Also had the opportunity to speak at Hertizian’s AI Summit, where I highlighte
 ![Hertzian AI Summit]({{site.baseurl}}/images/hertzian_ai.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by Amutri*
 
-### UI/UX Designer (November 2022 – September 2023)
+### Product Designer (November 2022 – September 2023)
 
-Joined Amutri as a UI/UX designer and quickly expanded into product strategy, user research, and early business development, helping shape the company’s first commercial offerings and securing £1M in pre-seed funding.
+Joined Amutri as a product designer and shaped product strategy, UIUX design, user research, and early business development, helping shape the company’s first commercial offerings and securing £1M in pre-seed funding.
 
 - Led the design of Amutri’s cloud-based rendering product and redesigned the homepage to boost customer conversion and investor engagement.
 - Conducted 30+ research sessions with architects, 3D visualisers, and universities to shape user journeys and product direction.
