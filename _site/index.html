@@ -246,8 +246,13 @@
 
 <p>Additionally, I represented Amutri at the <a href="https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545" class="cv_link" target="_blank">Cornwall Angel Network launch</a> at Falmouth University — a press-covered event highlighting regional tech innovation. Attendees included Stephen Welton (Chair, British Business Bank), Meg Salt (The FSE Group), and Professor Emma Hunt (Vice-Chancellor, Falmouth University).</p>
 
-<p><img src="/images/cornwall_launch.jpg" alt="Cornwall Angel Network launch" />
+<p><img src="/images/cornwall_launch.jpg" alt="Cornwall Angel Network launch" style="width: 80%; display: block; margin: 0 auto;" />
 <em>Photo by British Business Bank</em></p>
+
+<p>Also had the opportunity to speak at Hertizian’s AI Summit, where I highlighted how Amutri’s real-time 3D visualization capabilities support sales enablement and strengthen stakeholder engagement in complex, technical industries.</p>
+
+<p><img src="/images/hertzian_ai.jpeg" alt="Hertzian AI Summit" style="width: 80%; display: block; margin: 0 auto;" />
+<em>Photo by Amutri</em></p>
 
 <h3 id="uiux-designer-november-2022--september-2023">UI/UX Designer (November 2022 – September 2023)</h3>
 
@@ -405,7 +410,7 @@
 
   </div>
 </div>
-        <!-- 
+        
 <div class="col col-4 col-d-6 col-t-12">
   <div class="widget widget-subscribe">
     <div class="widget__head">
@@ -418,16 +423,72 @@
       </div>
       
       <form class="subscribe-form validate"
-        action="#" method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+        action="https://masayukikishi.us2.list-manage.com/subscribe/post?u=911b3c9384e1f6c3d4bf9d029&amp;id=33723eec57&amp;f_id=009bc0e1f0" method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" novalidate>
         <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
         <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
           placeholder="Email address">
         <button class="button subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">Join</button>
       </form>
+      <div id="subscribe-success" style="display: none; margin-top: 5px; color: white; font-size: 14px; font-weight: 600; padding-left: 16px;">
+        Thanks for subscribing! 🎉
+      </div>
+      <div id="subscribe-error" style="display: none; margin-top: 5px; color: #ff4444; font-size: 14px; font-weight: 600; padding-left: 16px;">
+      </div>
     </div>
   </div>
 </div>
- -->
+
+<script>
+document.getElementById('membedded-subscribe-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const form = this;
+  const emailInput = form.querySelector('#mce-EMAIL');
+  const errorDiv = document.getElementById('subscribe-error');
+  const successDiv = document.getElementById('subscribe-success');
+  
+  // Reset previous messages and styles
+  errorDiv.style.display = 'none';
+  successDiv.style.display = 'none';
+  emailInput.style.border = '';
+  
+  // Validate email
+  const email = emailInput.value.trim();
+  if (!email) {
+    errorDiv.textContent = 'Please enter your email address';
+    errorDiv.style.display = 'block';
+    emailInput.style.border = '1px solid #ff4444';
+    return;
+  }
+  
+  // Basic email validation
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    errorDiv.textContent = 'Please enter a valid email address';
+    errorDiv.style.display = 'block';
+    emailInput.style.border = '1px solid #ff4444';
+    return;
+  }
+  
+  const formData = new FormData(form);
+  
+  fetch(form.action, {
+    method: 'POST',
+    body: formData,
+    mode: 'no-cors'
+  }).then(() => {
+    successDiv.style.display = 'block';
+    form.reset();
+    setTimeout(() => {
+      successDiv.style.display = 'none';
+    }, 3000);
+  }).catch(() => {
+    errorDiv.textContent = 'Something went wrong. Please try again.';
+    errorDiv.style.display = 'block';
+    emailInput.style.border = '1px solid #ff4444';
+  });
+});
+</script>
+
         <!-- <div class="col col-4 col-d-6 col-t-12">
   <div class="widget widget-tags">
     <div class="widget__head">

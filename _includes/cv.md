@@ -58,8 +58,13 @@ Led cross-functional teams, drove product innovation, and supported business dev
 
 Additionally, I represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University — a press-covered event highlighting regional tech innovation. Attendees included Stephen Welton (Chair, British Business Bank), Meg Salt (The FSE Group), and Professor Emma Hunt (Vice-Chancellor, Falmouth University).
 
-![Cornwall Angel Network launch]({{site.baseurl}}/images/cornwall_launch.jpg)
+![Cornwall Angel Network launch]({{site.baseurl}}/images/cornwall_launch.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by British Business Bank*
+
+Also had the opportunity to speak at Hertizian’s AI Summit, where I highlighted how Amutri’s real-time 3D visualization capabilities support sales enablement and strengthen stakeholder engagement in complex, technical industries.
+
+![Hertzian AI Summit]({{site.baseurl}}/images/hertzian_ai.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
+*Photo by Amutri*
 
 ### UI/UX Designer (November 2022 – September 2023)
 
