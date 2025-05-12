@@ -41,6 +41,10 @@ I am responsible for:
 
 Most recently, we completed a successful pilot with Rolls-Royce SMR and have since onboarded multiple teams onto the Amutri platform.
 
+Here's a short video of the product:
+
+<p><iframe src="https://www.youtube.com/embed/a6egHqd2qzU" frameborder="0" allowfullscreen></iframe></p>
+
 ### Product Manager (October 2023 – March 2025)
 
 Led cross-functional teams, drove product innovation, and supported business development efforts. Played a key role in scaling the team, launching new features, and working directly with customers and partners to validate and expand the product offering.
