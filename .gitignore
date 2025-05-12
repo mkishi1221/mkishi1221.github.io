@@ -1,3 +1,17 @@
-.sass-cache/
-.jekyll-cache/
+# Ignore system files
 .DS_Store
+Thumbs.db
+
+# Ignore Jekyll generated site
+_site/
+.sass-cache/
+.jekyll-cache
+.jekyll-metadata
+
+# Ignore local Bundler config
+.bundle/
+/vendor/
+
+# Ignore temporary files
+*.log
+*.tmp

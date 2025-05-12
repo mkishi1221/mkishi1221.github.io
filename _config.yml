@@ -1,56 +1,95 @@
-site: Masayuki Kishi's personal website
-url: https://masayukikishi.com/
-# baseurl: 
+#-------------------------------
+# General Site Settings
+title: Masayuki Kishi
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Joseph is a super minimal content focus theme for Jekyll.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /blog/:slug
-  projects:
-    output: true
-    permalink: /project/:slug
+#-------------------------------
+# Author Settings
+author:
+  name: Masayuki Kishi
+  bio: I'm a Senior Product Manager at Amutri, leading the development of cloud-rendered 3D visualisation. Obsessed with driving cutting-edge products from validation to real-world results.
+  avatar: '/images/ZGP_8199_xs.jpg'
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
+social:
+- {icon: "ion-logo-github", label: Github, link: "https://github.com/mkishi1221"}
+- {icon: "ion-logo-linkedin", label: LinkedIn, link: "https://www.linkedin.com/in/mkishi/"}
+- {icon: "ion-logo-instagram", label: Instagram, link: "https://www.instagram.com/whereismasa/"}
 
+
+# Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hey, I’m Masa! 👋  Product Manager and Developer
+  hero__description: I'm a Senior Product Manager at Amutri, leading the development of cloud-rendered 3D visualisation. <i>Obsessed</i> with driving cutting-edge products from validation to real-world results.
+  hero__image: '/images/ZGP_8199_xs.jpg'
+
+
+#-------------------------------
+# Newsletter (_includes/footer-widgets/widget-subscribe.html)
+mailchimp: true # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
+mailchimp__title: Get interesting updates # Add your Title
+mailchimp__text: Get occasional updates on product management tools, templates, and practical tips. No spam — just useful content, sent when there's something worth sharing. # Add your description.
+mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp__button__text: Join # Add your button text
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  description: I'm always open to new ideas, collaborations, or just a quick chat. Whether you're working on something exciting or have a question, drop me a message below — I check my inbox regularly and will get back to you soon. # Add a description of your form
+
+# NOTE
+# Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Build Settings
 markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  
-sass:
-  style: compressed
-
+permalink: /:title
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll/tagging
+  - jekyll-paginate-v2
 
-paginate: 6
-paginate_path: "/blog/page:num/"
-  
+pagination:
+  enabled: true
+  per_page: 5
+  title: ":title"
+  trail:
+    before: 2
+    after: 2
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  /:title
+
+sass:
+  sass_dir: _sass
+  style: compressed

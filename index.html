@@ -1,37 +1,29 @@
 ---
 layout: default
-title: Masayuki Kishi's Personal Website
-description: Startup founder, designer, and NLP developer with an emphasis on Design for Meaning. 
-featured_image: /images/social.jpg
 ---
 
-<section class="portfolio">
+{% include hero.html %}
 
-	<div class="content-wrap portfolio-wrap">
+</style>
+<div class="container animate" style="margin-bottom: 100px;">
+  <article class="page">
+    <div class="page__content">
+      {% capture cv_content %}
+      {% include cv.md %}
+      {% endcapture %}
+      {{ cv_content | markdownify }}
+    </div>
+  </article>
+</div>
 
-		{% for project in site.projects reversed %}
+<div class="container">
+  <div class="row animate">
+    {% if site.posts.size > 0 %}
+      {% for post in paginator.posts %}
+        {% include article-content.html %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
 
-		<div class="portfolio-item">
-
-			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
-
-				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ project.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
-
-		{% endfor %}
-
-	</div>
-
-</section>
+{% include pagination.html %}
