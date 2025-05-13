@@ -87,7 +87,7 @@ Founded Domainsmith, a platform that helps brand designers and entrepreneurs qui
 
 ## Cistate Solutions Inc. (March 2019 - July 2021)
 
-### Language Analyst and Product Designer
+### Language Analyst and Product Designer (July 2020 - July 2021)
 
 Worked at a machine translation consultancy focused on industry-specific solutions, combining language expertise with product design to deliver practical, cost-saving tools.
 
@@ -96,7 +96,7 @@ Worked at a machine translation consultancy focused on industry-specific solutio
 - Led the development of a content management tool for Konami, supporting global coordination between copywriters and translators.
 - Built data extraction algorithms in TypeScript that reduced customer service errors at car dealerships by 60%.
 
-### Language Analyst
+### Language Analyst (March 2019 - July 2020)
 
 Joined as a language analyst focused on translation quality and team management.
 
