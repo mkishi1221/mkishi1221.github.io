@@ -71,7 +71,7 @@ Selected for Falmouth University's fully funded startup incubator, which include
 - Launched a working MVP within 24 hours of funding using no-code tools to rapidly validate the idea.
 - Secured partnerships with 20+ venues and listed 40+ spaces within 3 months.
 - Conducted 40+ user feedback sessions and implemented A/B tests to refine the platform’s UIUX using prototypes in Figma.
-- Managed the product roadmap, led customer feedback sessions and performed growth experiments.
+- Managed the product roadmap and led customer feedback sessions.
 - Managed product marketing, designed the website and led social media campaigns.
 - Developed NLP tools to automate venue listings using python.
 
