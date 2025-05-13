@@ -37,9 +37,9 @@ I'm responsible for leading the development team at Amutri, serving as the strat
 - Led customer onboarding and insight gathering with enterprise partners such as Rolls-Royce SMR and AtkinsRéalis.
 - Defined and managed product requirements, user research, and owning the product knowledge base for internal teams and external users.
 - Directed product marketing including the landing page, sales collateral, and investor presentations.
-- Designing and building internal data science tools to enhance infrastructure monitoring, reduce errors, and accelerate support workflows.
-- Overseeing product quality through test strategy design, release validation, and ongoing performance monitoring.
-- Leading R&D efforts into next-generation 3D interaction, including the integration of natural language processing and real-time graphics technologies.
+- Designed and built internal data science tools to enhance infrastructure monitoring, reduce errors, and accelerate support workflows.
+- Oversaw product quality through test strategy design, release validation, and ongoing performance monitoring.
+- Led R&D efforts into next-generation 3D interaction, including the integration of natural language processing and real-time graphics technologies.
 
 Additionally, I represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University — a press-covered event highlighting regional tech innovation. Attendees included Stephen Welton (Chair, British Business Bank), Meg Salt (The FSE Group), and Professor Emma Hunt (Vice-Chancellor, Falmouth University).
 
