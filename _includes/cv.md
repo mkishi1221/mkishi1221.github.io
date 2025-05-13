@@ -64,7 +64,7 @@ Promoted to Product Manager following this work and was later [interviewed by SE
 
 ## Launchpad Venture Studio at Falmouth University (September 2022 – September 2023)
 
-### Co founder and Technical Lead
+### Co founder and Product Lead
 
 Selected for Falmouth University's fully funded startup incubator, which included an MSc in Entrepreneurship and support for MVP development. Co-founded and led product development for SpaceforU, a peer-to-peer marketplace for venue hire in Cornwall and Devon.
 
@@ -87,7 +87,7 @@ Founded Domainsmith, a platform that helps brand designers and entrepreneurs qui
 
 ## Cistate Solutions Inc. (March 2019 - July 2021)
 
-### Language Analyst and Lead Product Designer
+### Language Analyst and Product Designer
 
 Worked at a machine translation consultancy focused on industry-specific solutions, combining language expertise with product design to deliver practical, cost-saving tools.
 
