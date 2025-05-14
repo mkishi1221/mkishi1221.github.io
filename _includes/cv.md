@@ -3,17 +3,17 @@
 
 I'm a product designer turned product manager and developer. I’ve led teams across the UK and Japan in software development, startup growth, and NLP solutions for major Japanese corporations.
 
-- I bring over a decade of product design experience and have guided products from early validation through to delivery. I've used fast, low-cost testing to uncover user needs, assess technical feasibility, and align with business priorities.
-- I thrive on shaping complex products that demand both technical depth and strong design sensibility. From machine translation to 3D visualisation, I’ve worked on challenges where engineering and design go hand in hand.
+- I bring hands-on experience in product design, development, and team leadership, having guided products from early validation through to launch. I use fast, low-cost testing to uncover user needs, evaluate technical feasibility, and keep efforts aligned with business goals.
+- I thrive on shaping complex, multidisciplinary products that require both technical depth and design sensibility. From machine translation to 3D visualization, I shift gears easily and contribute across a wide range of engineering and design challenges.
 - I care deeply about creating inclusive teams where people feel safe, supported, and empowered. That starts with understanding how individuals work, what they need, and how to help them grow together.
 
 ## How I work:
 
 Before diving into my work history, here’s a snapshot of the areas I specialise in and the environments where I do my best work.
 
-- **Product management:** Leading and uncovering key information that drives product strategy. I work closely with teams, stakeholders, and customers to uncover user needs, validate assumptions, understand technical feasibility and inform strategic decisions.
-- **Team management and development process design:** Leading day-to-day execution needed to turn strategy into results. Aligning user, business, and technical needs to create clear, well-informed PRDs and technical briefs. Enabling innovation through frequent, incremental improvements informed by testing, feedback, and validation.
-- **Knowledge management:** Guiding teams to maintain clear documentation, shared resources, and processes that help teams onboard quickly, collaborate effectively, and retain critical knowledge.
+- **Product management:** Leading and uncovering key information that drives product strategy. I've worked closely with teams, stakeholders, and customers to uncover user needs, validate assumptions, understand technical feasibility and inform strategic decisions.
+- **Team management and development process design:** Leading day-to-day execution needed to turn strategy into results. Aligning user, business, and technical needs to create clear, well-informed PRDs and technical briefs. Managing innovation through frequent, incremental improvements informed by testing, feedback, and validation.
+- **Knowledge management:** Guiding teams to maintain clear documentation, shared resources, and processes that help teams onboard quickly, collaborate effectively, and retain critical knowledge. I’ve also managed product knowledge by writing and maintaining support articles on Intercom for both customers and external stakeholders.
 - **Design, research and Development:** I bring hands-on experience across UI/UX, brand and marketing design, applied data science, automated QA, GitHub-based code reviews, managing cloud infrastructure and AWS deployments. I thrive in early-stage teams and can quickly learn to fill critical gaps to maintain momentum and ensure high-quality delivery.
 
 If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. Now, onto the details.
@@ -22,7 +22,7 @@ If you'd like to learn more or discuss working together, feel free to [drop me a
 
 ## Amutri (November 2022 – Current)
 
-### Product Manager
+### Product Manager (October 2023 – Current)
 
 Amutri is a cloud-rendered 3D visualisation platform that helps engineering teams present and explore complex technical ideas. Users can upload their CAD files and convert them into visually rich real-time rendered 3D Presentations that can be shared across their organisation.
 
