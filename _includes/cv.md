@@ -1,5 +1,5 @@
 
-## Here’s a TL;DR on my career:
+# Here’s a TL;DR on my career:
 
 I'm a product designer turned product manager and developer. I’ve led teams across the UK and Japan in software development, startup growth, and NLP solutions for major Japanese corporations.
 
@@ -7,7 +7,7 @@ I'm a product designer turned product manager and developer. I’ve led teams ac
 - I thrive on shaping complex, multidisciplinary products that require both technical depth and design sensibility. From machine translation to 3D visualization, I shift gears easily and contribute across a wide range of engineering and design challenges.
 - I care deeply about creating inclusive teams where people feel safe, supported, and empowered. That starts with understanding how individuals work, what they need, and how to help them grow together.
 
-## How I work:
+# How I work:
 
 Before diving into my work history, here’s a snapshot of the areas I specialise in and the environments where I do my best work.
 
@@ -20,9 +20,9 @@ If you'd like to learn more or discuss working together, feel free to [drop me a
 
 ***
 
-## Amutri (November 2022 – Current)
+# Amutri (November 2022 – Current)
 
-### Product Manager (October 2023 – Current)
+## Product Manager (October 2023 – Current)
 
 Amutri is a cloud-rendered 3D visualisation platform that helps engineering teams present and explore complex technical ideas. Users can upload their CAD files and convert them into visually rich real-time rendered 3D Presentations that can be shared across their organisation.
 
@@ -51,7 +51,7 @@ Also had the opportunity to speak at Hertizian’s AI Summit, where I highlighte
 ![Hertzian AI Summit]({{site.baseurl}}/images/hertzian_ai.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by Amutri*
 
-### Product Designer (November 2022 – September 2023)
+## Product Designer (November 2022 – September 2023)
 
 Joined Amutri as a product designer and shaped product strategy, UIUX design, user research, and early business development, onboarding Amutri's early adopters and securing £1M in pre-seed funding.
 
@@ -62,11 +62,11 @@ Joined Amutri as a product designer and shaped product strategy, UIUX design, us
 
 Promoted to Product Manager following this work and was later [interviewed by SETsquared Bristol](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" } on Amutri's vision and impact in 3D visualisation.
 
-## Launchpad Venture Studio at Falmouth University (September 2022 – September 2023)
+# SpaceforU (September 2022 – September 2023)
 
-### Co founder and Product Lead
+## Co founder and Product Lead
 
-Selected for Falmouth University's fully funded startup incubator, which included an MSc in Entrepreneurship and support for MVP development. Co-founded and led product development for SpaceforU, a peer-to-peer marketplace for venue hire in Cornwall and Devon.
+Selected for Falmouth University's fully funded startup incubator, I co-founded and led the product development of SpaceforU, a peer-to-peer marketplace for venue hire across Cornwall and Devon.
 
 - Launched a working MVP within 24 hours of funding using no-code tools to rapidly validate the idea.
 - Secured partnerships with 20+ venues and listed 40+ spaces within 3 months.
@@ -77,7 +77,9 @@ Selected for Falmouth University's fully funded startup incubator, which include
 
 SpaceforU was [featured in a Falmouth University article](https://www.falmouth.ac.uk/launchpad/news/entrepreneur-stories-spaceforu){: .cv_link target="_blank" } highlighting regional innovation and early-stage entrepreneurship.
 
-## Domainsmith (November 2021 – September 2022)
+# Domainsmith (November 2021 – September 2022)
+
+## Co-founder and Product Lead
 
 Founded Domainsmith, a platform that helps brand designers and entrepreneurs quickly find high-quality, available domains using AI.
 
@@ -85,9 +87,9 @@ Founded Domainsmith, a platform that helps brand designers and entrepreneurs qui
 - Designed user-friendly prototypes in Figma and soft-launched the product as a consulting service for startups and business hubs.
 - Ran 100+ feedback sessions with designers and founders, showing the tool could reduce domain search time from weeks to under an hour while avoiding expensive premium options.
 
-## Cistate Solutions Inc. (March 2019 - July 2021)
+# Cistate Solutions Inc. (March 2019 - July 2021)
 
-### Language Analyst and Product Designer (July 2020 - July 2021)
+## Language Analyst and Product Designer (July 2020 - July 2021)
 
 Worked at a machine translation consultancy focused on industry-specific solutions, combining language expertise with product design to deliver practical, cost-saving tools.
 
@@ -96,7 +98,7 @@ Worked at a machine translation consultancy focused on industry-specific solutio
 - Led the development of a content management tool for Konami, supporting global coordination between copywriters and translators.
 - Built data extraction algorithms in TypeScript that reduced customer service errors at car dealerships by 60%.
 
-### Language Analyst (March 2019 - July 2020)
+## Language Analyst (March 2019 - July 2020)
 
 Joined as a language analyst focused on translation quality and team management.
 
@@ -104,9 +106,9 @@ Joined as a language analyst focused on translation quality and team management.
 - Guided and coached new hires, helping them become fully independent within three months.
 - Managed a team of 30+ evaluators on Upwork, overseeing multilingual machine translation analysis.
 
-## Giovanni Pellone Design (November 2017 - August 2018)
+# Giovanni Pellone Design (November 2017 - August 2018)
 
-### Product Designer
+## Product Designer
 
 Contributed to both design execution and operational management at a boutique consultancy in Tokyo, balancing creative responsibilities with high-level coordination and administrative duties.
 
@@ -118,9 +120,9 @@ Contributed to both design execution and operational management at a boutique co
 - Organised and hosted multilingual industry networking events via Meetup, strengthening the studio’s presence in Tokyo’s design community.
 - Managed the studio’s office relocation process, including contract negotiation, tenancy review, and vendor coordination, acting as the sole native Japanese speaker on behalf of the director.
 
-## New Age Sapphire Technical Servies LLC (September 2014 - March 2016)
+# New Age Sapphire Technical Servies LLC (September 2014 - March 2016)
 
-### Founder, Lead Interior Designer
+## Founder, Lead Interior Designer
 
 Founded a Dubai-based interior design and construction firm during a two-year academic break from Brunel University.
 
@@ -130,7 +132,13 @@ Founded a Dubai-based interior design and construction firm during a two-year ac
 - Hired and managed the design team, guiding and coaching junior staff.
 - Designed interiors using AutoCAD, SketchUp, SolidWorks, and V-Ray, and guided the engineering team on HVAC and electrical plan proposals.
 
-## Dev Certifications
+# Education
+
+**Brunel University: Product Design BSc. with Honors (2011 - 2017)** A four year design course with an emphasis on prototyping. Includes 1 year placement in industry. Took 2 gap years to work on a startup in Dubai from 2014-2016.
+
+**Falmouth University Entrepreneurship MSc (2022 - 2023)** A fully funded, one-year master's program focused on building a new startup in Cornwall.
+
+# Dev Certifications
 
 I've completed a range of dev courses across data science, web development, and backend technologies—and work to keep these skills up to date—including Machine Learning via Kaggle, Digital Marketing via Google, and several Codecademy and Udemy courses covering MongoDB, React, Vue.js, Go, Python, JavaScript, TypeScript, FastAPI and more.
 
@@ -150,3 +158,5 @@ I've completed a range of dev courses across data science, web development, and 
 - Learn JavaScript Course (Codecademy)
 - Learn Python 3 Course (Codecademy)
 - Learn the Command Line Course (Codecademy)
+
+I also have experience working with AWS products, including EC2 instances, Lambdas, Cognito, CloudWatch, S3, and DynamoDB, as well as managing EC2 instances and Lambdas using Terraform.

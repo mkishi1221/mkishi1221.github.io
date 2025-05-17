@@ -9,9 +9,11 @@ This page brings together a set of practical templates and guides I've used to s
 
 All resources are in Markdown format, so you can copy them directly into Notion, documentation tools, or Pull Request descriptions without needing to adjust formatting.
 
-# Product Management Resources
+# PM Resources
 
 Templates and guides to help with planning, documenting, and communicating product work clearly and consistently. They've helped me write specs faster, think more clearly during planning, and communicate better with stakeholders.
+
+&nbsp;
 
 ## [Product Plan Template <i class="ion ion-md-arrow-round-forward"></i>](https://github.com/mkishi1221/pm-resources/blob/main/product-plan-template.md)
 
@@ -19,15 +21,21 @@ A template for product planning, including sections for stakeholders, opportunit
 
 ![Product Plan Template]({{site.baseurl}}/images/product-plan.png)
 
+&nbsp;
+
 ## [Feature Specification Template <i class="ion ion-md-arrow-round-forward"></i>](https://github.com/mkishi1221/pm-resources/blob/main/feature-spec-template.md)
 
 A template for writing feature specifications, covering summaries, proposals, scope, edge cases, and appendices.
 
 ![Feature specfication]({{site.baseurl}}/images/feature-specfication.png)
 
+***
+
 # Development Resources
 
 Templates to support common engineering workflows like pull requests, releases, and bug reporting. These have helped me keep work consistent across the team, reduce back-and-forth in code reviews, and make handoffs smoother.
+
+&nbsp;
 
 ## [Pull Request Template <i class="ion ion-md-arrow-round-forward"></i>](https://github.com/mkishi1221/dev-resources/blob/main/pull-request-template.md)
 
@@ -35,11 +43,15 @@ A simple pull request template to help developers cover key details like context
 
 ![Pull Request Template]({{site.baseurl}}/images/PR-template.png)
 
+&nbsp;
+
 ## [Feature Branch Pull Request Template <i class="ion ion-md-arrow-round-forward"></i>](https://github.com/mkishi1221/dev-resources/blob/main/feature-PR-template.md)
 
 A checklist-based pull request template for larger or long-lived feature branches, with sections for context, testing, and rollout steps.
 
 ![Feature Branch Pull Request Template]({{site.baseurl}}/images/feature-pr.png)
+
+&nbsp;
 
 ## [Bug Report Template <i class="ion ion-md-arrow-round-forward"></i>](https://github.com/mkishi1221/dev-resources/blob/main/bug-report-template.md)
 
@@ -47,11 +59,15 @@ A template for reporting bugs, including fields for expected vs actual behavior,
 
 ![Bug Report Template]({{site.baseurl}}/images/Bug-fix-template.png)
 
+***
+
 # [Clear Writing Guide <i class="ion ion-md-arrow-round-forward"></i>](https://github.com/mkishi1221/pm-resources/blob/main/clear-writing-guide.md)
 
 A simple guide with tips for writing clear and consistent documentation. Useful for specs, technical docs, and user-facing content.
 
 ![Clear Writing Guide]({{site.baseurl}}/images/writing-guide.png)
+
+&nbsp;
 
 # Improvements and suggestions
 
