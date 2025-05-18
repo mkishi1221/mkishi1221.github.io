@@ -10,8 +10,8 @@ url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your
 # Author Settings
 author:
   name: Masayuki Kishi
-  bio: I'm a Senior Product Manager at Amutri, leading the development of cloud-rendered 3D visualisation. Obsessed with driving cutting-edge products from validation to real-world results.
-  avatar: '/images/ZGP_8199_xs.jpg'
+  bio: I'm a Product Manager at Amutri, leading the development of cloud-rendered 3D visualisation. Obsessed with driving cutting-edge products from validation to real-world results.
+  avatar: '/images/ZGP_8208_1_square.jpg'
 
 social:
 - {icon: "ion-logo-github", label: Github, link: "https://github.com/mkishi1221"}

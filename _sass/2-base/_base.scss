@@ -27,7 +27,9 @@ body {
 }
 
 em, i {
-  font-style: italic;
+  font-style: italic !important;
+  font-weight: normal !important;
+  font-family: inherit;
 }
 
 h1,
@@ -144,11 +146,21 @@ pre {
   color: var(--heading-font-color);
 }
 
-img,
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 30px 0;
+  display: block;
+}
+
 .zoom-img-wrap {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+.gallery img {
+  margin: 0;
 }
 
 img,
