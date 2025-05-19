@@ -2,9 +2,9 @@
 # General Site Settings
 title: Masayuki Kishi
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Joseph is a super minimal content focus theme for Jekyll.
+description: Personal website and blog of Masayuki Kishi, Product Manager and Developer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://joseph-jekyll.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://masayukikishi.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # Author Settings
@@ -25,7 +25,7 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I’m Masa! 👋  Product Manager and Developer
+  hero__title: Hey, I'm Masa! 👋  Product Manager and Developer
   hero__description: I'm the Product Manager at Amutri, leading the development of cloud-rendered 3D visualisation. <i>Obsessed</i> with driving cutting-edge products from validation to real-world results.
   hero__image: '/images/ZGP_8199_xs.jpg'
 
@@ -62,18 +62,14 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 # Build Settings
 markdown: kramdown
 permalink: /:title
+future: true
 plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-paginate
 
-pagination:
-  enabled: true
-  per_page: 5
-  title: ":title"
-  trail:
-    before: 2
-    after: 2
+paginate: 5
+paginate_path: "blog/index.html"
 
 # Pages Path
 defaults:
