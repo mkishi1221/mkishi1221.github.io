@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Pitching for help in debit, not credit
-description: One of the hardest lessons I’ve learned in product is that we can’t ask others to help build until we’ve truly validated the problem. Involving people too early doesn’t reduce risk — it amplifies it.
+description: One of the toughest lessons I’ve learned in product is that involving others before truly validating the problem doesn’t reduce risk — it just creates bad debt.
 date:   2025-05-13 09:00:00 +0300
 image:  '/images/loan.jpg'
 tags:   [runway, validation, planning, learnings]
 ---
 
-One of the toughest lessons I’ve learned in product is that building something before finding the right customers rarely ends well. A product doesn’t magically attract users just because it exists. I’ve learned the hard way that bringing in teammates, co-founders, or collaborators to build something too early — before the problem is clearly validated with the right people — often creates more risk, not less. And when things miss the mark, it’s not just time that’s lost. It’s the trust, energy, and goodwill of those who believed in it enough to help build. That’s a heavy cost, and one I’ve learned to be much more careful about.
+One of the toughest lessons I’ve learned in product is that building something before finding the right customers rarely ends well. A product doesn’t magically attract users just because it exists. I’ve learned the hard way that bringing in teammates, co-founders, or collaborators to build something too early — before the problem is clearly validated with the right people — often creates debt that’s hard to repay. When things miss the mark, it’s not just time that’s lost. It’s the trust, energy, and goodwill of those who believed in it enough to help build. That’s a heavy cost, and one I’ve learned to be much more careful about.
 
 I’ve built too soon. I’ve pitched solutions I was convinced would work. I asked teammates, vendors, and early users to invest their time and energy. **I thought that if we all just pushed hard enough, things would fall into place.** But involving more people doesn’t change the underlying truth — the idea either solves a real, lasting problem, or it doesn’t.
 
