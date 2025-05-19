@@ -33,15 +33,15 @@ Here's a short video of the product:
 I'm responsible for leading the development team at Amutri, serving as the strategic link between engineering, product marketing, and customer-facing teams to ensure alignment across the business.
 
 - Managed multiple teams across frontend, backend, Unreal Engine and 3D content creation. Responsible for development strategy, design process, and day-to-day execution and delivery.
-- Spearheaded the design and launch of core features including Secure Sharing, Guided Tours, and Smart Insights — directly enabling a six-figure pilot with Rolls-Royce SMR.
-- Led customer onboarding and insight gathering with enterprise partners such as Rolls-Royce SMR and AtkinsRéalis.
+- Spearheaded the design and launch of core features including Secure Sharing, Guided Tours, and Smart Insights — directly enabling a six-figure pilot with enterprise customers.
+- Led customer onboarding and insight gathering with enterprise customers.
 - Defined and managed product requirements, user research, and owning the product knowledge base for internal teams and external users.
 - Directed product marketing including the landing page, sales collateral, and investor presentations.
 - Designed and built internal data science tools to enhance infrastructure monitoring, reduce errors, and accelerate support workflows.
 - Oversaw product quality through test strategy design, release validation, and ongoing performance monitoring.
 - Led R&D efforts into next-generation 3D interaction, including the integration of natural language processing and real-time graphics technologies.
 
-Additionally, I represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University — a press-covered event highlighting regional tech innovation. Attendees included Stephen Welton (Chair, British Business Bank), Meg Salt (The FSE Group), and Professor Emma Hunt (Vice-Chancellor, Falmouth University).
+Additionally, I represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University — a press-covered event highlighting regional tech innovation.
 
 ![Cornwall Angel Network launch]({{site.baseurl}}/images/cornwall_launch.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by British Business Bank*
@@ -51,9 +51,9 @@ Also had the opportunity to speak at Hertizian’s AI Summit, where I highlighte
 ![Hertzian AI Summit]({{site.baseurl}}/images/hertzian_ai.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by Amutri*
 
-## Product Designer (November 2022 – September 2023)
+## Product Support Consultant (November 2022 – September 2023)
 
-Joined Amutri as a product designer and shaped product strategy, UIUX design, user research, and early business development, onboarding Amutri's early adopters and securing £1M in pre-seed funding.
+Joined Amutri as a product support consultant and shaped product strategy, UIUX design, user research, and early business development, onboarding Amutri's early adopters and securing grants and pre-seed funding.
 
 - Led the design of Amutri’s cloud-based rendering product and redesigned the homepage to boost customer conversion and investor engagement.
 - Conducted 30+ research sessions with architects, 3D visualisers, and universities to shape user journeys and product direction.
@@ -85,7 +85,7 @@ Founded Domainsmith, a platform that helps brand designers and entrepreneurs qui
 
 - Built a prototype using Python, Nuxt, and Deta.sh, powered by NLP and machine learning to filter millions of domain options into relevant, high-value suggestions.
 - Designed user-friendly prototypes in Figma and soft-launched the product as a consulting service for startups and business hubs.
-- Ran 100+ feedback sessions with designers and founders, showing the tool could reduce domain search time from weeks to under an hour while avoiding expensive premium options.
+- Ran 100+ feedback sessions with designers and emtrepreneurs, showing the tool could reduce domain search time from weeks to under an hour while avoiding expensive premium options.
 
 # Cistate Solutions Inc. (March 2019 - July 2021)
 
