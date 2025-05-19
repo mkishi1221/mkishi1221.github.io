@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Pitching for help in debit, not credit
+title:  Building product in debit, not credit
 description: One of the toughest lessons I’ve learned in product is that involving others before truly validating the problem doesn’t reduce risk — it in fact leads to bad debt.
 date:   2025-05-13 09:00:00 +0300
 image:  '/images/loan.jpg'
