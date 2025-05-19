@@ -1,60 +1,71 @@
 ---
 layout: post
-title:  Getting support in debit, not credit
-description: One of the hardest lessons I’ve learned in product is that we can’t ask others to help build until we’ve truly validated the problem. Involving people too early doesn’t reduce risk — it amplifies it.
-date:   2025-05-13 09:00:00 +0300
-image:  '/images/loan.jpg'
-tags:   [runway, validation, planning, learnings]
+title:  Blast from the past - exhibiting at Made in Brunel
+description: A reflection on my 2017 exhibition at Made in Brunel, where I explored how everyday objects can express stories of change, resilience, and healing.
+date:   2025-05-09 11:00:00 +0300
+image:  '/images/Comp/Comp_Banner.jpg'
+tags:   [design, product, blast-from-the-past]
 ---
 
-One of the hardest lessons I’ve learned in product is that we can’t ask others to help build — whether it’s teammates, co-founders, or collaborators — until we’ve truly validated the problem with the right people. Bringing others in too early doesn’t reduce risk — it spreads it. And when things don’t land, it’s not just your time that’s lost — it’s the trust and effort of those who believed in the vision before it was ready.
+*This article was written on June 18th 2017.*
 
-I’ve built too soon. I’ve pitched solutions before confirming it truly made sense. I’ve asked teammates, vendors, and early users to invest their time and efforts. **I thought that if we all just pushed hard enough, things would fall into place.** But involving more people doesn’t change the underlying truth — the idea either solves a real, lasting problem, or it doesn’t.
+Wow – what a week it’s been.
 
-When we’re moving fast, it’s easy to mistake activity for traction. But I’ve learned that without a clear signal from people who are ready to pay or commit, we’re not truly building — we’re borrowing. We’re borrowing trust, time, and energy from others without knowing if or when we can repay it. And that kind of debt comes with a cost we couldn’t afford.
+Since our opening last Thursday, the last four days have been an unforgettable experience. I’ve had the chance to speak with people from all walks of life – designers, students, parents, professionals – each bringing their own unique stories and perspectives. We talked about meaning, memory, struggle, resilience, and how design shapes the way we move through the world. It’s been humbling, energising, and deeply inspiring.
 
-# Borrowing Time and Trust
+To everyone who took the time to visit Made in Brunel at the Bargehouse – thank you. Your curiosity, insights, and openness to engaging with the ideas behind this project made it all worthwhile. I’m especially grateful to the Made in Brunel team for their incredible effort and dedication, to the Oxo Tower Wharf staff for supporting the exhibition, and to my friends, tutors, and technicians whose feedback and encouragement have shaped this work in more ways than they know.
 
-A lot of startup work involves getting people aligned, motivated, and working toward a shared outcome. But that only makes sense if there’s something solid underneath it — a real lasting problem, backed by evidence, with people willing to pay to solve it. It sounds straightforward, but in practice, pulling that off is much harder than it looks.
+# Can design help us process change?
 
-In the early stages, it’s tempting to jump ahead. To get people excited, to start building, to assume things will work out. I’ve done that. I’ve asked people to join in on a vision that hadn’t been fully pressure-tested. They assumed I’d done the work. That there were customers behind it. That their effort would pay off.
+That’s the question I kept returning to throughout this project. Can the objects in our environment influence how we think or behave? Can design help us become more resilient, more mindful, or even more hopeful in the face of trauma or uncertainty?
 
-And when it didn’t, it wasn’t just disappointing — it damaged relationships. It left people frustrated and let down. It's devastating to borrow someone’s time and efforts — and not be able to pay it back.
+This project focused on the stories embedded in ordinary objects – specifically, a table. Could a table be more than just a surface? Could it tell a story of breaking and mending, of fragility and strength, of change and acceptance?
 
-# Not Being Able to Repay A Technical Co-Founder
+In a world where disruption and instability are increasingly the norm, I wanted to explore whether physical objects could offer emotional meaning – not as distractions, but as touchstones. Could they help us build resilience against the psychological weight of rapid change?
 
-Domainsmith was a platform I co-founded to help brand designers and entrepreneurs find unique domain names. I managed to convince a developer to be my co-founder and we built it with Python and Nuxt, used NLP to pull keywords from business plans, and generated ideas in real time. I ran workshops with over 100 users, testing it manually, and got promising feedback. Users couldn't achieve the same results using LLMs that were available at that time - the results from chatGPT were often repetative and obvious. Things were looking good for us.
+# A product that breaks – and heals
 
-The concept made sense — allowing users to curate a polished list of unique domains, offered for a reasonable annual fee. But there was a catch: most people only need one domain. Our core users — solo founders and first-timers — had no reason to come back frequently.
+The final furniture concept presents the idea of transformation as an integral part of the object’s function. Drawing inspiration from Kintsugi – the Japanese art of repairing broken pottery with gold – the table is designed to break, and then be mended by the user. The act of breaking isn’t hidden or covered up; it becomes part of the table’s story.
 
-There was a more valuable audience out there — brand consultants, domain investors, creative agencies — but we hadn’t tested with them. We didn’t have the network to reach them, and we ran out of time before we could pivot. The product wasn’t designed for the kind of high-frequency usage that could sustain the business, and I couldn’t deliver a return on the time and energy my co-founder had invested before our runway ran out.
+Gold-filled marble cracks become a visual reminder that damage and healing can coexist – that beauty can emerge not in spite of imperfection, but because of it.
 
-# Not Being Able to Repay the Venues Who Helped Us
+Crucially, the table is delivered intact. The transformation is not pre-made; it’s personal. The user chooses when and how the marble is broken, and the mending process becomes an act of reflection, ownership, and perhaps even catharsis. It’s meant to be more than an aesthetic gesture – it’s an experience.
 
-SpaceforU was a venue hire startup I co-founded through Falmouth University’s Launchpad. The pressure was real — we had just six months of funding to get something off the ground. My co-founder brought deep experience as an event organiser, while I focused on fast builds, tight feedback loops, and tools to help us move quickly. We launched the MVP in 24 hours, listed over 40 spaces within a few months, and iterated the UI based on user feedback.
+# From idea to reality
 
-But we still ended up in the same place.
+The prototyping process took four months and involved manufacturing over 100 individual parts. We created three tables, each representing a different stage of the journey:
 
-We spent all our time onboarding venues — taking photos, setting prices, writing listings — and didn’t validate demand from the other side. When we finally sat down with event organisers, the feedback was immediate:
+- **The first: whole and untouched**, waiting for transformation.
+- **The second: freshly broken**, mid-transition.
+- **The third: mended, gold-laced, and complete** – not restored to what it was, but made into something new.
 
-*“We already know these venues. We already have relationships. Why would we pay to use this?”*
+These stages weren’t just for display – they were integral to communicating the narrative arc of the product. Visitors could see the process, not just the result.
 
-We’d focused on execution over insight. We assumed our backgrounds gave us enough understanding of the market and believed we just needed support from venues — but we hadn’t spoken to people outside our own circle. In theory, we could have reached event organisers beyond Cornwall and Devon, but by the time we realised that, the clock had run out. The venues had given us their time — and we didn’t have anything meaningful to show for it.
+It’s been an intense and rewarding journey. I’m proud of what this project has become, and even more grateful for the conversations and reflections it sparked. If you missed the show, you can read more in the official press release or stay tuned for future updates.
 
-# The Signals Were There — But We Bet Too Early
+Thank you again – for listening, for questioning, for engaging. And above all, for reminding me why we make things in the first place.
 
-Looking back, **the most frustrating part is knowing that the insights we needed didn’t require a product — or even much time.** Just a handful of honest conversations with the right people, early on, would have pointed us in the right direction. But we didn’t prioritise those conversations.
+![Product Image 1]({{site.baseurl}}/images/Comp/comp_1.jpg)
+![Product Image 2]({{site.baseurl}}/images/Comp/comp_2.jpg)
+![Product Image 3]({{site.baseurl}}/images/Comp/comp_3.jpg)
+![Product Image 4]({{site.baseurl}}/images/Comp/comp_4.jpg)
+![Product Image 5]({{site.baseurl}}/images/Comp/comp_5.jpg)
+![Product Image 6]({{site.baseurl}}/images/Comp/comp_6.jpg)
+![Product Image 7]({{site.baseurl}}/images/Comp/comp_7.jpg)
+![Product Image 8]({{site.baseurl}}/images/Comp/comp_8.jpg)
 
-Instead, we were too focused on what we thought we already knew — and that made it easy to ignore our shortcomings. We thought if we worked hard enough, somehow things will turn out ok. We had bet our time working for people that we couldn't deliver value for.
-
-# Time Has to Be Repaid
-
-To those I’ve let down — I’m sorry. I truly gave it everything I had. I poured in sleepless nights, pushed myself to the edge, and believed that if we just worked hard enough, things would eventually fall into place. But I’ve learned that’s not how startups really work.
-
-It’s easy to believe we’ll figure things out before the runway runs out. But when we don’t, it’s not just our time that’s lost — it’s the trust of those who believed in us and gave their time, energy, and support along the way.
-
-I don’t think the ideas we worked on were inherently flawed. Maybe, with more time to pivot, we could have made it work. But our time is acutely limited, and we were too eager to spend it just to get something built. Once we asked others to back those bets, it wasn’t just our time on the line anymore. At that point, we couldn’t afford to keep experimenting — we needed to be sure we were solving the right problem.
-
-Before asking anyone to invest their time, energy, or money, I now ask myself: Have I done the work? Have I spoken to the people who would actually pay for this over the long term? Could I confidently introduce them for tough questioning? And have I truly listened — testing my assumptions with people beyond my immediate circle?
-
-If the answer is no — I go back to outreach. Because we have to be able to deal in debit, not credit. Building before we're ready doesn’t just waste time. It might cost us something we we may never fully get back.
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/Comp/comp_9.jpg">
+    <img src="/images/Comp/comp_9_1.jpg">
+    <img src="/images/Comp/comp_9_2.jpg">
+    <img src="/images/Comp/comp_10.jpg">
+    <img src="/images/Comp/comp_11.jpg">
+    <img src="/images/Comp/comp_12.jpg">
+    <img src="/images/Comp/comp_13.jpg">
+    <img src="/images/Comp/comp_14.jpg">
+    <img src="/images/Comp/comp_15.jpg">
+    <img src="/images/Comp/comp_16.jpg">
+    <img src="/images/Comp/comp_17.jpg">
+  </div>
+</div>
