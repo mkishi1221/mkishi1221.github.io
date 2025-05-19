@@ -65,7 +65,7 @@ permalink: /:title
 plugins:
   - jekyll-sitemap
   - jekyll/tagging
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 pagination:
   enabled: true
