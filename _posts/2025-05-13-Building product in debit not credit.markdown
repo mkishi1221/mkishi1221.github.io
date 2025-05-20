@@ -29,7 +29,7 @@ There was a more valuable audience — brand consultants, domain investors, crea
 
 # Not Being Able to Repay the Venues Who Helped Us
 
-SpaceforU was a venue hire startup I co-founded through Falmouth University’s Launchpad. The pressure was real — we had just six months of funding to get something off the ground. My co-founder brought experience as an event organiser, while I focused on fast builds, tight feedback loops, and tools to help us move quickly. We launched the MVP in 24 hours, listed over 40 spaces within a few months, and iterated the UI based on user feedback.
+SpaceforU was a venue hire startup I co-founded through Falmouth University’s Launchpad. The pressure was real — we had just six months of runway to get something off the ground. My co-founder brought experience as an event organiser, while I focused on fast builds, tight feedback loops, and tools to help us move quickly. We launched the MVP in 24 hours, listed over 40 spaces within a few months, and iterated the UI based on user feedback.
 
 But we still ended up in the same place.
 
