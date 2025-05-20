@@ -51,8 +51,10 @@ To those I’ve let down — I’m sorry. I truly gave it everything I had. I po
 
 It’s easy to believe we’ll figure things out before the runway runs out. But when we don’t, it’s not just our time that’s lost — it’s the trust of those who believed in us and gave their time, energy, and support along the way.
 
-I don’t think the ideas we worked on were inherently flawed. Perhaps, with more time to pivot, we could have made it work. But our time is acutely limited, and we were all too eager to spend it just to get something built. Once we asked others to back those bets, it wasn’t just our time on the line anymore. At that point, we couldn’t afford to keep experimenting — we needed to be sure we were solving the right problem.
+I don’t think the ideas we worked on were inherently flawed. Perhaps, with more time to pivot, we could have made it work. But it's important to spend time within your means—it’s easy to get stuck chasing potential that never quite materialises. Our time is acutely limited, and we were all too eager to spend it just to get something built. Once we asked others to back those bets, it wasn’t just our time on the line anymore. At that point, we couldn’t afford to keep experimenting — we needed to be sure we were solving the right problem.
 
-Before asking anyone to invest their time, energy, or money, I now ask myself: Have I done the work? Have I spoken to the people who would actually pay for this over the long term? Could I confidently introduce them for tough questioning? And have I truly listened — testing my assumptions with people beyond my immediate circle?
+Before asking anyone to invest their time, energy, or money, I now ask myself: Have I done the work? Have I spoken to the people what they truly need over the long term? Could I confidently introduce them for tough questioning? And have I truly listened — testing my assumptions with people beyond my immediate circle?
 
 If the answer is no — I go back to outreach. Because we have to be able to deal in debit, not credit. Building before we're ready doesn’t just waste time. It might cost us something we we may never fully get back.
+
+*Last updated 20th May 2025*
