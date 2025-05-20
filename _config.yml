@@ -26,7 +26,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hey, I'm Masa! 👋  Product Manager and Developer
-  hero__description: I'm the Product Manager at Amutri, leading the development of cloud-rendered 3D visualisation. <i>Obsessed</i> with driving cutting-edge products from validation to real-world results.
+  hero__description: I'm the Product Manager at Amutri, leading the development of cloud-rendered 3D visualisation. <strong><em>Obsessed</em></strong> with driving cutting-edge products from validation to real-world results.
   hero__image: '/images/ZGP_8199_xs.jpg'
 
 
