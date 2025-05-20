@@ -313,3 +313,12 @@
     }
   }
 }
+
+/* Disqus Comments */
+.post__comments {
+  margin-top: 48px;
+  
+  iframe {
+    color: var(--text-color);
+  }
+}
