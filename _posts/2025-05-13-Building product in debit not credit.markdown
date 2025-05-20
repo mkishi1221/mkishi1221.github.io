@@ -35,7 +35,7 @@ But we still ended up in the same place.
 
 We spent all our time onboarding venues — taking photos, setting prices, writing listings — and didn’t validate demand from the other side. When we finally sat down with event organisers, the feedback was immediate:
 
-*“We already know these venues. We already have relationships. Why would we pay to use this?”*
+>**“We already know these venues. We already have relationships. Why would we pay to use this?”**
 
 We’d focused on execution over insight. We assumed our backgrounds gave us enough understanding of the market and believed we just needed support from venues — but we hadn’t spoken to people outside our own circle. In theory, we could have reached event organisers beyond Cornwall and Devon, but by the time we realised that, the clock had run out. The venues had given us their time — and we didn’t have anything meaningful to show for it.
 
