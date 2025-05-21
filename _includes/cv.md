@@ -53,12 +53,14 @@ Also had the opportunity to speak at Hertizian’s AI Summit, where I highlighte
 
 ## Product Support Consultant (November 2022 – September 2023)
 
-Joined Amutri as a product support consultant and shaped product strategy, UIUX design, user research, and early business development, onboarding Amutri's early adopters and securing grants and pre-seed funding.
+Shaped product strategy, UIUX design, user research, and early business development, onboarding Amutri's early adopters and securing grants and pre-seed funding.
 
-- Led the design of Amutri’s cloud-based rendering product and redesigned the homepage to boost customer conversion and investor engagement.
+- Led the end-to-end UI/UX redesign of Amutri’s cloud-based 3D rendering platform.
+- Drove product marketing initiatives, including a new homepage optimised for user conversion and investor engagement.
 - Conducted 30+ research sessions with architects, 3D visualisers, and universities to shape user journeys and product direction.
-- Built internal tools to streamline customer data analysis, reducing processing time from hours to seconds.
-- Developed early enterprise sales strategies, proposals, and Letters of Intent, contributing directly to successful investor milestones.
+- Developed internal tools to automate user data enrichment by matching email domains to company information, completing 90% of missing profiles. This reduced weekly processing time from ~3 hours to under 10 seconds and enabled more targeted outreach.
+- Onboarded users and developed early enterprise sales strategies, proposals.
+- Secured Letters of Intent, contributing directly to successful investor milestones.
 
 Promoted to Product Manager following this work and was later [interviewed by SETsquared Bristol](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" } on Amutri's vision and impact in 3D visualisation.
 
