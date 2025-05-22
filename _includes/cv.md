@@ -1,7 +1,7 @@
 
 # Here’s a TL;DR on my career:
 
-I'm a product designer turned product manager and developer. I’ve led teams in the UK and Japan and worked in **customer-facing roles**, delivering products for both early-stage startups and large enterprises.
+I'm a product designer turned product manager and developer. I’ve led teams in the UK and Japan and worked in **customer-facing product roles**, delivering products for both early-stage startups and large enterprises.
 
 - **I bring hands-on experience** in product design, development, and team leadership, having guided products from early validation through to launch. I use fast, low-cost testing with customers, to uncover user needs, evaluate technical feasibility, and keep efforts aligned with business goals.
 - **I thrive on shaping complex, multidisciplinary products** that require both technical depth and design sensibility. From machine translation to 3D visualization, I shift gears easily and can contribute across a wide range of engineering and design challenges.
