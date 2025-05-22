@@ -89,10 +89,10 @@ SpaceforU was [featured in a Falmouth University article](https://www.falmouth.a
 
 ## Co-founder and Product Lead
 
-Developed an AI-powered platform to help brand designers and entrepreneurs quickly discover high-quality, available domain names.
+Developed an NLP-powered platform to help brand designers and entrepreneurs quickly discover high-quality, available domain names.
 
 - Co-founded the venture with a technical partner and bootstrapped the product without external funding.
-- Built a prototype using Python, Nuxt, and Deta.sh, powered by NLP and machine learning to filter millions of domain options into relevant, high-value suggestions.
+- Built the MVP using Python, Nuxt, and Deta.sh, applying NLP to filter millions of domains into relevant, high-value results.
 - Designed user-friendly prototypes in Figma and soft-launched the product as a consulting service for startups and business hubs.
 - Ran 100+ feedback sessions with designers and emtrepreneurs, showing the tool could reduce domain search time from weeks to under an hour while avoiding expensive premium options.
 
