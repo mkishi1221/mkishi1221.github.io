@@ -135,7 +135,7 @@ Contributed to both design execution and operational management at a boutique co
 - Organised and hosted multilingual industry networking events via Meetup, strengthening the studio’s presence in Tokyo’s design community.
 - Managed the studio’s office relocation process, including contract negotiation, tenancy review, and vendor coordination, acting as the sole native Japanese speaker on behalf of the director.
 
-# New Age Sapphire Technical Servies LLC (September 2014 - March 2016)
+# New Age Sapphire Technical Services LLC (September 2014 - March 2016)
 
 ## Founder, Lead Interior Designer
 
