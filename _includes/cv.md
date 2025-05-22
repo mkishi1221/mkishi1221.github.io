@@ -94,7 +94,7 @@ Developed an NLP-powered platform to help brand designers and entrepreneurs quic
 - Co-founded the venture with a technical partner and bootstrapped the product without external funding.
 - Built the MVP using Python, Nuxt, and Deta.sh, applying NLP to filter millions of domains into relevant, high-value results.
 - Designed user-friendly prototypes in Figma and soft-launched the product as a consulting service for startups and business hubs.
-- Ran 100+ feedback sessions with designers and emtrepreneurs, showing the tool could reduce domain search time from weeks to under an hour while avoiding expensive premium options.
+- Ran 100+ feedback sessions with designers and entrepreneurs, showing the tool could reduce domain search time from weeks to under an hour while avoiding expensive premium options.
 
 Below are some snapshots of the user interface.
 
