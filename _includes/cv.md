@@ -1,9 +1,9 @@
 
 # Here’s a TL;DR on my career:
 
-I'm a product designer turned product manager and developer. I’ve led teams across the UK and Japan in software development, startup growth, and NLP solutions for major Japanese corporations.
+I'm a product designer turned product manager and developer. I’ve led teams in the UK and Japan and worked in customer-facing roles, delivering products for both early-stage startups and large enterprises.
 
-- I bring hands-on experience in product design, development, and team leadership, having guided products from early validation through to launch. I use fast, low-cost testing to uncover user needs, evaluate technical feasibility, and keep efforts aligned with business goals.
+- I bring hands-on experience in product design, development, and team leadership, having guided products from early validation through to launch. I use fast, low-cost testing with customers to uncover user needs, evaluate technical feasibility, and keep efforts aligned with business goals.
 - I thrive on shaping complex, multidisciplinary products that require both technical depth and design sensibility. From machine translation to 3D visualization, I shift gears easily and contribute across a wide range of engineering and design challenges.
 - I care deeply about creating inclusive teams where people feel safe, supported, and empowered. That starts with understanding how individuals work, what they need, and how to help them grow together.
 
@@ -14,7 +14,7 @@ Before diving into my work history, here’s a snapshot of the areas I specialis
 - **Product management:** Leading and uncovering key information that drives product strategy. I've worked closely with teams, stakeholders, and customers to uncover user needs, validate assumptions, understand technical feasibility and inform strategic decisions.
 - **Team management and development process design:** Leading day-to-day execution needed to turn strategy into results. Aligning user, business, and technical needs to create clear, well-informed PRDs and technical briefs. Managing innovation through frequent, incremental improvements informed by testing, feedback, and validation.
 - **Knowledge management:** Guiding teams to maintain clear documentation, shared resources, and processes that help teams onboard quickly, collaborate effectively, and retain critical knowledge. I’ve also managed product knowledge by writing and maintaining support articles on Intercom for both customers and external stakeholders.
-- **Design, R&D, and Software Development:** I have hands-on experience writing code, working with tools like Python, JavaScript, and cloud services such as AWS. I regularly contribute to GitHub-based code reviews, set up automated QA, and help manage infrastructure and deployments. My background spans UI/UX, product marketing, and applied data science, and I’m comfortable stepping into different roles to keep projects moving and deliver high-quality results.
+- **Software Engineering:** I bring hands-on experience in coding with Python and JavaScript, along with cloud platforms like AWS. I actively contribute to GitHub code reviews, and help manage infrastructure and deployments. My background spans UI/UX design, product marketing, and applied data science, and I’m comfortable stepping into different roles to deliver results.
 
 If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. Now, onto the details.
 
@@ -24,7 +24,7 @@ If you'd like to learn more or discuss working together, feel free to [drop me a
 
 ## Product Manager (October 2023 – Current)
 
-Amutri is a cloud-rendered 3D visualisation platform that helps engineering teams present and explore complex technical ideas. Users can upload their CAD files and convert them into visually rich real-time rendered 3D Presentations that can be shared across their organisation.
+Amutri transforms complex CAD files into interactive 3D presentations in seconds — making CAD data accessible, shareable, and presentation-ready across entire organisations.
 
 Here's a short video of the product:
 
@@ -32,14 +32,14 @@ Here's a short video of the product:
 
 I'm responsible for leading the development team at Amutri, serving as the strategic link between engineering, product marketing, and customer-facing teams to ensure alignment across the business.
 
-- Managed multiple teams across frontend, backend, Unreal Engine and 3D content creation. Responsible for development strategy, design process, and day-to-day execution and delivery.
-- Spearheaded the design and launch of core features including Secure Sharing, Guided Tours, and Smart Insights — directly enabling a six-figure pilot with enterprise customers.
-- Led customer onboarding and insight gathering with enterprise customers.
-- Defined and managed product requirements, user research, and owning the product knowledge base for internal teams and external users.
-- Directed product marketing including the landing page, sales collateral, and investor presentations.
-- Designed and built internal data science tools to enhance infrastructure monitoring, reduce errors, and accelerate support workflows.
-- Oversaw product quality through test strategy design, release validation, and ongoing performance monitoring.
-- Led R&D efforts into next-generation 3D interaction, including the integration of natural language processing and real-time graphics technologies.
+- Managed cross-functional teams across frontend, backend, 3D content, and Unreal Engine, overseeing development strategy, design, and daily execution.
+- Led the development and launch of core features like Secure Sharing and Guided Tours, unlocking a six-figure enterprise pilot.
+- Directed onboarding and feedback sessions with enterprise customers to inform product decisions.
+- Defined product requirements, conducted user research, and maintained documentation for both internal teams and external users.
+- Led product marketing efforts including the website, sales materials, and investor presentations.
+- Built internal tools to improve infrastructure monitoring, reduce technical errors, and streamline customer support.
+- Oversaw quality assurance through test planning, release validation, and performance monitoring.
+- Led R&D into next-generation 3D interaction, integrating natural language processing with real-time graphics technologies.
 
 Additionally, I represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University — a press-covered event highlighting regional tech innovation.
 
@@ -55,14 +55,13 @@ Also had the opportunity to speak at Hertizian’s AI Summit, where I highlighte
 
 Shaped product strategy, UIUX design, user research, and early business development, onboarding Amutri's early adopters and securing grants and pre-seed funding.
 
-- Led the end-to-end UI/UX redesign of Amutri’s cloud-based 3D rendering platform.
-- Drove product marketing initiatives, including a new homepage optimised for user conversion and investor engagement.
-- Conducted 30+ research sessions with architects, 3D visualisers, and universities to shape user journeys and product direction.
-- Developed internal tools to automate user data enrichment by matching email domains to company information, completing 90% of missing profiles. This reduced weekly processing time from ~3 hours to under 10 seconds and enabled more targeted outreach.
-- Onboarded users and developed early enterprise sales strategies, proposals.
-- Secured Letters of Intent, contributing directly to successful investor milestones.
+- Led the complete UI/UX redesign of Amutri’s cloud 3D rendering platform from POC to MVP.
+- Ran 30 + research sessions with architects, 3D visualisers, and universities to refine user journeys and set product direction.
+- Built an automation tool that matched email domains to company data, filling 90 % of missing user profiles and cutting weekly processing time from about three hours to ten seconds.
+- Onboarded early users and created enterprise sales strategies and proposals.
+- Secured Letters of Intent from prospective customers, hitting key investor milestones.
 
-Promoted to Product Manager following this work and was later [interviewed by SETsquared Bristol](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" } on Amutri's vision and impact in 3D visualisation.
+Joined the team formally as Product Manager on the strength of this work and was later [interviewed by SETsquared Bristol](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" } on Amutri's vision and impact in 3D visualisation.
 
 # SpaceforU (September 2022 – September 2023)
 
@@ -108,10 +107,11 @@ Below are some snapshots of the user interface.
 
 Worked at a machine translation consultancy focused on industry-specific solutions, combining language expertise with product design to deliver practical, cost-saving tools.
 
-- Led the design of machine translation products, including a Japanese menu translation system that cut restaurant translation costs by 50%.
-- Led the redesign of Toyota’s vehicle repair manuals for a digital-first experience, deployed globally.
-- Led the development of a content management tool for Konami, supporting global coordination between copywriters and translators.
-- Built data extraction algorithms in TypeScript that reduced customer service errors at car dealerships by 60%.
+- Collaborated directly with clients to identify requirements and co-develop tailored machine translation tools that balanced linguistic accuracy with usability.
+- Designed a Japanese menu translation system that significantly reduced localization costs for restaurant clients.
+- Led the digital-first redesign of vehicle repair manuals for a major Japanese automotive brand, improving accessibility and service efficiency.
+- Created content management tools for a top-tier Japanese game developer, streamlining global collaboration between copywriters and translators.
+- Developed data extraction algorithms in TypeScript to reduce miscommunications in automotive customer service operations.
 
 ## Language Analyst (March 2019 - July 2020)
 
