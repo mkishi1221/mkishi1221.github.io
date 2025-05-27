@@ -7,60 +7,56 @@ image:  '/images/revenue.jpg'
 tags:   [mindset, validation, learnings]
 ---
 
-In the mythology of startups, early revenue is often treated like a badge of validation. “If someone pays, you’re onto something.” It’s a tempting narrative, especially when we’re trying to prove momentum. But I’ve learned we can never truly earn that badge—we have to keep validating with an open mind. Validation isn’t about proving ourselves right; it’s about discovering a great way to deliver long-term value. And just because someone pays once doesn’t mean we’ve built something desirable or sustainable.
+When a user pays you, it feels like a breakthrough. You’ve validated your MVP. You’re onto something real.
 
-Especially if that payment came through an MVP—whether Wizard-of-Oz, Concierge, or a scrappy manual prototype—each has its own quirks and limitations. I've found that what looks like traction might actually be the result of over-personalization, mismatched expectations, or an effort we can’t keep scaling.
+Except… maybe not.
 
-## Real Money, Simulated Product
+In early product development, revenue is often treated as the gold standard for validation. It’s easy to see a Stripe notification and assume you've crossed a meaningful threshold—that now it’s time to scale, hire, or raise. But money, especially in the early stages, is a noisy signal. It can mask deeper flaws in the model and lull you into a false sense of product-market fit.
 
-The Wizard-of-Oz MVP is clever: create the illusion of a functioning product while doing everything manually behind the scenes. It’s scrappy. It’s fast. It can yield early cash. With modern tools, we can launch polished, functional-looking websites in just a few days—often for little or no cost. But is that cash a true signal of product-market fit, or just an early mirage?
+I learned this the hard way.
 
-Amazon offers one of the earliest and most iconic examples of a Wizard-of-Oz MVP. Before building a sophisticated backend or investing heavily in logistics, Jeff Bezos launched a simple website for selling books. When customers placed orders, there was no automated fulfillment system—Bezos would manually purchase the books from distributors and ship them to buyers. This lean, behind-the-scenes operation allowed Amazon to validate demand for online book sales without the overhead of building infrastructure prematurely.
+## Domainsmith: A Signal Without a System
 
-## Not Just Wizardry: Other Ways to Deliver Early Value
+My first startup was Domainsmith—a tool to help brand designers and entrepreneurs find unique domain names.
 
-The Wizard-of-Oz approach is just one way to deliver early value—there are countless other ways to build an MVP. Another great example is the Concierge model: offering a transparent, manual service—consulting, coaching, or process execution. Here, the buyer knows they’re purchasing a hands-on solution. There’s no illusion, and the value we’re testing is more grounded.
+We started with a Concierge MVP. I wrote custom scripts to generate ideas and ran live workshops with over 100 users, manually guiding them through the naming process. Eventually, some began paying ¥10,000 (about £55) for the experience. It felt like early validation. Users told us existing tools like ChatGPT were too generic or repetitive—we were clearly solving a real pain.
 
-But the same caveats could apply. That service might not translate neatly into a product—maybe the value was in how the service was delivered in a personable way. A paying client today doesn’t mean there’s a scalable SaaS business tomorrow. We may find the service solves the problem well, but the product version falls short—or appeals to a different user.
+The concept seemed solid: curate polished, brandable domains and offer them on a subscription basis. We had paying users and feedback confirming we were doing something differentiated. But underneath that traction was a structural flaw. Most people only need one domain, and our early adopters—solo founders and first-timers—had no reason to return. There was no recurring problem to solve, no retention loop, and no real path to scale.
 
-## My First MVP: Domainsmith
+In hindsight, we’d validated a moment of need, not an ongoing one. Acquisition was expensive, churn was inevitable, and monetization beyond that first transaction was near-impossible. What I mistook for product-market fit was actually a novelty use case with a ceiling baked in. Once the payments started, I shifted from validation to scaling—too early, and without enough data to justify the leap.
 
-I learned this the hard way with my first attempt at a startup: Domainsmith—a tool to help brand designers and entrepreneurs find unique domain names.
+## Early Revenue ≠ Product-Market Fit
 
-The MVP began as a Concierge model. I wrote custom scripts to generate name ideas and ran workshops with over 100 users, manually guiding them through the process. Eventually, some even started paying for the workshop. It felt like early validation. Users told us they couldn’t get similar results from tools like ChatGPT—their outputs were too generic or repetitive.
+It’s tempting to treat early revenue as proof of demand. But in reality, it can be a vanity metric if it’s not attached to a repeatable customer journey or a scalable distribution path.
 
-The idea seemed solid at the time: curate polished, brandable domains and offer them on a subscription basis. But the model had a hidden flaw. Most people only need one domain, and our core users—solo founders and first-timers—had no reason to return. Even with interest and payment upfront, we hit a ceiling quickly. Acquisition was hard, churn was inevitable, and scaling proved impractical.
+Money changes how users behave. Early adopters are often forgiving, curious, or just willing to experiment. They might pay for novelty, to support you, or because they don’t have a better alternative yet. That doesn’t mean you’ve built something they’ll stick with—or that the next 1,000 customers will behave the same. Early success should raise new questions, not silence them:
 
-The MVP gave us a signal, but not a complete picture. It solved a real problem—but not one people needed solved repeatedly or at scale. In hindsight, it was a classic blind spot: early enthusiasm masked by structural limits. I had stopped trying to validate after I started making some money and focused too much on building something bigger.
+- Will users come back without hand-holding?
+- Can this scale without manual intervention?
+- Are payments driven by true utility, or just early excitement?
 
 ## Small Signals, Big Assumptions
 
-Early sales are often drawn from a small, non-representative group: friends, early adopters, and the startup-curious. Their willingness to pay doesn’t tell us how the average buyer will behave. We might be testing generosity, not demand.
+Early revenue can be deceptive not because it’s unimportant—but because it often comes from a small, non-representative group: friends, early adopters, and the startup-curious. Their willingness to pay doesn’t always map to future behavior. We might be testing generosity, not demand.
 
-I've found the danger lies in extrapolation. A handful of supportive transactions might convince us that we’ve validated the idea—when in fact, we’ve only scratched the surface. It’s so important to keep testing the value proposition while expanding the idea.
+I saw the same pattern again with SpaceforU, a venue-booking platform. We built a working MVP in 24 hours and quickly onboarded listings. Early bookings rolled in—another win, it seemed. But most of those bookings came from friends. Their support was generous, not scalable. The real customers—the ones we hadn’t validated—already knew the venues and didn’t want to pay for access through a third-party tool. When that early goodwill dried up, so did the traffic.
 
-I saw the same pattern again with SpaceforU, a venue-booking platform. We created a working MVP within 24 hours and quickly got some listings. Early bookings gave the impression we had found product-market fit. But as we soon discovered, most of those bookings had come from friends. Their support was generous—but not scalable. The real customers already knew the venues and didn’t want to pay to use our platform. Once that goodwill dried up, so did the traffic.
-
-Revenue is not binary. It matters why someone paid, what they thought they were buying, and whether they’d do it again without us handholding every step.
-
-Even more importantly: does that same revenue appear when the next version ships?
+Revenue wasn't binary. It matters *why* someone paid, what they believed they were buying, and whether they’d do it again—without handholding. Even more importantly: does that revenue still show up when the next version ships?
 
 ## Think Like a Developer: Atomic Validation
 
-Just as developers commit code atomically—in small, reversible units—I’ve learned it’s an excellent strategy to develop product ideas in the same way. Every small change to the user experience, delivery method, or pricing model can be treated as an independent, testable unit. Make a change, measure the effect, validate or discard.
+Just as developers commit code atomically—in small, testable units—I’ve found product ideas are best developed the same way.
 
-It’s so tempting to try to pull off a big idea—but validation is complicated, and it’s difficult to clearly understand the facts. We can’t teleport our way to a product that delivers big value. We still have to plan the treacherous journey and take it step by step.
+Every shift in the experience, delivery model, or pricing approach is a separate experiment. Move from manual to automated? Test it. Switch from a service to a product? Validate it. Change the customer type? Re-test the assumptions. It's so tempting to try to leap straight into a big, scalable product. But validation is complicated—and it's easy to draw the wrong conclusions from early success.
 
-Each step—whether moving from a manual process to automation, from service to product, or from niche users to broader audiences—requires new validation. I've learned to not assume that what worked in step one will still hold in step two. The value proposition may subtly shift. The user expectation may drift. The economics may break.
-
-It's clear to me validation is not a one-time event. It’s a continuous, iterative process—just like good product development.
+Each step in the journey can break what worked in the last one. What solves a niche user’s problem might not work for a mainstream audience. What’s profitable with ten users might fail at 1,000. Every assumption is up for revalidation.
 
 ## Keep Validating, Always
 
-Whether we’re testing the market with a Wizard-of-Oz product, cobbling together off-the-shelf solutions, or delivering services by hand, I've found that early revenue is just a signal—not a confirmation. Money is important—but only if we know what it means. And only if it keeps showing up when the magic curtain comes down.
+Whether we’re testing the market with a Wizard-of-Oz prototype, stringing together no-code tools, or delivering services by hand, early revenue is just a signal. Money is important—but only if we understand what it means. And only if it keeps showing up when the magic curtain comes down.
 
-So yes, I'll follow the money. But I'll treat each new feature, each shift in delivery, and each product iteration as its own experiment. Build atomically. Test obsessively. Validate continuously.
+So yes, I'll follow the money. But I’ve learned to keep following it, treating every signal—every payment, feature, and workflow—as its own experiment. Build atomically. Test obsessively. Validate continuously.
 
-The real startup magic isn’t building a big product. It’s building something that delivers real value—and keeps delivering that value as we evolve.
+The real startup magic isn’t just building a product that people will pay for. It’s building something that continues to deliver real value—and keeps doing so as we evolve.
 
 Updated 27th May 2025
