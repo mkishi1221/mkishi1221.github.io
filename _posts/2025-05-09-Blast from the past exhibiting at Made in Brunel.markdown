@@ -48,7 +48,7 @@ Thank you again – for listening, for questioning, for engaging. And above all,
 ![Product Image 1]({{site.baseurl}}/images/Comp/comp_1.jpg)
 ![Product Image 2]({{site.baseurl}}/images/Comp/comp_2.jpg)
 ![Product Image 3]({{site.baseurl}}/images/Comp/comp_3.jpg)
-![Product Image 4]({{site.baseurl}}/images/Comp/comp_4.jpg)
+![Product Image 4]({{site.baseurl}}/images/Comp/comp_4.JPG)
 ![Product Image 5]({{site.baseurl}}/images/Comp/comp_5.jpg)
 ![Product Image 6]({{site.baseurl}}/images/Comp/comp_6.jpg)
 ![Product Image 7]({{site.baseurl}}/images/Comp/comp_7.jpg)
