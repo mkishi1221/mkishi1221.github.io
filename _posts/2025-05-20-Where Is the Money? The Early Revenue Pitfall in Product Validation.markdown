@@ -17,10 +17,6 @@ The Wizard-of-Oz MVP is clever: create the illusion of a functioning product whi
 
 Amazon offers one of the earliest and most iconic examples of a Wizard-of-Oz MVP. Before building a sophisticated backend or investing heavily in logistics, Jeff Bezos launched a simple website for selling books. When customers placed orders, there was no automated fulfillment system—Bezos would manually purchase the books from distributors and ship them to buyers. This lean, behind-the-scenes operation allowed Amazon to validate demand for online book sales without the overhead of building infrastructure prematurely.
 
-Revenue is not binary. It matters why someone paid, what they thought they were buying, and whether they’d do it again without us handholding every step.
-
-Even more importantly: does that same revenue appear when the next version ships?
-
 ## Not Just Wizardry: Other Ways to Deliver Early Value
 
 The Wizard-of-Oz approach is just one way to deliver early value—there are countless other ways to build an MVP. Another great example is the Concierge model: offering a transparent, manual service—consulting, coaching, or process execution. Here, the buyer knows they’re purchasing a hands-on solution. There’s no illusion, and the value we’re testing is more grounded.
@@ -44,6 +40,10 @@ Early sales are often drawn from a small, non-representative group: friends, ear
 I've found the danger lies in extrapolation. A handful of supportive transactions might convince us that we’ve validated the idea—when in fact, we’ve only scratched the surface. It’s so important to keep testing the value proposition while expanding the idea.
 
 I saw the same pattern again with SpaceforU, a venue-booking platform. We created a working MVP within 24 hours and quickly got some listings. Early bookings gave the impression we had found product-market fit. But as we soon discovered, most of those bookings had come from friends. Their support was generous—but not scalable. The real customers already knew the venues and didn’t want to pay to use our platform. Once that goodwill dried up, so did the traffic.
+
+Revenue is not binary. It matters why someone paid, what they thought they were buying, and whether they’d do it again without us handholding every step.
+
+Even more importantly: does that same revenue appear when the next version ships?
 
 ## Think Like a Developer: Atomic Validation
 
