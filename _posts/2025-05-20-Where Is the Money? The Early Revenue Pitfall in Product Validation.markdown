@@ -9,7 +9,7 @@ tags:   [mindset, validation, learnings]
 
 In the mythology of startups, early revenue is often treated like a badge of validation. “If someone pays, you’re onto something.” It’s a tempting narrative, especially when we’re trying to prove momentum. But I’ve learned we can never truly earn that badge—we have to keep validating with an open mind. Validation isn’t about proving ourselves right; it’s about discovering a great way to deliver long-term value. And just because someone pays once doesn’t mean we’ve built something desirable or sustainable.
 
-Especially if that payment came through an MVP—whether Wizard-of-Oz, Concierge, or a scrappy manual prototype—each has its own quirks and limitations. What looks like traction might actually be the result of over-personalization, mismatched expectations, or an effort we can’t keep scaling.
+Especially if that payment came through an MVP—whether Wizard-of-Oz, Concierge, or a scrappy manual prototype—each has its own quirks and limitations. I've found that what looks like traction might actually be the result of over-personalization, mismatched expectations, or an effort we can’t keep scaling.
 
 ## Real Money, Simulated Product
 
@@ -25,7 +25,7 @@ Even more importantly: does that same revenue appear when the next version ships
 
 The Wizard-of-Oz approach is just one way to deliver early value—there are countless other ways to build an MVP. Another great example is the Concierge model: offering a transparent, manual service—consulting, coaching, or process execution. Here, the buyer knows they’re purchasing a hands-on solution. There’s no illusion, and the value we’re testing is more grounded.
 
-But the same caveats apply. That service might not translate neatly into a product—maybe the value was in how the service was delivered in a personable way. A paying client today doesn’t mean there’s a scalable SaaS business tomorrow. We may find the service solves the problem well, but the product version falls short—or appeals to a different user.
+But the same caveats could apply. That service might not translate neatly into a product—maybe the value was in how the service was delivered in a personable way. A paying client today doesn’t mean there’s a scalable SaaS business tomorrow. We may find the service solves the problem well, but the product version falls short—or appeals to a different user.
 
 ## My First MVP: Domainsmith
 
@@ -41,7 +41,7 @@ The MVP gave us a signal, but not a complete picture. It solved a real problem�
 
 Early sales are often drawn from a small, non-representative group: friends, early adopters, and the startup-curious. Their willingness to pay doesn’t tell us how the average buyer will behave. We might be testing generosity, not demand.
 
-The danger lies in extrapolation. A handful of supportive transactions might convince us that we’ve validated the idea—when in fact, we’ve only scratched the surface. It’s so important to keep testing the value proposition while expanding the idea.
+I've found the danger lies in extrapolation. A handful of supportive transactions might convince us that we’ve validated the idea—when in fact, we’ve only scratched the surface. It’s so important to keep testing the value proposition while expanding the idea.
 
 I saw the same pattern again with SpaceforU, a venue-booking platform. We created a working MVP within 24 hours and quickly got some listings. Early bookings gave the impression we had found product-market fit. But as we soon discovered, most of those bookings had come from friends. Their support was generous—but not scalable. The real customers already knew the venues and didn’t want to pay to use our platform. Once that goodwill dried up, so did the traffic.
 
@@ -51,14 +51,16 @@ Just as developers commit code atomically—in small, reversible units—I’ve 
 
 It’s so tempting to try to pull off a big idea—but validation is complicated, and it’s difficult to clearly understand the facts. We can’t teleport our way to a product that delivers big value. We still have to plan the treacherous journey and take it step by step.
 
-Each step—whether moving from a manual process to automation, from service to product, or from niche users to broader audiences—requires new validation. Don’t assume that what worked in step one will still hold in step two. The value proposition may subtly shift. The user expectation may drift. The economics may break.
+Each step—whether moving from a manual process to automation, from service to product, or from niche users to broader audiences—requires new validation. I've learned to not assume that what worked in step one will still hold in step two. The value proposition may subtly shift. The user expectation may drift. The economics may break.
 
-Validation is not a one-time event. It’s a continuous, iterative process—just like good product development.
+It's clear to me validation is not a one-time event. It’s a continuous, iterative process—just like good product development.
 
 ## Keep Validating, Always
 
-Whether we’re testing the market with a Wizard-of-Oz product, cobbling together off-the-shelf solutions, or delivering services by hand, early revenue is just a signal—not confirmation, not inevitability. Money is important—but only if you know what it means. And only if it keeps showing up when the magic curtain comes down.
+Whether we’re testing the market with a Wizard-of-Oz product, cobbling together off-the-shelf solutions, or delivering services by hand, I've found that early revenue is just a signal—not a confirmation. Money is important—but only if we know what it means. And only if it keeps showing up when the magic curtain comes down.
 
-So yes, follow the money. But treat each new feature, each shift in delivery, and each product iteration as its own experiment. Build atomically. Test obsessively. Validate continuously.
+So yes, I'll follow the money. But I'll treat each new feature, each shift in delivery, and each product iteration as its own experiment. Build atomically. Test obsessively. Validate continuously.
 
 The real startup magic isn’t building a big product. It’s building something that delivers real value—and keeps delivering that value as we evolve.
+
+Updated 27th May 2025
