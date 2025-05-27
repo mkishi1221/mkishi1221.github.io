@@ -35,10 +35,3 @@
     }
   }
 }
-
-/* Zoom overrides - let the zoom library handle positioning */
-.zoom-img {
-  object-fit: contain !important;
-  max-width: 90vw !important;
-  max-height: 90vh !important;
-}

@@ -1,136 +1,3 @@
-/* Medium-zoom cursor styles */
-img[data-action="zoom"] {
-  cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
-}
-.zoom-img,
-.zoom-img-wrap {
-  position: relative;
-  z-index: 666;
-  -webkit-transition: all 300ms;
-       -o-transition: all 300ms;
-          transition: all 300ms;
-}
-img.zoom-img {
-  cursor: pointer;
-  cursor: -webkit-zoom-out;
-  cursor: -moz-zoom-out;
-}
-.zoom-overlay {
-  z-index: 999999;
-  background: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  opacity: 0;
-  -webkit-transition: opacity 300ms;
-       -o-transition: opacity 300ms;
-          transition: opacity 300ms;
-}
-.zoom-overlay-open .zoom-overlay {
-  opacity: 1;
-}
-.zoom-overlay-open,
-.zoom-overlay-transitioning {
-  cursor: default;
-}
-
-/* Zoom system */
-img[data-action="zoom"] {
-  cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
-}
-.zoom-img,
-.zoom-img-wrap {
-  position: relative;
-  z-index: 1000000;
-  -webkit-transition: transform 200ms ease-out;
-       -o-transition: transform 200ms ease-out;
-          transition: transform 200ms ease-out;
-}
-.zoom-img-wrap {
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
-  -webkit-transform: translate(-50%, -50%) !important;
-       -o-transform: translate(-50%, -50%) !important;
-          transform: translate(-50%, -50%) !important;
-  -webkit-transition: none !important;
-       -o-transition: none !important;
-          transition: none !important;
-}
-img.zoom-img {
-  cursor: pointer;
-  cursor: -webkit-zoom-out;
-  cursor: -moz-zoom-out;
-  z-index: 1000001;
-  max-width: 90vw !important;
-  max-height: 90vh !important;
-  width: auto !important;
-  height: auto !important;
-  object-fit: contain !important;
-}
-.zoom-overlay {
-  z-index: 999999;
-  background: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  opacity: 0;
-  -webkit-transition: opacity 200ms ease-out;
-       -o-transition: opacity 200ms ease-out;
-          transition: opacity 200ms ease-out;
-}
-.zoom-overlay-open .zoom-overlay {
-  opacity: 1;
-}
-.zoom-overlay-open,
-.zoom-overlay-transitioning {
-  cursor: default;
-}
-
-/* Simple zoom system - scale in place */
-img[data-action="zoom"] {
-  cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
-  transition: transform 200ms ease-out;
-}
-
-img[data-action="zoom"].zoomed {
-  transform: scale(2);
-  z-index: 1000001;
-  cursor: pointer;
-  cursor: -webkit-zoom-out;
-  cursor: -moz-zoom-out;
-}
-
-.simple-zoom-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
-  z-index: 1000000;
-  opacity: 0;
-  animation: fadeIn 200ms ease-out forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
 /* Custom zoom system - keeps original image in grid */
 img[data-action="zoom"] {
   cursor: pointer;
@@ -169,6 +36,11 @@ img[data-action="zoom"] {
   cursor: -moz-zoom-out;
   transform: scale(0.8);
   transition: transform 200ms ease-out;
+  /* Reset any inherited gallery styles */
+  position: static !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .zoom-overlay-custom.active .zoom-img-custom {

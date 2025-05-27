@@ -110,7 +110,7 @@ $(document).ready(function() {
   $(".page img, .post img").attr("data-action", "zoom");
   $(".page a img, .post a img").removeAttr("data-action", "zoom");
   
-  // Custom zoom that keeps original image in grid
+  // Robust zoom that handles gallery constraints properly
   $('[data-action="zoom"]').on('click', function(e) {
     e.preventDefault();
     var $originalImg = $(this);
@@ -118,21 +118,33 @@ $(document).ready(function() {
     // Don't zoom if already zoomed
     if ($('.zoom-overlay-custom').length > 0) return;
     
+    // Get the original image source and natural dimensions
+    var imgSrc = $originalImg.attr('src');
+    
     // Create overlay
     var $overlay = $('<div class="zoom-overlay-custom"></div>');
     
-    // Create zoomed image (duplicate)
-    var $zoomedImg = $originalImg.clone();
-    $zoomedImg.removeClass().addClass('zoom-img-custom');
+    // Create a fresh image element (not cloned) to avoid inherited styles
+    var $zoomedImg = $('<img class="zoom-img-custom">');
+    $zoomedImg.attr('src', imgSrc);
     
     // Add to overlay
     $overlay.append($zoomedImg);
     $('body').append($overlay);
     
-    // Trigger animation
-    setTimeout(function() {
-      $overlay.addClass('active');
-    }, 10);
+    // Trigger animation after image loads
+    $zoomedImg.on('load', function() {
+      setTimeout(function() {
+        $overlay.addClass('active');
+      }, 10);
+    });
+    
+    // If image is already cached, trigger immediately
+    if ($zoomedImg[0].complete) {
+      setTimeout(function() {
+        $overlay.addClass('active');
+      }, 10);
+    }
     
     // Close on click
     $overlay.on('click', function() {
@@ -140,6 +152,17 @@ $(document).ready(function() {
       setTimeout(function() {
         $overlay.remove();
       }, 200);
+    });
+    
+    // Close on escape key
+    $(document).on('keyup.zoom', function(e) {
+      if (e.keyCode === 27) {
+        $overlay.removeClass('active');
+        setTimeout(function() {
+          $overlay.remove();
+          $(document).off('keyup.zoom');
+        }, 200);
+      }
     });
   });
 
