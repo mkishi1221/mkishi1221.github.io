@@ -107,64 +107,120 @@ $(document).ready(function() {
   /* =======================
   // Zoom Image
   ======================= */
-  $(".page img, .post img").attr("data-action", "zoom");
-  $(".page a img, .post a img").removeAttr("data-action", "zoom");
   
-  // Robust zoom that handles gallery constraints properly
-  $('[data-action="zoom"]').on('click', function(e) {
-    e.preventDefault();
-    var $originalImg = $(this);
-    
-    // Don't zoom if already zoomed
-    if ($('.zoom-overlay-custom').length > 0) return;
-    
-    // Get the original image source and natural dimensions
-    var imgSrc = $originalImg.attr('src');
-    
-    // Create overlay
-    var $overlay = $('<div class="zoom-overlay-custom"></div>');
-    
-    // Create a fresh image element (not cloned) to avoid inherited styles
-    var $zoomedImg = $('<img class="zoom-img-custom">');
-    $zoomedImg.attr('src', imgSrc);
-    
-    // Add to overlay
-    $overlay.append($zoomedImg);
-    $('body').append($overlay);
-    
-    // Trigger animation after image loads
-    $zoomedImg.on('load', function() {
-      setTimeout(function() {
-        $overlay.addClass('active');
-      }, 10);
-    });
-    
-    // If image is already cached, trigger immediately
-    if ($zoomedImg[0].complete) {
-      setTimeout(function() {
-        $overlay.addClass('active');
-      }, 10);
-    }
-    
-    // Close on click
-    $overlay.on('click', function() {
-      $overlay.removeClass('active');
-      setTimeout(function() {
-        $overlay.remove();
-      }, 200);
-    });
-    
-    // Close on escape key
-    $(document).on('keyup.zoom', function(e) {
-      if (e.keyCode === 27) {
-        $overlay.removeClass('active');
-        setTimeout(function() {
+  // Wait for DOM to be fully ready before setting up zoom
+  function initializeZoom() {
+    try {
+      console.log('Initializing zoom functionality...');
+      $(".page img, .post img").attr("data-action", "zoom");
+      $(".page a img, .post a img").removeAttr("data-action", "zoom");
+      console.log('Found', $('[data-action="zoom"]').length, 'zoomable images');
+      
+      // Robust zoom that handles gallery constraints properly
+      $(document).off('click', '[data-action="zoom"]'); // Remove any existing handlers
+      $(document).on('click', '[data-action="zoom"]', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        var $originalImg = $(this);
+        
+        // Don't zoom if already zoomed or if image is not loaded
+        if ($('.zoom-overlay-custom').length > 0 || !$originalImg[0].complete) {
+          return false;
+        }
+        
+        // Get the original image source
+        var imgSrc = $originalImg.attr('src');
+        if (!imgSrc) {
+          console.warn('No image source found for zoom');
+          return false;
+        }
+        
+        // Create overlay with error handling
+        var $overlay = $('<div class="zoom-overlay-custom"></div>');
+        
+        // Create a fresh image element (not cloned) to avoid inherited styles
+        var $zoomedImg = $('<img class="zoom-img-custom">');
+        $zoomedImg.attr('src', imgSrc);
+        $zoomedImg.attr('alt', $originalImg.attr('alt') || '');
+        
+        // Add error handling for image loading
+        $zoomedImg.on('error', function() {
+          console.warn('Failed to load zoomed image:', imgSrc);
           $overlay.remove();
-          $(document).off('keyup.zoom');
-        }, 200);
-      }
-    });
-  });
+        });
+        
+        // Add to overlay
+        $overlay.append($zoomedImg);
+        $('body').append($overlay);
+        
+        // Prevent body scroll
+        $('body').addClass('zoom-active');
+        
+        // Trigger animation after image loads with timeout fallback
+        var animationTriggered = false;
+        
+        function triggerAnimation() {
+          if (!animationTriggered) {
+            animationTriggered = true;
+            setTimeout(function() {
+              if ($overlay.length && $overlay.parent().length) {
+                $overlay.addClass('active');
+              }
+            }, 10);
+          }
+        }
+        
+        $zoomedImg.on('load', triggerAnimation);
+        
+        // Fallback for cached images or slow loading
+        setTimeout(function() {
+          if ($zoomedImg[0].complete || $zoomedImg[0].naturalWidth > 0) {
+            triggerAnimation();
+          }
+        }, 100);
+        
+        // Close handlers with namespace to avoid conflicts
+        $overlay.on('click.zoom', function(e) {
+          if (e.target === this || $(e.target).hasClass('zoom-img-custom')) {
+            closeZoom();
+          }
+        });
+        
+        function closeZoom() {
+          $overlay.removeClass('active');
+          $('body').removeClass('zoom-active');
+          setTimeout(function() {
+            $overlay.remove();
+            $(document).off('keyup.zoom');
+          }, 250);
+        }
+        
+        // Close on escape key with namespace
+        $(document).off('keyup.zoom').on('keyup.zoom', function(e) {
+          if (e.keyCode === 27) {
+            closeZoom();
+          }
+        });
+        
+        return false;
+      });
+      
+    } catch (error) {
+      console.warn('Error initializing zoom functionality:', error);
+    }
+  }
+  
+  // Initialize zoom when DOM is ready
+  if (typeof jQuery !== 'undefined' && jQuery) {
+    if (document.readyState === 'loading') {
+      $(document).ready(initializeZoom);
+    } else {
+      initializeZoom();
+    }
+  } else {
+    console.warn('jQuery not available, zoom functionality disabled');
+  }
 
 
   /* =======================
