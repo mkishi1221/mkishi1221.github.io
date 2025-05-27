@@ -28,5 +28,17 @@
   @media only screen and (max-width: $mobile) {
     grid-template-columns: 1fr;
     grid-gap: 15px;
+    
+    img {
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
   }
+}
+
+/* Zoom overrides - let the zoom library handle positioning */
+.zoom-img {
+  object-fit: contain !important;
+  max-width: 90vw !important;
+  max-height: 90vh !important;
 }

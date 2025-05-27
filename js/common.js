@@ -109,6 +109,39 @@ $(document).ready(function() {
   ======================= */
   $(".page img, .post img").attr("data-action", "zoom");
   $(".page a img, .post a img").removeAttr("data-action", "zoom");
+  
+  // Custom zoom that keeps original image in grid
+  $('[data-action="zoom"]').on('click', function(e) {
+    e.preventDefault();
+    var $originalImg = $(this);
+    
+    // Don't zoom if already zoomed
+    if ($('.zoom-overlay-custom').length > 0) return;
+    
+    // Create overlay
+    var $overlay = $('<div class="zoom-overlay-custom"></div>');
+    
+    // Create zoomed image (duplicate)
+    var $zoomedImg = $originalImg.clone();
+    $zoomedImg.removeClass().addClass('zoom-img-custom');
+    
+    // Add to overlay
+    $overlay.append($zoomedImg);
+    $('body').append($overlay);
+    
+    // Trigger animation
+    setTimeout(function() {
+      $overlay.addClass('active');
+    }, 10);
+    
+    // Close on click
+    $overlay.on('click', function() {
+      $overlay.removeClass('active');
+      setTimeout(function() {
+        $overlay.remove();
+      }, 200);
+    });
+  });
 
 
   /* =======================
