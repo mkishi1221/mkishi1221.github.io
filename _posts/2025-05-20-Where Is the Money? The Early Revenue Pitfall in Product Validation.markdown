@@ -7,13 +7,9 @@ image:  '/images/revenue.jpg'
 tags:   [mindset, validation, learnings]
 ---
 
-When a user pays you, it feels like a breakthrough. You’ve validated your MVP. You’re onto something real.
+When a user pays us, it feels like a breakthrough. We've validated our MVP. We’re onto something real. Except… maybe not.
 
-Except… maybe not.
-
-In early product development, revenue is often treated as the gold standard for validation. It’s easy to see a Stripe notification and assume you've crossed a meaningful threshold—that now it’s time to scale, hire, or raise. But money, especially in the early stages, is a noisy signal. It can mask deeper flaws in the model and lull you into a false sense of product-market fit.
-
-I learned this the hard way.
+In early product development, revenue is often treated as the gold standard for validation. It’s easy to see a Stripe notification and assume we've crossed a meaningful threshold—that now it’s time to scale, hire, or raise. But money, especially in the early stages, is a noisy signal. It can mask deeper flaws in the model and lull us into a false sense of product-market fit. I learned this the hard way.
 
 ## Domainsmith: A Signal Without a System
 
@@ -29,7 +25,7 @@ In hindsight, we’d validated a moment of need, not an ongoing one. Acquisition
 
 It’s tempting to treat early revenue as proof of demand. But in reality, it can be a vanity metric if it’s not attached to a repeatable customer journey or a scalable distribution path.
 
-Money changes how users behave. Early adopters are often forgiving, curious, or just willing to experiment. They might pay for novelty, to support you, or because they don’t have a better alternative yet. That doesn’t mean you’ve built something they’ll stick with—or that the next 1,000 customers will behave the same. Early success should raise new questions, not silence them:
+I've found that money changes how users behave. Early adopters are often forgiving, curious, or just willing to experiment. They might pay for novelty, to support us, or because they don’t have a better alternative yet. That doesn’t mean we’ve built something they’ll stick with—or that the next 1,000 customers will behave the same. Early success should raise new questions, not silence them:
 
 - Will users come back without hand-holding?
 - Can this scale without manual intervention?
