@@ -25,7 +25,7 @@
 .page-image {
   position: relative;
   height: 290px;
-  margin-bottom: 68px;
+  margin-bottom: 24px;
   border-radius: 2px;
   overflow: hidden;
 
@@ -38,6 +38,7 @@
     object-fit: cover;
     user-select: none;
     background-color: var(--text-color);
+    margin: 0;
   }
   
   @media only screen and (max-width: $desktop) {
@@ -57,14 +58,14 @@
 
 .post__info,
 .page__info {
-  margin-bottom: 48px;
+  margin: 48px 0;
 
   @media only screen and (max-width: $desktop) {
-    margin-bottom: 40px;
+    margin: 40px 0;
   }
 
   @media only screen and (max-width: $mobile) {
-    margin-bottom: 32px;
+    margin: 32px 0;
   }
 }
 
