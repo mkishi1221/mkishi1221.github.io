@@ -203,10 +203,10 @@
 .nav__list {
   .nav__item {
     display: inline-block;
-    margin-right: 36px;
+    margin-left: 36px;
     margin-bottom: 0;
-    &:last-child {
-      margin-right: 44px;
+    &:first-child {
+      margin-left: 0;
     }
 
     .nav__link {
@@ -229,6 +229,7 @@
   font-size: 21px;
   color: var(--link-color);
   cursor: pointer;
+  margin-left: -30px;
 
   .nav__icon {
     transition: $global-transition;
