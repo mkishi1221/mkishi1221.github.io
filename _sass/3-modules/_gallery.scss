@@ -1,6 +1,6 @@
 /* Gallery */
 .gallery-box {
-  margin: 40px 0;
+  margin: 15px 0 40px 0;
 }
 
 .gallery {
@@ -8,7 +8,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-content: center;
-  grid-gap: 10px;
+  grid-gap: 15px;
 
   img {
     position: relative;
@@ -17,12 +17,24 @@
     object-fit: cover;
     object-position: center;
     background: var(--background-color);
-    margin-bottom: 20px;
+    margin: 0;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    img {
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
   }
 
   @media only screen and (max-width: $tablet) {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-gap: 15px;
+    
+    img {
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
   }
 
   @media only screen and (max-width: $mobile) {
