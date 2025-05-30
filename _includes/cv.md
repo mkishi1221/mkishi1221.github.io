@@ -1,20 +1,19 @@
+# Here's a TL;DR on my career:
 
-# Here’s a TL;DR on my career:
-
-I'm a product designer turned product manager and developer. I’ve led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
+I'm a product designer turned product manager and developer. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
 
 - **I bring hands-on experience** in product design, development, and team leadership, having guided products from early validation through to launch. I use fast, low-cost testing with customers, to uncover user needs, evaluate technical feasibility, and keep efforts aligned with business goals.
-- **I thrive on shaping complex, multidisciplinary products** that require both technical depth and design sensibility. From machine translation to 3D visualization, I shift gears easily and can contribute across a wide range of engineering and design challenges.
+- **I thrive on shaping complex, multidisciplinary products** that require both technical depth and design sensibility. From machine translation to 3D visualisation, I shift gears easily and can contribute across a wide range of engineering and design challenges.
 - **I care deeply about creating inclusive teams** where people feel safe, supported, and empowered. That starts with understanding how individuals work, what they need, and how to help them grow together.
 
 # How I work:
 
-Before diving into my work history, here’s a snapshot of the areas I specialise in and the environments where I do my best work.
+Before diving into my work history, here's a snapshot of the areas I specialise in and the environments where I do my best work.
 
 - **Product management:** Leading and uncovering key information that drives product strategy. I've worked closely with teams, stakeholders, and customers to uncover user needs, validate assumptions, understand technical feasibility and inform strategic decisions.
 - **Team management and development process design:** Leading day-to-day execution needed to turn strategy into results. Aligning user, business, and technical needs to create clear, well-informed PRDs and technical briefs. Managing innovation through frequent, incremental improvements informed by testing, feedback, and validation.
-- **Knowledge management:** Guiding teams to maintain clear documentation, shared resources, and processes that help teams onboard quickly, collaborate effectively, and retain critical knowledge. I’ve also managed product knowledge by writing and maintaining support articles on Intercom for both customers and external stakeholders.
-- **Software Engineering:** I bring hands-on experience in coding with Python and JavaScript, along with cloud platforms like AWS. I actively contribute to GitHub code reviews, and help manage infrastructure and deployments. My background spans UI/UX design, product marketing, and applied data science, and I’m comfortable stepping into different roles to deliver results.
+- **Knowledge management:** Guiding teams to maintain clear documentation, shared resources, and processes that help teams onboard quickly, collaborate effectively, and retain critical knowledge. I've also managed product knowledge by writing and maintaining support articles on Intercom for both customers and external stakeholders.
+- **Software Engineering:** I bring hands-on experience in coding with Python and JavaScript, along with cloud platforms like AWS. I actively contribute to GitHub code reviews, and help manage infrastructure and deployments. My background spans UI/UX design, product marketing, and applied data science, and I'm comfortable stepping into different roles to deliver results.
 
 If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. Now, onto the details.
 
@@ -44,7 +43,7 @@ I also represented Amutri at the [Cornwall Angel Network launch](https://www.bus
 ![Cornwall Angel Network launch]({{site.baseurl}}/images/cornwall_launch.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by British Business Bank*
 
-Also had the opportunity to speak at Hertizian’s AI Summit, where I highlighted how Amutri’s real-time 3D visualization capabilities support sales enablement and strengthen stakeholder engagement in complex, technical industries.
+Also had the opportunity to speak at Hertizian's AI Summit, where I highlighted how Amutri's real-time 3D visualisation capabilities support sales enablement and strengthen stakeholder engagement in complex, technical industries.
 
 ![Hertzian AI Summit]({{site.baseurl}}/images/hertzian_ai.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by Amutri*
@@ -53,7 +52,7 @@ Also had the opportunity to speak at Hertizian’s AI Summit, where I highlighte
 
 Joined Amutri in its early startup phase and shaped product strategy. Onboarded early adopters and directly contributed to securing grants and pre-seed funding.
 
-- Designed the UI/UX of Amutri’s cloud 3D rendering platform.
+- Designed the UI/UX of Amutri's cloud 3D rendering platform.
 - Ran 30 + research sessions with architects, 3D visualisers, and universities to refine user journeys and set product direction.
 - Built an automation tool that filled missing user information from email domains, cutting weekly processing time from about three hours to ten seconds.
 - Secured Letters of Intent from prospective customers, hitting key investor milestones.
@@ -68,7 +67,7 @@ Selected for Falmouth University's fully funded startup incubator, I co-founded 
 
 - Launched a working MVP within 24 hours of funding using no-code tools to rapidly validate the idea.
 - Secured partnerships with 20+ venues and listed 40+ spaces within 3 months.
-- Conducted 40+ user feedback sessions and implemented A/B tests using Figma to refine the platform’s UIUX.
+- Conducted 40+ user feedback sessions and implemented A/B tests using Figma to refine the platform's UIUX.
 
 Here are some snapshots of the homepage and the booking platform.
 
@@ -123,7 +122,7 @@ I designed products and managed operations for a boutique design studio in Tokyo
 - Created client presentations to communicate design concepts and proposals.
 - Used rapid prototyping methods to test and validate early-stage concepts.
 - Managed the studio's social media and hosted multilingual networking events on Meetup.
-- Managed the studio’s office relocation, including contract negotiation, tenancy review, and vendor coordination.
+- Managed the studio's office relocation, including contract negotiation, tenancy review, and vendor coordination.
 
 # New Age Sapphire Technical Services LLC (September 2014 - March 2016)
 
@@ -138,9 +137,9 @@ Founded a Dubai-based interior design and construction firm during a two-year ac
 
 # Education
 
-**Brunel University: Product Design BSc. with Honors (2011 - 2017)** A four year design course with an emphasis on prototyping. Includes 1 year placement in industry. Took 2 gap years to work on a startup in Dubai from 2014-2016.
+**Brunel University: Product Design BSc. with Honours (2011 - 2017)** A four year design course with an emphasis on prototyping. Includes 1 year placement in industry. Took 2 gap years to work on a startup in Dubai from 2014-2016.
 
-**Falmouth University Entrepreneurship MSc (2022 - 2023)** A fully funded, one-year master's program focused on building a new startup in Cornwall.
+**Falmouth University Entrepreneurship MSc (2022 - 2023)** A fully funded, one-year master's programme focused on building a new startup in Cornwall.
 
 # Dev Certifications
 

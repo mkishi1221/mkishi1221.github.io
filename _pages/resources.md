@@ -27,7 +27,7 @@ A template for product planning, including sections for stakeholders, opportunit
 
 A template for writing feature specifications, covering summaries, proposals, scope, edge cases, and appendices.
 
-![Feature specfication]({{site.baseurl}}/images/feature-specfication.png)
+![Feature Specification]({{site.baseurl}}/images/feature-specfication.png)
 
 ***
 
@@ -55,7 +55,7 @@ A checklist-based pull request template for larger or long-lived feature branche
 
 ## [Bug Report Template <i class="ion ion-md-arrow-round-forward"></i>](https://github.com/mkishi1221/dev-resources/blob/main/bug-report-template.md)
 
-A template for reporting bugs, including fields for expected vs actual behavior, steps to reproduce, and environment details.
+A template for reporting bugs, including fields for expected vs actual behaviour, steps to reproduce, and environment details.
 
 ![Bug Report Template]({{site.baseurl}}/images/Bug-fix-template.png)
 
