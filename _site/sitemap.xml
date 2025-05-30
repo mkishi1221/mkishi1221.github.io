@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/Blast-from-the-past-exhibiting-at-Made-in-Brunel</loc>
+<loc>http://localhost:4000/Blast-from-the-past-exhibiting-at-Made-in-Brunel-copy</loc>
 <lastmod>2025-05-09T09:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/Building-product-in-debit-not-credit</loc>
 <lastmod>2025-05-13T07:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/A-Project-on-Shared-Meals-and-Family-Bonds</loc>
+<lastmod>2025-05-17T09:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/Where-Is-the-Money-The-Early-Revenue-Pitfall-in-Product-Validation</loc>
