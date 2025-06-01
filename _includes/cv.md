@@ -1,3 +1,4 @@
+
 # Here's a TL;DR on my career:
 
 I'm a product designer turned product manager and developer. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
