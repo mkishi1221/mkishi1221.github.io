@@ -26,7 +26,7 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/resources/</loc>
+<loc>http://localhost:4000/toolkits/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tag/design</loc>

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Resources
-permalink: /resources/
+title: Toolkits
+permalink: /toolkits/
 image: '/images/road.jpg'
 ---
 
 This page brings together a set of practical templates and guides I've used to support product management and development work. They're intended to make things a bit easier, whether you're outlining a roadmap, writing a spec, or reviewing a release.
 
-All resources are in Markdown format, so you can copy them directly into Notion, documentation tools, or Pull Request descriptions without needing to adjust formatting.
+All toolkits are in Markdown format, so you can copy them directly into Notion, documentation tools, or Pull Request descriptions without needing to adjust formatting.
 
-# PM Resources
+# PM Toolkits
 
 Templates and guides to help with planning, documenting, and communicating product work clearly and consistently. They've helped me write specs faster, think more clearly during planning, and communicate better with stakeholders.
 
@@ -31,7 +31,7 @@ A template for writing feature specifications, covering summaries, proposals, sc
 
 ***
 
-# Development Resources
+# Development Toolkits
 
 Templates to support common engineering workflows like pull requests, releases, and bug reporting. These have helped me keep work consistent across the team, reduce back-and-forth in code reviews, and make handoffs smoother.
 
