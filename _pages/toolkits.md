@@ -5,9 +5,7 @@ permalink: /toolkits/
 image: '/images/road.jpg'
 ---
 
-This page brings together a set of practical templates and guides I've used to support product management and development work. They're intended to make things a bit easier, whether you're outlining a roadmap, writing a spec, or reviewing a release.
-
-All toolkits are in Markdown format, so you can copy them directly into Notion, documentation tools, or Pull Request descriptions without needing to adjust formatting.
+This page brings together a set of practical templates and guides I've used to support product management and development work. They're intended to make things a bit easier, whether you're outlining a roadmap, writing a spec, or reviewing a new product release.
 
 # PM Toolkits
 
