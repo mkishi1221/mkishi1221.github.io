@@ -22,7 +22,7 @@ If you'd like to learn more or discuss working together, feel free to [drop me a
 
 # Amutri (November 2022 – Current)
 
-## Product Manager (October 2023 – Current)
+## Product Manager (October 2023 – Current) <span class="chip">Remote</span>
 
 Amutri transforms complex CAD files into interactive 3D presentations in seconds — making CAD data accessible, shareable, and presentation-ready across entire organisations.
 
@@ -49,7 +49,7 @@ Also had the opportunity to speak at Hertizian's AI Summit, where I highlighted 
 ![Hertzian AI Summit]({{site.baseurl}}/images/hertzian_ai.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by Amutri*
 
-## Product Support Consultant (November 2022 – September 2023)
+## Product Support Consultant (November 2022 – September 2023) <span class="chip">Remote</span>
 
 Joined Amutri in its early startup phase and shaped product strategy. Onboarded early adopters and directly contributed to securing grants and pre-seed funding.
 
@@ -62,7 +62,7 @@ Joined the team formally as Product Manager on the strength of this work and was
 
 # SpaceforU (September 2022 – September 2023)
 
-## Co founder and Product Lead
+## Co founder and Product Lead <span class="chip">Hybrid</span>
 
 Selected for Falmouth University's fully funded startup incubator, I co-founded and led the product development of SpaceforU, a peer-to-peer marketplace for venue hire across Cornwall and Devon.
 
@@ -80,7 +80,7 @@ SpaceforU was [featured in a Falmouth University article](https://www.falmouth.a
 
 # Domainsmith (November 2021 – September 2022)
 
-## Co-founder and Product Lead
+## Co-founder and Product Lead <span class="chip">Remote</span>
 
 Developed an NLP-powered platform to help brand designers and entrepreneurs quickly discover high-quality, available domain names.
 
@@ -95,9 +95,11 @@ Below are some snapshots of the user interface.
 
 ![Domainsmith UI]({{site.baseurl}}/images/ui_example_domainsmith.png){: style="width: 80%; display: block; margin: 0 auto; border-radius: 10px;"}
 
+(Currently paused)
+
 # Cistate Solutions Inc. (March 2019 - July 2021)
 
-## Language Analyst and Product Designer (July 2020 - July 2021)
+## Language Analyst and Product Designer (July 2020 - July 2021) <span class="chip">Remote</span>
 
 Held a customer-facing role at a machine translation consultancy focused on industry-specific solutions, combining language expertise with design to deliver practical, cost-saving solutions.
 
@@ -106,7 +108,7 @@ Held a customer-facing role at a machine translation consultancy focused on indu
 - Designed content management solutions for a top-tier Japanese game developer.
 - Developed data extraction algorithms to reduce miscommunications in automotive customer service operations.
 
-## Language Analyst (March 2019 - July 2020)
+## Language Analyst (March 2019 - July 2020) <span class="chip">Hybrid</span>
 
 Joined as a language analyst focused on translation quality and team management.
 
@@ -114,9 +116,28 @@ Joined as a language analyst focused on translation quality and team management.
 - Guided and coached new hires, helping them become fully independent within three months.
 - Hired and managed a team of 30+ evaluators on Upwork, overseeing multilingual machine translation analysis.
 
+# mk design (September 2011 - July 2021)
+
+## Product Designer <span class="chip">Freelance</span>
+
+I took on a variety of projects spanning product design, interior design, UI/UX, and graphic design. Notably, I designed:
+
+- Interiors for a restaurant in Business Bay, Dubai.
+- Interiors for HMOs in East England.
+- Corporate identity for a property investment company in East England.
+- Corporate identity for a digital marketing consultancy based in the UK.
+- UIUX of a menu translation startup in Tokyo, Japan.
+
+I also conducted workshops to:
+- Design a puzzle toy in collaboration with London School of Economics.
+- Design a portable burger kiosk that can be transported in a container in Alexandria, Egypt.
+- Design a consumer-friendly drone powered by a smartphone in London.
+
+(Currently paused)
+
 # Giovanni Pellone Design (November 2017 - August 2018)
 
-## Product Designer
+## Product Designer <span class="chip">On-site</span>
 
 I designed products and managed operations for a boutique design studio in Tokyo.
 
@@ -127,7 +148,7 @@ I designed products and managed operations for a boutique design studio in Tokyo
 
 # New Age Sapphire Technical Services LLC (September 2014 - March 2016)
 
-## Founder, Lead Interior Designer
+## Founder, Lead Interior Designer <span class="chip">On-site</span>
 
 Founded a Dubai-based interior design and construction firm during a two-year academic break from Brunel University.
 
