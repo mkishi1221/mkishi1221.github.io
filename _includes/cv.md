@@ -3,9 +3,9 @@
 
 I’m a product leader with a background in design and software development. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
 
-- **I bring hands-on experience** across design, development, and team leadership. I’ve launched products as a founder and led early-stage initiatives that secured six-figure pilots with enterprise customers — translating insights into revenue-generating outcomes.
+- **I’ve launched products as a founder and led early-stage products** that secured six-figure pilots with enterprise customers. I bring hands-on experience across design, development, and team leadership, translating early insights into revenue.
 - **I thrive on shaping complex, cross-disciplinary products** that combine technical depth with design clarity. From AI-driven tools to 3D visualisation platforms, I adapt quickly and work across engineering, UX, and business to deliver product-market fit.
-- **I’m a versatile contributor who can fill gaps across lean teams** I can code (Python and JavaScript), review PRs on Github, design UI/UX, write content, produce video demos, and run marketing campaigns. I've helped teams stay unblocked and keep delivery on track.
+- **I’m a versatile contributor who can help teams stay unblocked:** I can code (Python and JavaScript), review PRs on Github, design UI/UX, write content, produce video demos, and run marketing campaigns. I’ve filled gaps in lean teams and helped keep delivery on track.
 - **I care deeply about creating inclusive teams** where people feel safe, supported, and empowered. I’ve supported team growth by fostering clear communication, collaborative decision-making, and space for personal development.
 
 # How I work:
@@ -16,6 +16,7 @@ Before diving into my work history, here’s what I bring to a team and where I 
 - **Day-to-Day Team Execution:** I work with developers, designers, and executives to write PRDs, manage scope, and unblock teams. My focus on clear priorities and fast iteration has helped reduce time-to-market and improve delivery consistency.
 - **Customer Management:** I’ve run demos, led onboarding, and handled enterprise support. I’m often the first line of support for resolving technical issues that impact delivery or sales opportunities.
 - **Knowledge management:** I built knowledge bases that sped up onboarding, streamlined handovers, and cut support requests through clear, accessible content.
+- **Funding and Grant Support:** I’ve helped secure early-stage capital and grant funding by writing technical parts of applications and using my network to win Letters of Intent and bring in early adopters.
 
 If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. Now, onto the details.
 
