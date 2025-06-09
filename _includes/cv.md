@@ -3,18 +3,19 @@
 
 I'm a product designer turned product manager and developer. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
 
-- **I bring hands-on experience** in product design, development, and team leadership, having guided products from early validation through to launch. I use fast, low-cost testing with customers, to uncover user needs, evaluate technical feasibility, and keep efforts aligned with business goals.
-- **I thrive on shaping complex, multidisciplinary products** that require both technical depth and design sensibility. From machine translation to 3D visualisation, I shift gears easily and can contribute across a wide range of engineering and design challenges.
+- **I bring hands-on experience** in product design, development, and team leadership, having guided products from early validation through to launch. I use fast, low-cost testing with customers to uncover user needs, evaluate technical feasibility, and keep efforts aligned with business goals.
+- **I thrive on shaping complex, multidisciplinary products** that require both technical depth and design sensibility. From machine translation to 3D visualisation, I easily shift gears and work cross-functionally to contribute across a wide range of engineering and design challenges.
 - **I care deeply about creating inclusive teams** where people feel safe, supported, and empowered. That starts with understanding how individuals work, what they need, and how to help them grow together.
 
-# How I work:
+# How I contribute:
 
-Before diving into my work history, here's a snapshot of the areas I specialise in and the environments where I do my best work.
+Before diving into my work history, here's a snapshot of the areas I specialise in and where I do my best work.
 
-- **Product management:** Leading and uncovering key information that drives product strategy. I've worked closely with teams, stakeholders, and customers to uncover user needs, validate assumptions, understand technical feasibility and inform strategic decisions.
-- **Team management and development process design:** Leading day-to-day execution needed to turn strategy into results. Aligning user, business, and technical needs to create clear, well-informed PRDs and technical briefs. Managing innovation through frequent, incremental improvements informed by testing, feedback, and validation.
-- **Knowledge management:** Guiding teams to maintain clear documentation, shared resources, and processes that help teams onboard quickly, collaborate effectively, and retain critical knowledge. I've also managed product knowledge by writing and maintaining support articles on Intercom for both customers and external stakeholders.
-- **Software Engineering:** I bring hands-on experience in coding with Python and JavaScript, along with cloud platforms like AWS. I actively contribute to GitHub code reviews, and help manage infrastructure and deployments. My background spans UI/UX design, product marketing, and applied data science, and I'm comfortable stepping into different roles to deliver results.
+- **End-to-End Product Delivery:** I have a proven track record of leading early-stage products from idea to launch. I’ve taken full ownership of the product journey by turning strategy into clear plans, setting priorities, and keeping teams aligned to deliver results.
+- **Day-to-Day Team Execution:** I’ve owned delivery by working with working with C-level stakeholders and developers to write clear PRDs, set realistic goals, managing technical debt and guiding teams through focused, incremental work. I’ve helped teams ship features faster and stay aligned on priorities.
+- **Customer Management:** I’ve worked closely with customers to validate needs, gather feedback, and translate insights into product improvements that drive revenue. I’ve led demos, managed support conversations, and built strong relationships with customers.
+- **Knowledge management:** I’ve written documentation and support content to help users get value quickly. I’ve maintained product knowledge across Notion and Intercom, making it easier for customers and internal teams to find answers, understand features, and stay up to date.
+- **Software Engineering & Product Delivery:** I’m a versatile contributor who can code, design UI/UX, write content, create videos and shape product messaging with equal confidence. I regularly review code on GitHub, write pull requests using Python and JavaScript, and troubleshoot issues on AWS. I’ve bridged gaps across engineering, design, and marketing to help launch products at pace.
 
 If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. Now, onto the details.
 
@@ -129,6 +130,7 @@ I took on a variety of projects spanning product design, interior design, UI/UX,
 - UIUX of a menu translation startup in Tokyo, Japan.
 
 I also conducted workshops to:
+
 - Design a puzzle toy in collaboration with London School of Economics.
 - Design a portable burger kiosk that can be transported in a container in Alexandria, Egypt.
 - Design a consumer-friendly drone powered by a smartphone in London.
