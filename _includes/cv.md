@@ -16,7 +16,7 @@ Before diving into my work history, here’s what I bring to a team and where I 
 - **Day-to-Day Team Execution:** I work with developers, designers, and executives to write PRDs, manage scope, and unblock teams. My focus on clear priorities and fast iteration has helped reduce time-to-market and improve delivery consistency.
 - **Customer Management:** I’ve run demos, led onboarding, and handled enterprise support. I’m often the first line of support for resolving technical issues that impact delivery or sales opportunities.
 - **Knowledge management:** I built knowledge bases that sped up onboarding, streamlined handovers, and cut support requests through clear, accessible content.
-- **Funding and Grant Support:** I’ve helped secure early-stage capital and grant funding by writing technical parts of applications and using my network to win Letters of Intent and bring in early adopters.
+- **Funding and Grant Support:** I’ve helped secure early-stage capital and grant funding by writing applications and using my network to win Letters of Intent and bring in early adopters.
 
 If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. Now, onto the details.
 
