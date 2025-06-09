@@ -1,21 +1,21 @@
 
 # Here's a TL;DR on my career:
 
-I'm a product designer turned product manager and developer. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
+I’m a product leader with a background in design and software development. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
 
-- **I bring hands-on experience** in product design, development, and team leadership, having guided products from early validation through to launch. I use fast, low-cost testing with customers to uncover user needs, evaluate technical feasibility, and keep efforts aligned with business goals.
-- **I thrive on shaping complex, multidisciplinary products** that require both technical depth and design sensibility. From machine translation to 3D visualisation, I easily shift gears and work cross-functionally to contribute across a wide range of engineering and design challenges.
-- **I care deeply about creating inclusive teams** where people feel safe, supported, and empowered. That starts with understanding how individuals work, what they need, and how to help them grow together.
+- **I bring hands-on experience** across design, development, and team leadership. I’ve launched products as a founder and led early-stage initiatives that secured six-figure pilots with enterprise customers — translating insights into revenue-generating outcomes.
+- **I thrive on shaping complex, cross-disciplinary products** that combine technical depth with design clarity. From AI-driven tools to 3D visualisation platforms, I adapt quickly and work across engineering, UX, and business to deliver product-market fit.
+- **I’m a versatile contributor who can fill gaps across lean teams** I can code (Python and JavaScript), review PRs on Github, design UI/UX, write content, produce video demos, and run marketing campaigns. I've helped teams stay unblocked and keep delivery on track.
+- **I care deeply about creating inclusive teams** where people feel safe, supported, and empowered. I’ve supported team growth by fostering clear communication, collaborative decision-making, and space for personal development.
 
-# How I contribute:
+# How I work:
 
-Before diving into my work history, here's a snapshot of the areas I specialise in and where I do my best work.
+Before diving into my work history, here’s what I bring to a team and where I do my best work.
 
-- **End-to-End Product Delivery:** I have a proven track record of leading early-stage products from idea to launch. I’ve taken full ownership of the product journey by turning strategy into clear plans, setting priorities, and keeping teams aligned to deliver results.
-- **Day-to-Day Team Execution:** I’ve owned delivery by working with working with C-level stakeholders and developers to write clear PRDs, set realistic goals, managing technical debt and guiding teams through focused, incremental work. I’ve helped teams ship features faster and stay aligned on priorities.
-- **Customer Management:** I’ve worked closely with customers to validate needs, gather feedback, and translate insights into product improvements that drive revenue. I’ve led demos, managed support conversations, and built strong relationships with customers.
-- **Knowledge management:** I’ve written documentation and support content to help users get value quickly. I’ve maintained product knowledge across Notion and Intercom, making it easier for customers and internal teams to find answers, understand features, and stay up to date.
-- **Software Engineering & Product Delivery:** I’m a versatile contributor who can code, design UI/UX, write content, create videos and shape product messaging with equal confidence. I regularly review code on GitHub, write pull requests using Python and JavaScript, and troubleshoot issues on AWS. I’ve bridged gaps across engineering, design, and marketing to help launch products at pace.
+- **End-to-End Product Delivery:** I’ve led new products from concept to launch — turning strategy into execution and driving revenue. I’ve helped teams land six-figure enterprise deals, launch MVPs in 24 hours, and iterate based on real customer feedback.
+- **Day-to-Day Team Execution:** I work with developers, designers, and executives to write PRDs, manage scope, and unblock teams. My focus on clear priorities and fast iteration has helped reduce time-to-market and improve delivery consistency.
+- **Customer Management:** I’ve run demos, led onboarding, and handled enterprise support. I’m often the first line of support for resolving technical issues that impact delivery or sales opportunities.
+- **Knowledge management:** I built knowledge bases that sped up onboarding, streamlined handovers, and cut support requests through clear, accessible content.
 
 If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. Now, onto the details.
 
