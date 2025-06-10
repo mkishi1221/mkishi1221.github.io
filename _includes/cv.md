@@ -174,6 +174,8 @@ Founded a Dubai-based interior design and construction firm during a two-year ac
 
 **Brunel University: Product Design BSc. with Honours (2011 - 2017)** A four year design course with an emphasis on prototyping. Includes 1 year placement in industry. Took 2 gap years to work on a startup in Dubai from 2014-2016.
 
+My final year project was showcased at Made In Brunel and exhibited at the Bargehouse, near the OXO Tower. [Read more about the project here.](https://masayukikishi.com/Blast-from-the-past-exhibiting-at-Made-in-Brunel){: .cv_link target="_blank" }
+
 # Dev Certifications
 
 I've completed a range of dev courses across data science, web development, and backend technologies—and work to keep these skills up to date—including Machine Learning via Kaggle, Digital Marketing via Google, and several Codecademy and Udemy courses covering MongoDB, React, Vue.js, Go, Python, JavaScript, TypeScript, FastAPI and more.

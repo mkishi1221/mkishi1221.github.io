@@ -2,7 +2,7 @@
 layout: post
 title:  Blast from the past - Designing Togetherness
 description: A reflection on my past project from June 2016 exploring how everyday rituals can bring people closer.
-date:   2025-05-17 11:00:00 +0300
+date:   2025-05-08 11:00:00 +0300
 image:  '/images/efflorescence/efflorescence_banner.jpg'
 tags:   [design, product, blast-from-the-past]
 ---
