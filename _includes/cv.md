@@ -46,7 +46,11 @@ I also represented Amutri at the [Cornwall Angel Network launch](https://www.bus
 ![Cornwall Angel Network launch]({{site.baseurl}}/images/cornwall_launch.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by British Business Bank*
 
-Also had the opportunity to speak at Hertizian's AI Summit, where I highlighted how Amutri's real-time 3D visualisation capabilities support sales enablement and strengthen stakeholder engagement in complex, technical industries.
+I’ve also spoken at the following events:
+
+- **Hertzian's AI Summit:** Presented how Amutri’s real-time 3D visualisation supports sales enablement and strengthens stakeholder engagement in complex technical industries.
+- **MLOps London:** Spoke on the integration of AI within 3D visualisation technology and its evolving role in design workflows.
+- **Cranfield University (Airport Design module):** Led workshops demonstrating the practical use of visualisation tools in infrastructure and airport planning.
 
 ![Hertzian AI Summit]({{site.baseurl}}/images/hertzian_ai.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by Amutri*
@@ -79,6 +83,10 @@ Here are some snapshots of the homepage and the booking platform.
 ![SpaceforU Booking]({{site.baseurl}}/images/SpaceforU_Booking.png){: style="width: 80%; display: block; margin: 0 auto;"}
 
 SpaceforU was [featured in a Falmouth University article](https://www.falmouth.ac.uk/launchpad/news/entrepreneur-stories-spaceforu){: .cv_link target="_blank" } highlighting regional innovation and early-stage entrepreneurship.
+
+I was also invited to speak as a panelist on artificial intelligence at a Global Plymouth event hosted at the University of Plymouth. Participated in a multidisciplinary discussion exploring the future of AI, its societal impact, and practical applications across industries.
+
+![Global Plymouth event]({{site.baseurl}}/images/highres_514784802.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
 
 # Domainsmith (November 2021 – September 2022)
 
@@ -162,9 +170,9 @@ Founded a Dubai-based interior design and construction firm during a two-year ac
 
 # Education
 
-**Brunel University: Product Design BSc. with Honours (2011 - 2017)** A four year design course with an emphasis on prototyping. Includes 1 year placement in industry. Took 2 gap years to work on a startup in Dubai from 2014-2016.
-
 **Falmouth University Entrepreneurship MSc (2022 - 2023)** A fully funded, one-year master's programme focused on building a new startup in Cornwall.
+
+**Brunel University: Product Design BSc. with Honours (2011 - 2017)** A four year design course with an emphasis on prototyping. Includes 1 year placement in industry. Took 2 gap years to work on a startup in Dubai from 2014-2016.
 
 # Dev Certifications
 
