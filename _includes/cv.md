@@ -12,7 +12,7 @@ I’m a product leader with a background in design and software development. I'v
 
 Before diving into my work history, here’s what I bring to a team and where I do my best work.
 
-- **End-to-End Product Delivery:** I’ve led new products from concept to launch — turning strategy into execution and driving revenue. I’ve helped teams land six-figure enterprise deals, launch MVPs in 24 hours, and iterate based on real customer feedback.
+- **End-to-End Product Delivery:** I’ve led new products from concept to launch, turning strategy into execution and driving revenue. I’ve helped teams land six-figure enterprise deals, launch MVPs in 24 hours, and iterate based on real customer feedback.
 - **Day-to-Day Team Execution:** I work with developers, designers, and executives to write PRDs, manage scope, and unblock teams. My focus on clear priorities and fast iteration has helped reduce time-to-market and improve delivery consistency.
 - **Customer Management:** I’ve run demos, led onboarding, and handled enterprise support. I’m often the first line of support for resolving technical issues that impact delivery or sales opportunities.
 - **Knowledge management:** I built knowledge bases that sped up onboarding, streamlined handovers, and cut support requests through clear, accessible content.
@@ -26,7 +26,7 @@ If you'd like to learn more or discuss working together, feel free to [drop me a
 
 ## Product Manager (October 2023 – Current) <span class="chip">Remote</span>
 
-Amutri transforms complex CAD files into interactive 3D presentations in seconds — making CAD data accessible, shareable, and presentation-ready across entire organisations.
+Amutri transforms complex CAD files into interactive 3D presentations in seconds, making CAD data accessible, shareable, and presentation-ready across entire organisations.
 
 Here's a short video of the product:
 
@@ -41,7 +41,7 @@ I'm responsible for:
 
 Most recently we delivered Secure Sharing and Guided Tours, unlocking a six-figure enterprise pilot.
 
-I also represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University — a press-covered event highlighting regional tech innovation.
+I also represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University, a press-covered event showcasing regional tech innovation.
 
 ![Cornwall Angel Network launch]({{site.baseurl}}/images/cornwall_launch.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
 *Photo by British Business Bank*
@@ -184,7 +184,7 @@ My final year project was showcased at Made In Brunel and exhibited at the Barge
 
 # Dev Certifications
 
-I've completed a range of dev courses across data science, web development, and backend technologies—and work to keep these skills up to date—including Machine Learning via Kaggle, Digital Marketing via Google, and several Codecademy and Udemy courses covering MongoDB, React, Vue.js, Go, Python, JavaScript, TypeScript, FastAPI and more.
+I’ve completed development courses across data science, web development, and backend technologies, applying these skills to ship products faster and contribute across the stack. I stay current through platforms like Kaggle (Machine Learning), Google (Digital Marketing), Codecademy, and Udemy, with training in MongoDB, React, Vue.js, Go, Python, JavaScript, TypeScript, and FastAPI.
 
 - **Learn MongoDB Course** (Codecademy)
 - **Learn React Course** (Codecademy)
