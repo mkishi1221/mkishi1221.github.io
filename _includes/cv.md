@@ -172,9 +172,15 @@ Founded a Dubai-based interior design and construction firm during a two-year ac
 
 **Falmouth University Entrepreneurship MSc (2022 - 2023)** A fully funded, one-year master's programme focused on building a new startup in Cornwall.
 
-**Brunel University: Product Design BSc. with Honours (2011 - 2017)** A four year design course with an emphasis on prototyping. Includes 1 year placement in industry. Took 2 gap years to work on a startup in Dubai from 2014-2016.
+**Brunel University: Product Design BSc. with Honours (2011 - 2017)** A four year design course with an emphasis on prototyping. Includes 1 year placement in industry. Took 2 gap years to work on a startup in Dubai from 2014-2016. 
 
 My final year project was showcased at Made In Brunel and exhibited at the Bargehouse, near the OXO Tower. [Read more about the project here.](https://masayukikishi.com/Blast-from-the-past-exhibiting-at-Made-in-Brunel){: .cv_link target="_blank" }
+
+![Made In Brunel]({{site.baseurl}}/images/Comp/comp_1.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
+
+![Made In Brunel]({{site.baseurl}}/images/Comp/comp_7.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
+
+
 
 # Dev Certifications
 
