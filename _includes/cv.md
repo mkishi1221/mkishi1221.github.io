@@ -3,7 +3,7 @@
 
 I’m a product leader with a background in design and software development. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
 
-- **I’ve launched products as a founder and led early-stage products** that secured six-figure pilots with enterprise customers. I bring hands-on experience across design, development, and team leadership, translating early insights into revenue.
+- **I’ve launched products as a founder and led early-stage products** adopted by enterprise customers. I bring hands-on experience across design, development, and team leadership, translating early insights into commercial success.
 - **I thrive on shaping complex, cross-disciplinary products** that combine technical depth with design clarity. From AI-driven tools to 3D visualisation platforms, I adapt quickly and work across engineering, UX, and business to deliver product-market fit.
 - **I’m a versatile contributor who can help teams stay unblocked:** I can code (Python and JavaScript), review PRs on Github, design UI/UX, write content, produce video demos, and run marketing campaigns. I’ve filled gaps in lean teams and helped keep delivery on track.
 - **I care deeply about creating inclusive teams** where people feel safe, supported, and empowered. I’ve supported team growth by fostering clear communication, collaborative decision-making, and space for personal development.
