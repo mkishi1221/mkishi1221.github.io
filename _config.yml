@@ -2,7 +2,7 @@
 # General Site Settings
 title: Masayuki Kishi
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Personal website and blog of Masayuki Kishi, Product Manager and Developer.
+description: Personal website and blog of Masayuki Kishi, Product Leader and Strategist.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://masayukikishi.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -10,7 +10,7 @@ url: "https://masayukikishi.com" # the base hostname & protocol for your site, e
 # Author Settings
 author:
   name: Masayuki Kishi
-  bio: I'm a Product Manager at Amutri, leading the development of cloud-rendered 3D visualisation. Obsessed with driving cutting-edge products from validation to real-world results.
+  bio: I've led early-stage products to enterprise adoption including 3D visualisation for the nuclear industry. Obsessed with driving early-edge products from validation to real-world results.
   avatar: '/images/ZGP_8208_1_square.jpg'
 
 social:
@@ -25,8 +25,8 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I'm Masa! 👋  Product Manager and Developer
-  hero__description: I'm the Product Manager at Amutri, leading the development of cloud-rendered 3D visualisation. <strong><em>Obsessed</em></strong> with driving cutting-edge products from validation to real-world results.
+  hero__title: Hey, I'm Masa! 👋 Product Leader and Strategist
+  hero__description: I've led early-stage products to enterprise adoption including 3D visualisation for the nuclear industry. <strong><em>Obsessed</em></strong> with driving cutting-edge products from validation to real-world results.
   hero__image: '/images/ZGP_8199_xs.jpg'
 
 
