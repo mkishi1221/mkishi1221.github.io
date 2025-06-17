@@ -2,7 +2,7 @@
 # General Site Settings
 title: Masayuki Kishi
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Personal website and blog of Masayuki Kishi, Product Leader and Strategist.
+description: Personal website and blog of Masayuki Kishi, Product Leader and Strategist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://masayukikishi.com" # the base hostname & protocol for your site, e.g. http://example.com
 

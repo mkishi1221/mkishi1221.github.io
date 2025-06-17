@@ -3,9 +3,10 @@
 
 I’m a high-impact product leader with a strong background in design and software development. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
 
-- **I have deep experience driving early-stage products to adoption** by tracking success via experiments using scrappy prototypes, and customer workshops securing enterprise traction and early funding.
+- **I have deep experience driving early-stage products to adoption** by tracking success via customer workshops and experiments using scrappy prototypes, securing enterprise traction and early funding.
 - **My superpower is being able to learn anything under pressure** and using that knowledge to have deep, meaningful conversations that build trust, align cross-functional teams, and drive products to success.
 - **I’m a versatile leader with my head in the clouds and feet on the ground** moving fluidly between big-picture strategy and detailed execution across product, engineering, marketing and sales.
+- **I've delivered high-impact insight-driven outcomes** by leveraging my data science background to analyse complex data such as market signals, user behavior and identify opportunities.
 - **I care deeply about creating inclusive teams** where people feel safe, supported, and empowered. I’ve supported team growth by fostering clear communication, collaborative decision-making, and space for personal development.
 
 If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. Now, onto the details.
@@ -27,7 +28,8 @@ I'm responsible for:
 - Driving product adoption in the AEC sector, and managing cross-functional teams across frontend, backend, 3D content, and Unreal Engine, overseeing development strategy, design, and daily execution.
 - Uncovering insights that directly influence feature development by leading customer workshops, hands-on user onboarding and responding to feedback.
 - Product marketing efforts including the website, sales materials, and investor presentations.
-- Product QA efforts, leading internal product development, test planning, release validation, and performance monitoring.
+- Extracting user behaviour patterns within CAD files to uncover insights and guide the optimisation of CAD data workflows.
+- Product QA efforts, extracting data from logs, leading internal product development, test planning, release validation, and performance monitoring.
 
 I also represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University, a press-covered event showcasing regional tech innovation.
 
