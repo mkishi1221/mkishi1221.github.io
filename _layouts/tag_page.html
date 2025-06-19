@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="container">
-  <div class="tag" {% for post in site.tags[page.tag] %}{% if forloop.index == 1 and post.image %} style="background-image: url({{site.baseurl}}{{post.image}});" {% endif %}{% endfor %}>
+  <div class="tag" {% for post in page.posts %}{% if forloop.index == 1 and post.image %} style="background-image: url({{site.baseurl}}{{post.image}});" {% endif %}{% endfor %}>
     <div class="row">
-      <div class="col col-8 push-2 col-d-12 push-d-0"">
+      <div class="col col-8 push-2 col-d-12 push-d-0">
         <div class="tag__inner">
-          <h1 class="tag__title">{{ page.tag }}</h1>
+          <h1 class="tag__title">{{ page.title }}</h1>
           <div class="tag__counter">
-            <span>{{ site.tags[page.tag].size }}</span>
-            <small>{% if site.tags[page.tag].size < 2 %}Article{% else %}Articles{% endif %}</small>
+            <span>{{ page.posts.size }}</span>
+            <small>{% if page.posts.size < 2 %}Article{% else %}Articles{% endif %}</small>
           </div>
         </div>
       </div>
