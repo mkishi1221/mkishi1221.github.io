@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container">
-  <div class="tag" {% for post in page.posts %}{% if forloop.index == 1 and post.image %} style="background-image: url({{site.baseurl}}{{post.image}});" {% endif %}{% endfor %}>
+  <div class="tag" {% if page.first_post.image %} style="background-image: url({{site.baseurl}}{{page.first_post.image}});" {% endif %}>
     <div class="row">
       <div class="col col-8 push-2 col-d-12 push-d-0">
         <div class="tag__inner">

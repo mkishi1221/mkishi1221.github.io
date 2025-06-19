@@ -65,7 +65,6 @@ permalink: /:title
 future: true
 plugins:
   - jekyll-sitemap
-  - jekyll-archives
   - jekyll-paginate
 
 paginate: 5
@@ -80,15 +79,6 @@ defaults:
 
 include:
   - _pages
-
-# Archives (replaces tagging)
-jekyll-archives:
-  enabled:
-    - tags
-  layouts:
-    tag: tag_page
-  permalinks:
-    tag: '/tag/:name/'
 
 sass:
   sass_dir: _sass
