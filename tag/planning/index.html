@@ -1,11 +1,14 @@
 ---
-layout: default
+layout: tag_page
+title: planning
+tag: planning
 ---
-{% assign posts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
+
+{% assign posts = site.posts | where_exp: "post", "post.tags contains 'planning'" %}
 {% assign first_post = posts.first %}
 
 <div class="container">
-  <div class="tag" {% if first_post.image %} style="background-image: url({{ first_post.image }});" {% endif %}>
+  <div class="tag" {% if first_post.image %} style="background-image: url({{site.baseurl}}{{first_post.image}});" {% endif %}>
     <div class="row">
       <div class="col col-8 push-2 col-d-12 push-d-0">
         <div class="tag__inner">
@@ -32,4 +35,4 @@ layout: default
       </div>
     </div>
   </div>
-</div>
+</div> 
