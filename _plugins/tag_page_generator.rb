@@ -15,15 +15,15 @@ module Jekyll
       end
       all_tags = Set.new(all_tags)
 
-      # Create tag directory if it doesn't exist
-      FileUtils.mkdir_p('tag') unless Dir.exist?('tag')
+      # Create tags directory if it doesn't exist
+      FileUtils.mkdir_p('tags') unless Dir.exist?('tags')
 
       # Get existing tag directories
-      existing_tags = Set.new(Dir.glob('tag/*').select { |f| File.directory?(f) }.map { |f| File.basename(f) })
+      existing_tags = Set.new(Dir.glob('tags/*').select { |f| File.directory?(f) }.map { |f| File.basename(f) })
 
       # Remove tag directories that don't have corresponding posts
       (existing_tags - all_tags).each do |tag_to_remove|
-        tag_dir = "tag/#{tag_to_remove}"
+        tag_dir = "tags/#{tag_to_remove}"
         if Dir.exist?(tag_dir)
           FileUtils.rm_rf(tag_dir)
           Jekyll.logger.info "Tags:", "Removed tag page for '#{tag_to_remove}'"
@@ -32,7 +32,7 @@ module Jekyll
 
       # Generate tag pages for new tags
       all_tags.each do |tag|
-        tag_dir = "tag/#{tag}"
+        tag_dir = "tags/#{tag}"
         FileUtils.mkdir_p(tag_dir) unless Dir.exist?(tag_dir)
         
         # Only create index.html if it doesn't exist
