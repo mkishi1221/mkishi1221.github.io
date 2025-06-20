@@ -2,7 +2,7 @@
 # General Site Settings
 title: Masayuki Kishi
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Personal website and blog of Masayuki Kishi, Product Leader and Strategist
+description: Personal website and blog of Masayuki Kishi, Product Manager and Full-Stack Generalist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://masayukikishi.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -25,7 +25,7 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I'm Masa! 👋 Product Leader and Strategist
+  hero__title: Hey, I'm Masa! 👋 Product Manager and Full-Stack Generalist
   hero__description: I've led early-stage products to enterprise adoption including 3D visualisation for the nuclear industry. <strong><em>Obsessed</em></strong> with driving cutting-edge products from validation to real-world results.
   hero__image: '/images/ZGP_8199_xs.jpg'
 
