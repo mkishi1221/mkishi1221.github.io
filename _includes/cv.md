@@ -1,13 +1,14 @@
 
 # Here's a TL;DR on my career:
 
-I’m a high-impact product leader with a strong background in design and software development. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
+I’m a high-impact product leader with a strong background in design, data and software development. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
 
 - **I have deep experience driving early-stage products to adoption** by tracking success via customer workshops and experiments using scrappy prototypes, securing enterprise traction and early funding.
 - **My superpower is being able to learn anything under pressure** and using that knowledge to have deep, meaningful conversations that build trust, align cross-functional teams, and drive products to success.
-- **I’m a versatile leader with my head in the clouds and feet on the ground** moving fluidly between big-picture strategy and detailed execution across product, engineering, marketing and sales.
-- **I've delivered high-impact insight-driven outcomes** by leveraging my data science background to analyse complex data such as market signals, user behavior and identify opportunities.
-- **I care deeply about creating inclusive teams** where people feel safe, supported, and empowered. I’ve supported team growth by fostering clear communication, collaborative decision-making, and space for personal development.
+- **I focus on managing the work rather than just the people**, staying closely involved in the details to set clear direction, relentlessly leveling up in unfamiliar areas to uphold high standards, and empowering teams through functional leadership.
+- **I bring full-stack leadership with my head in the clouds and feet on the ground** moving fluidly between big-picture strategy and detailed execution across product, engineering, marketing and sales.
+- **I've delivered high-impact insight-driven outcomes** by leveraging my data science skills to analyse everything from CAD models and system logs to user sign-up data, uncovering opportunities across product, QA, and marketing.
+- **I care deeply about creating inclusive teams** where people feel safe, supported, and empowered. I’ve co-led team growth by fostering clear communication, collaborative decision-making, and space for personal development.
 
 If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. Now, onto the details.
 
@@ -25,7 +26,7 @@ Here's a short video of the product:
 
 I'm responsible for:
 
-- Driving product adoption in the AEC sector, and managing cross-functional teams across frontend, backend, 3D content, and Unreal Engine, overseeing development strategy, design, and daily execution.
+- Driving product adoption in the AEC sector, and directed cross-functional teams across frontend, backend, 3D content, and Unreal Engine, overseeing development strategy, design, and daily execution.
 - Uncovering insights that directly influence feature development by leading customer workshops, hands-on user onboarding and responding to feedback.
 - Product marketing efforts including the website, sales materials, and investor presentations.
 - Extracting user behaviour patterns within CAD files to uncover insights and guide the optimisation of CAD data workflows.
@@ -38,7 +39,7 @@ I also represented Amutri at the [Cornwall Angel Network launch](https://www.bus
 
 I’ve also spoken at the following events:
 
-- **Hertzian's AI Summit:** Presented how Amutri’s real-time 3D visualisation supports sales enablement and strengthens stakeholder engagement in complex technical industries.
+- **Hertzian's AI Summit:** Presented how Amutri’s real-time 3D visualisation facilitates sales enablement and strengthens stakeholder engagement in complex technical industries.
 - **MLOps London:** Spoke on the integration of AI within 3D visualisation technology and its evolving role in design workflows.
 - **Cranfield University (Airport Design module):** Led workshops demonstrating the practical use of visualisation tools in infrastructure and airport planning.
 
@@ -81,7 +82,7 @@ I was also invited to speak as a panelist on artificial intelligence at a Global
 
 ## Co-founder and Product Lead <span class="chip">Remote</span>
 
-Developed an NLP-powered platform to help brand designers and entrepreneurs quickly discover high-quality, available domain names.
+Developed an NLP-powered platform to facilitate brand designers and entrepreneurs to quickly discover high-quality, available domain names.
 
 - Co-founded the venture with a technical partner and bootstrapped the product without external funding.
 - Demonstrated strong market need by launching a consulting MVP and conducting over 100 feedback sessions for early paying users.
@@ -111,8 +112,8 @@ Held a customer-facing role at a machine translation consultancy focused on indu
 Joined as a language analyst focused on translation quality and team management.
 
 - Reviewed Japanese-English translations for accuracy and consistency.
-- Guided and coached new hires, helping them become fully independent within three months.
-- Hired and managed a team of 30+ evaluators on Upwork, overseeing multilingual machine translation analysis.
+- Guided and coached new hires, supporting them to become fully independent within three months.
+- Hired and directed a team of 30+ evaluators on Upwork, overseeing multilingual machine translation analysis.
 
 # mk design (September 2011 - July 2021)
 
@@ -138,12 +139,12 @@ I also conducted workshops to:
 
 ## Product Designer <span class="chip">On-site</span>
 
-I designed products and managed operations for a boutique design studio in Tokyo.
+I designed products and directed operations for a boutique design studio in Tokyo.
 
 - Created client presentations to communicate design concepts and proposals.
 - Used rapid prototyping methods to test and validate early-stage concepts.
-- Managed the studio's social media and hosted multilingual networking events on Meetup.
-- Managed the studio's office relocation, including contract negotiation, tenancy review, and vendor coordination.
+- Oversaw the studio's social media and hosted multilingual networking events on Meetup.
+- Directed the studio's office relocation, including contract negotiation, tenancy review, and vendor coordination.
 
 # New Age Sapphire Technical Services LLC (September 2014 - March 2016)
 
@@ -152,9 +153,9 @@ I designed products and managed operations for a boutique design studio in Tokyo
 Founded a Dubai-based interior design and construction firm during a two-year academic break from Brunel University.
 
 - Led negotiations with real estate companies, developers, and homeowners to secure design and construction projects.
-- Managed cost estimation, supplier negotiations, and coordination with contractors.
+- Oversaw cost estimation, supplier negotiations, and coordination with contractors.
 - Oversaw design and delivery of residential and commercial interiors in key developments including Palm Jumeirah, Business Bay, and Arabian Ranches.
-- Hired and managed the design team, guiding and coaching junior staff.
+- Hired and directed the design team, guiding and coaching junior staff.
 
 # Education
 
@@ -191,7 +192,7 @@ I’ve completed development courses across data science, web development, and b
 - **The Fundamentals of Digital Marketing** (Google)
 - **Complete FastAPI masterclass from scratch 2022** (Udemy)
 
-I also have experience working with AWS products, including EC2 instances, Lambdas, Cognito, CloudWatch, S3, and DynamoDB, as well as managing EC2 instances and Lambdas using Terraform.
+I also have experience working with AWS products, including EC2 instances, Lambdas, Cognito, CloudWatch, S3, and DynamoDB, as well as deploying EC2 instances and Lambdas using Terraform.
 
 # Contact me
 
