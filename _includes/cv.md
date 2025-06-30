@@ -18,7 +18,7 @@ If you'd like to learn more or discuss working together, feel free to [drop me a
 
 ## Product Manager (October 2023 – Current) <span class="chip">Remote</span>
 
-Amutri instantly converts complex CAD files into interactive 3D presentations, making CAD data accessible, shareable, and presentation-ready for both technical and non-technical teams across entire organisations. **Most recently we delivered Secure Sharing and Guided Tours, unlocking 6 figures in revenue and enterprise adoption in the SMR nuclear energy sector.**
+Amutri instantly converts complex CAD files into interactive 3D presentations, making CAD data accessible, shareable, and presentation-ready for both technical and non-technical teams across entire organisations. **Most recently we delivered Secure Sharing and Guided Tours, unlocking revenue and enterprise usage in the SMR nuclear energy sector.**
 
 Here's a short video of the product:
 
