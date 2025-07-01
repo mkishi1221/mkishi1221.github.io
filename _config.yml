@@ -2,7 +2,7 @@
 # General Site Settings
 title: Masayuki Kishi
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Personal website and blog of Masayuki Kishi, Product Manager and Full-Stack Generalist
+description: Personal website and blog of Masayuki Kishi, Product Manager and Full-Stack Builder
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://masayukikishi.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -25,7 +25,7 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I'm Masa! 👋 Product Manager and Full-Stack Generalist
+  hero__title: Hey, I'm Masa! 👋 Product Manager and Full-Stack Builder
   hero__description: I've led early-stage products to enterprise adoption including 3D visualisation for the nuclear industry. <strong><em>Obsessed</em></strong> with driving cutting-edge products from validation to real-world results.
   hero__image: '/images/ZGP_8199_xs.jpg'
 
@@ -34,7 +34,7 @@ hero:
 # Newsletter (_includes/footer-widgets/widget-subscribe.html)
 mailchimp: true # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
 mailchimp__title: Some useful PM stuff # Add your Title
-mailchimp__text: Get occasional updates on product management tools, templates, and practical tips. No spam — just useful content, sent when there's something worth sharing. # Add your description.
+mailchimp__text: Get occasional updates on product management tools, new projects,templates, and practical tips. No spam — just useful content, sent when there's something worth sharing. # Add your description.
 mailchimp__identifier: https://masayukikishi.us2.list-manage.com/subscribe/post?u=911b3c9384e1f6c3d4bf9d029&amp;id=33723eec57&amp;f_id=009bc0e1f0 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 mailchimp__button__text: Join # Add your button text
 

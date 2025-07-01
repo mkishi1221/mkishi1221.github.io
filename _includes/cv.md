@@ -1,10 +1,10 @@
 
 # Here's a TL;DR on my career:
 
-I’m a high-impact product leader with a strong background in design, data and software development. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
+I’m a high-impact product manager and full-stack builder with a strong background in design, data and software development. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
 
 - **I have deep experience driving early-stage products to adoption** by tracking success via customer workshops and experiments using scrappy prototypes, securing enterprise traction and early funding.
-- **My superpower is being able to learn anything under pressure** and using that knowledge to have deep, meaningful conversations that build trust, align cross-functional teams, and drive products to success.
+- **My superpower is rapidly building and testing prototypes under pressure** and using that hands-on insight to have deep, meaningful conversations that build trust, align cross-functional teams, and drive products to success.
 - **I focus on managing the work rather than just the people**, staying closely involved in the details to set clear direction, relentlessly leveling up in unfamiliar areas to uphold high standards, and empowering teams through functional leadership.
 - **I bring full-stack leadership with my head in the clouds and feet on the ground** moving fluidly between big-picture strategy and detailed execution across product, engineering, marketing and sales.
 - **I've delivered high-impact insight-driven outcomes** by leveraging my data science skills to analyse everything from CAD models and system logs to user sign-up data, uncovering opportunities across product, QA, and marketing.
