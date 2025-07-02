@@ -48,7 +48,7 @@ I’ve also spoken at the following events:
 
 ## Product Support Consultant (November 2022 – September 2023) <span class="chip">Remote</span>
 
-Joined Amutri in its early startup phase and shaped product strategy. Onboarded early adopters and directly contributed to securing grants and pre-seed funding.
+Joined Cornwall-based startup Amutri in its early stages, shaping product strategy and driving early traction. Onboarded initial adopters, gathered user feedback, and played a key role in securing grants and pre-seed funding.
 
 - Directly contributed to securing grant and pre-seed funding by onboarding users and securing key letters of intent.
 - Uncovered key insights by conducting over 30 user research sessions with AEC companies. This shaped the product vision and the UI/UX design.
@@ -58,7 +58,7 @@ Joined the team formally as Product Manager on the strength of this work and was
 
 # SpaceforU (September 2022 – September 2023)
 
-## Co founder and Product Lead <span class="chip">Hybrid</span>
+## Co founder and Product Manager <span class="chip">Hybrid</span>
 
 Selected for Falmouth University's fully funded startup incubator, I co-founded and led the product development of SpaceforU, a peer-to-peer marketplace for venue hire across Cornwall and Devon.
 
@@ -80,7 +80,7 @@ I was also invited to speak as a panelist on artificial intelligence at a Global
 
 # Domainsmith (November 2021 – September 2022)
 
-## Co-founder and Product Lead <span class="chip">Remote</span>
+## Co-founder and Product Manager <span class="chip">Remote</span>
 
 Developed an NLP-powered platform to facilitate brand designers and entrepreneurs to quickly discover high-quality, available domain names.
 
@@ -88,7 +88,7 @@ Developed an NLP-powered platform to facilitate brand designers and entrepreneur
 - Demonstrated strong market need by launching a consulting MVP and conducting over 100 feedback sessions for early paying users.
 - Built the MVP using Python, Nuxt, and Deta.sh, applying NLP to filter millions of domains into relevant, high-value results.
 
-(Currently paused)
+*Paused to pursue new ventures in Cornwall’s startup ecosystem.*
 
 Below are some snapshots of the user interface.
 
@@ -98,7 +98,7 @@ Below are some snapshots of the user interface.
 
 # Cistate Solutions Inc. (March 2019 - July 2021)
 
-## Language Analyst and Product Designer (July 2020 - July 2021) <span class="chip">Remote</span>
+## Language Analyst and Product Manager (July 2020 - July 2021) <span class="chip">Remote</span>
 
 Held a customer-facing role at a machine translation consultancy focused on industry-specific solutions, combining language expertise with design to deliver practical, cost-saving solutions.
 
@@ -133,8 +133,6 @@ I also conducted workshops to:
 - Design a portable burger kiosk that can be transported in a container in Alexandria, Egypt.
 - Design a consumer-friendly drone powered by a smartphone in London.
 
-(Currently paused)
-
 # Giovanni Pellone Design (November 2017 - August 2018)
 
 ## Product Designer <span class="chip">On-site</span>
@@ -159,9 +157,9 @@ Founded a Dubai-based interior design and construction firm during a two-year ac
 
 # Education
 
-**Falmouth University Entrepreneurship MSc (2022 - 2023)** A fully funded, one-year master's programme focused on building a new startup in Cornwall.
+**Falmouth University Entrepreneurship MSc** Selected for Launchpad, a fully funded venture studio and startup incubator designed to accelerate high-potential business ideas through a combination of entrepreneurial training and hands-on venture building. The programme included full tuition for an MSc in Entrepreneurship, a £16,000 stipend, and up to £50,000 in funding to support MVP development and go-to-market efforts.
 
-**Brunel University: Product Design BSc. with Honours (2011 - 2017)** A four year design course with an emphasis on prototyping. Includes 1 year placement in industry. Took 2 gap years to work on a startup in Dubai from 2014-2016. 
+**Brunel University: Product Design BSc. with Honours** Four-year design course focused on user-centred design, electronics, manufacturing, and physical product development, with hands-on experience in workshop environments for hardware prototyping. Included a year-long industry placement split between Burberry and a design consultancy specialising in baggage design. I was selected to exhibit my final-year project at Made in Brunel, a curated showcase held at the Bargehouse, OXO Tower Wharf in central London.
 
 My final year project was showcased at Made In Brunel and exhibited at the Bargehouse, near the OXO Tower. [Read more about the project here.](https://masayukikishi.com/Blast-from-the-past-exhibiting-at-Made-in-Brunel){: .cv_link target="_blank" }
 
@@ -169,11 +167,9 @@ My final year project was showcased at Made In Brunel and exhibited at the Barge
 
 ![Made In Brunel]({{site.baseurl}}/images/Comp/comp_7.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
 
-
-
 # Dev Certifications
 
-I’ve completed development courses across data science, web development, and backend technologies, applying these skills to ship products faster and contribute across the stack. I stay current through platforms like Kaggle (Machine Learning), Google (Digital Marketing), Codecademy, and Udemy, with training in MongoDB, React, Vue.js, Go, Python, JavaScript, TypeScript, and FastAPI.
+I’ve completed development courses across data science, web development, and backend technologies, applying these skills to build prototypes, ship products faster and contribute across the stack. I stay current through platforms like Kaggle (Machine Learning), Google (Digital Marketing), Codecademy, and Udemy, with training in MongoDB, React, Vue.js, Go, Python, JavaScript, TypeScript, and FastAPI.
 
 - **Learn MongoDB Course** (Codecademy)
 - **Learn React Course** (Codecademy)
