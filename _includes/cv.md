@@ -18,23 +18,25 @@ If you'd like to learn more or discuss working together, feel free to [drop me a
 
 ## Product Manager (October 2023 – Current) <span class="chip">Remote</span>
 
-Amutri instantly converts complex CAD files into interactive 3D presentations, making CAD data accessible, shareable, and presentation-ready for both technical and non-technical teams across entire organisations. **Most recently we delivered Secure Sharing and Guided Tours, unlocking revenue and enterprise usage in the SMR nuclear energy sector.**
+Amutri instantly converts complex CAD files into interactive 3D presentations, making CAD data accessible, shareable, and presentation-ready for both technical and non-technical teams across entire organisations. **Most recently we delivered Secure Sharing and Guided Tours, unlocking revenue and enterprise usage in AEC and the SMR nuclear energy sector.**
 
-Here's a short video of the product:
+![Amutri SMR]({{site.baseurl}}/images/Amutri_SMR.jpeg){: style="display: block; margin: 0 auto;"}
 
-<p><iframe src="https://www.youtube.com/embed/a6egHqd2qzU" frameborder="0" allowfullscreen></iframe></p>
+Here's a short demo of the product:
 
-I'm responsible for:
+<p><iframe width="1920" height="1054" src="https://www.youtube.com/embed/a6egHqd2qzU" frameborder="0" allowfullscreen></iframe></p>
 
-- Driving product adoption in the AEC sector, and directed cross-functional teams across frontend, backend, 3D content, and Unreal Engine, overseeing development strategy, design, and daily execution.
-- Uncovering insights that directly influence feature development by leading customer workshops, hands-on user onboarding and responding to feedback.
-- Product marketing efforts including the website, sales materials, and investor presentations.
-- Extracting user behaviour patterns within CAD files to uncover insights and guide the optimisation of CAD data workflows.
-- Product QA efforts, extracting data from logs, leading internal product development, test planning, release validation, and performance monitoring.
+- **Took a 0 to 1 product to revenue in the AEC and SMR sectors** by delivering core workflows for CAD sharing, real-time 3D collaboration, and Guided Walkthroughs
+- **Sole owner of product, design, and data across the business,** filling critical capability gaps and acting as the glue between strategy, delivery, and user experience in an early-stage environment
+- **Directed multi-disciplinary teams** across frontend, backend, Unreal Engine and 3D content creation; established agile processes and drove execution toward strategic goals
+- **Defined and led the entire product lifecycle,** from roadmap creation and feature scoping to UI/UX design, user validation, and performance measurement through product analytics and telemetry
+- **Enabled enterprise adoption by supporting sales**, leading onboarding sessions, running user interviews, and prioritising features for engineering and architectural workflows
+- **Led product marketing and created go-to-market assets** including demo videos, marketing site copy, investor pitch decks, and technical documentation
+- **Took on key responsibilities beyond product** by designing UI/UX prototypes and workflows, instrumenting telemetry, building admin tools, automating AWS log monitoring with Python and boto3, and resolving CloudWatch errors to support backend reliability
 
 I also represented Amutri at the [Cornwall Angel Network launch](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" } at Falmouth University, a press-covered event showcasing regional tech innovation.
 
-![Cornwall Angel Network launch]({{site.baseurl}}/images/cornwall_launch.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
+![Cornwall Angel Network launch]({{site.baseurl}}/images/cornwall_launch.jpg){: style="display: block; margin: 0 auto;"}
 *Photo by British Business Bank*
 
 I’ve also spoken at the following events:
@@ -43,117 +45,131 @@ I’ve also spoken at the following events:
 - **MLOps London:** Spoke on the integration of AI within 3D visualisation technology and its evolving role in design workflows.
 - **Cranfield University (Airport Design module):** Led workshops demonstrating the practical use of visualisation tools in infrastructure and airport planning.
 
-![Hertzian AI Summit]({{site.baseurl}}/images/hertzian_ai.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
+![Hertzian AI Summit]({{site.baseurl}}/images/hertzian_ai.jpeg){: style="display: block; margin: 0 auto;"}
 *Photo by Amutri*
 
 ## Product Support Consultant (November 2022 – September 2023) <span class="chip">Remote</span>
 
 Joined Cornwall-based startup Amutri in its early stages, shaping product strategy and driving early traction. Onboarded initial adopters, gathered user feedback, and played a key role in securing grants and pre-seed funding.
 
-- Directly contributed to securing grant and pre-seed funding by onboarding users and securing key letters of intent.
-- Uncovered key insights by conducting over 30 user research sessions with AEC companies. This shaped the product vision and the UI/UX design.
-- Built an automation tool that filled missing user information from email domains, cutting weekly processing time from about three hours to ten seconds.
+- **Shaped product vision and validated market demand** during the company’s pre-funding stage, helping secure early commercial interest and support for grant and pre-seed funding
+- **Conducted over 30 discovery interviews** with architects, 3D visualisers, and academic users to uncover pain points, map user journeys, and define MVP requirements
+- **Secured multiple Letters of Intent** through targeted outreach and strategic relationship building, providing evidence of demand to support investment and grant applications
+- **Designed the product’s first UI and landing page,** defining early UX patterns for cloud-based 3D visualisation and guided walkthrough experiences
+- **Automated lead enrichment using Python,** reducing manual admin time from 3 hours to under 10 seconds by extracting company data from user email domains
+- **Onboarded and supported early users,** collected structured feedback, and turned insights into actionable product improvements that influenced roadmap and positioning
 
-Joined the team formally as Product Manager on the strength of this work and was later [interviewed by SETsquared Bristol](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" } on Amutri's vision and impact in 3D visualisation.
+Joined Amutri full-time as Product Manager based on the success of this work, and was later [interviewed by SETsquared Bristol](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" } on Amutri's vision and impact in 3D visualisation.
 
 # SpaceforU (September 2022 – September 2023)
 
 ## Co founder and Product Manager <span class="chip">Hybrid</span>
 
-Selected for Falmouth University's fully funded startup incubator, I co-founded and led the product development of SpaceforU, a peer-to-peer marketplace for venue hire across Cornwall and Devon.
+Peer-to-peer marketplace for venue hire across Cornwall and Devon. Selected for Falmouth University’s fully funded startup incubator.
 
-- Launched a working MVP within 24 hours of funding using no-code tools to rapidly validate the idea.
-- Secured partnerships with 20+ venues and listed 40+ spaces within 3 months.
-- Uncovered key insights and tracked success by conducting 40+ user feedback sessions and implementing A/B tests using Figma.
+- **Launched an MVP within 24 hours using no-code tools,** enabling live user testing and early market validation
+- **Secured partnerships with over 20 venue owners and onboarded 40+ rentable spaces in 3 months,** building initial supply-side liquidity
+- **Led product development and UX from concept to launch,** including user flows, conversion-focused landing pages, and mobile booking experience
+- **Conducted 40+ user interviews to investigate demand,** identify drop-off points, and refine onboarding and messaging based on real feedback
+- **Improved booking flow completion through Figma-based A/B tests** and rapid iteration on search and conversion UX
+- **Translated early GTM feedback into product changes** that increased listing completion and reduced user churn during onboarding
+- **Owned user acquisition and support for hosts and guests,** converting leads into activated users through hands-on outreach and guided onboarding
+
+After pivoting several times, we found that long-term demand in Cornwall and Devon simply wasn’t strong enough to sustain growth. There weren’t enough experienced organisers to justify building advanced features, and acquiring new or out-of-region event organisers required in-person engagement and marketing spend that resulted in acquisition costs that were too high. We decided to sunset the product based on clear market and user signals.
 
 Here are some snapshots of the homepage and the booking platform.
 
-![SpaceforU Homepage]({{site.baseurl}}/images/SpaceforU_Homepage.png){: style="width: 80%; display: block; margin: 0 auto;"}
+![SpaceforU Homepage]({{site.baseurl}}/images/SpaceforU_Homepage.png){: style="display: block; margin: 0 auto;"}
 
-![SpaceforU Booking]({{site.baseurl}}/images/SpaceforU_Booking.png){: style="width: 80%; display: block; margin: 0 auto;"}
+![SpaceforU Booking]({{site.baseurl}}/images/SpaceforU_Booking.png){: style="display: block; margin: 0 auto;"}
 
 SpaceforU was [featured in a Falmouth University article](https://www.falmouth.ac.uk/launchpad/news/entrepreneur-stories-spaceforu){: .cv_link target="_blank" } highlighting regional innovation and early-stage entrepreneurship.
-
-I was also invited to speak as a panelist on artificial intelligence at a Global Plymouth event hosted at the University of Plymouth. Participated in a multidisciplinary discussion exploring the future of AI, its societal impact, and practical applications across industries.
-
-![Global Plymouth event]({{site.baseurl}}/images/highres_514784802.jpeg){: style="width: 80%; display: block; margin: 0 auto;"}
 
 # Domainsmith (November 2021 – September 2022)
 
 ## Co-founder and Product Manager <span class="chip">Remote</span>
 
-Developed an NLP-powered platform to facilitate brand designers and entrepreneurs to quickly discover high-quality, available domain names.
+NLP-powered platform that helped brand designers and startup founders discover high-quality, available domain names.
 
-- Co-founded the venture with a technical partner and bootstrapped the product without external funding.
-- Demonstrated strong market need by launching a consulting MVP and conducting over 100 feedback sessions for early paying users.
-- Built the MVP using Python, Nuxt, and Deta.sh, applying NLP to filter millions of domains into relevant, high-value results.
+- **Launched a Concierge MVP to validate pricing and product-market fit,** reducing domain discovery time from weeks to under an hour for early users
+- **Led go-to-market strategy through workshops, partnerships, and soft launch** targeting founders, design studios, and startup hubs
+- **Ran 100+ feedback sessions with users** to refine positioning, shape messaging, and optimise onboarding and search flows
+- **Recruited a technical co-founder** to accelerate product development and expand platform capabilities
+- **Defined the product roadmap** based on customer interviews, naming behaviour research, and early GTM insights
+- **Built and tested a conversion-focused landing page** and onboarding flow to communicate the value of NLP-powered domain search
+- **Designed and shipped the MVP using Python, Nuxt.js, and Deta.sh** after self-learning key tools to accelerate delivery
 
-*Paused to pursue new ventures in Cornwall’s startup ecosystem.*
+Paused development after relocating to Cornwall to join the incubator at Falmouth University. The region lacked close proximity to our target users, so I chose to pursue new ventures within the local startup ecosystem.
 
 Below are some snapshots of the user interface.
 
-![Domainsmith UI]({{site.baseurl}}/images/ui_example_domainsmith_BL34.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
+![Domainsmith UI]({{site.baseurl}}/images/ui_example_domainsmith_BL34.jpg){: style="display: block; margin: 0 auto;"}
 
-![Domainsmith UI]({{site.baseurl}}/images/ui_example_domainsmith.png){: style="width: 80%; display: block; margin: 0 auto; border-radius: 10px;"}
+![Domainsmith UI]({{site.baseurl}}/images/ui_example_domainsmith.png){: style="display: block; margin: 0 auto; border-radius: 10px;"}
+
+I was also invited to speak as a panelist on artificial intelligence at a Global Plymouth event hosted at the University of Plymouth. Participated in a multidisciplinary discussion exploring the future of AI, its societal impact, and practical applications across industries.
+
+![Global Plymouth event]({{site.baseurl}}/images/highres_514784802.jpeg){: style="display: block; margin: 0 auto;"}
 
 # Cistate Solutions Inc. (March 2019 - July 2021)
 
 ## Language Analyst and Product Manager (July 2020 - July 2021) <span class="chip">Remote</span>
 
-Held a customer-facing role at a machine translation consultancy focused on industry-specific solutions, combining language expertise with design to deliver practical, cost-saving solutions.
+Supported enterprise clients in the automotive, gaming, and translation industries by combining product design, language technology, and customer collaboration to deliver cost-saving, scalable solutions.
 
-- Led the development of a Japanese menu translation algorithm to reduce translation costs by 50% for a translation startup.
-- Led the digital-first redesign of vehicle repair manuals for a major Japanese automotive brand.
-- Designed content management solutions for a top-tier Japanese game developer.
-- Developed data extraction algorithms to reduce miscommunications in automotive customer service operations.
+- **Reduced translation costs by 50% for a startup client** by pitching and leading the development of a machine learning algorithm for automating Japanese menu translations
+- **Led the digital redesign of vehicle repair manuals for a major Japanese automotive brand,** improving usability and technician efficiency
+- **Proposed and delivered a content management workflow for a top-tier Japanese game developer** to streamline localisation and enable asset reuse
+- **Built data extraction and processing tools for automotive customer service teams** to improve the speed and accuracy of multilingual support operations
+- **Worked directly with clients** to uncover pain points, pitch tailored solutions, scope product requirements, and align delivery with business goals
 
 ## Language Analyst (March 2019 - July 2020) <span class="chip">Hybrid</span>
 
-Joined as a language analyst focused on translation quality and team management.
+Contributed to the quality and scalability of multilingual machine translation by managing evaluation pipelines, training workflows, and QA processes across distributed teams.
 
-- Reviewed Japanese-English translations for accuracy and consistency.
-- Guided and coached new hires, supporting them to become fully independent within three months.
-- Hired and directed a team of 30+ evaluators on Upwork, overseeing multilingual machine translation analysis.
+- **Improved translation quality and consistency by 30%** by reviewing and refining high-volume Japanese-English machine translations for enterprise use cases
+- **Hired and managed a team of 30 evaluators through Upwork,** building and leading a distributed workflow to support large-scale translation analysis projects
+- **Trained and onboarded new team members,** helping analysts become fully independent within three months
+- **Created feedback loops and process improvements** that standardised QA output across multilingual evaluation teams
 
 # mk design (September 2011 - July 2021)
 
 ## Product Designer <span class="chip">Freelance</span>
 
-I took on a variety of projects spanning product design, interior design, UI/UX, and graphic design. Notably, I designed:
+Led and contributed to early-stage design projects across product, spatial, and brand design, working directly with founders, researchers, and developers to validate ideas and bring concepts to life.
 
-- Interiors for a restaurant in Business Bay, Dubai.
-- Interiors for HMOs in East England.
-- Corporate identity for a property investment company in East England.
-- Corporate identity for a digital marketing consultancy based in the UK.
-- UIUX of a menu translation startup in Tokyo, Japan.
+- **Designed interior spaces for commercial properties in the UAE and UK**, balancing user experience, brand alignment, and regulatory requirements
+- **Created visual identity systems for a property investment firm and a digital marketing consultancy**, supporting their early-stage brand and customer acquisition efforts
+- **Collaborated directly with clients** to help define and communicate product vision through prototyping, user flows, and visual design
 
-I also conducted workshops to:
-
-- Design a puzzle toy in collaboration with London School of Economics.
-- Design a portable burger kiosk that can be transported in a container in Alexandria, Egypt.
-- Design a consumer-friendly drone powered by a smartphone in London.
+**I also facilitated product design workshops** across education, hardware, and retail, including:
+– A puzzle toy project with LSE researchers
+– A portable burger kiosk prototype in Alexandria
+– A smartphone-powered consumer drone concept in London
 
 # Giovanni Pellone Design (November 2017 - August 2018)
 
 ## Product Designer <span class="chip">On-site</span>
 
-I designed products and directed operations for a boutique design studio in Tokyo.
+Led design operations, prototyping, and stakeholder engagement at a boutique design studio delivering high-impact public and commercial projects across Japan.
 
-- Created client presentations to communicate design concepts and proposals.
-- Used rapid prototyping methods to test and validate early-stage concepts.
-- Oversaw the studio's social media and hosted multilingual networking events on Meetup.
-- Directed the studio's office relocation, including contract negotiation, tenancy review, and vendor coordination.
+- **Coordinated delivery of a state-funded educational facility in Tokyo** that now serves over 200,000 students annually. Acted as primary liaison between studio, government, and client stakeholders
+- **Applied rapid prototyping methods to test early-stage product and spatial concepts** for commercial and public sector clients
+- **Created client presentations and visual proposals to communicate design intent** and support buy-in across multilingual teams
+- **Managed the studio’s digital presence and hosted multilingual events** via Meetup to expand visibility and attract new partnerships
+- **Led the studio’s office relocation,** overseeing contract negotiation, vendor coordination, and tenancy review to minimise disruption and cost
 
 # New Age Sapphire Technical Services LLC (September 2014 - March 2016)
 
-## Founder, Lead Interior Designer <span class="chip">On-site</span>
+## Co-founder, Lead Interior Designer <span class="chip">On-site</span>
 
-Founded a Dubai-based interior design and construction firm during a two-year academic break from Brunel University.
+Co-founded and led design delivery at a boutique interior design and construction firm serving high-end residential and commercial clients across Dubai.
 
-- Led negotiations with real estate companies, developers, and homeowners to secure design and construction projects.
-- Oversaw cost estimation, supplier negotiations, and coordination with contractors.
-- Oversaw design and delivery of residential and commercial interiors in key developments including Palm Jumeirah, Business Bay, and Arabian Ranches.
-- Hired and directed the design team, guiding and coaching junior staff.
+- **Delivered full interior design projects in Palm Jumeirah, Business Bay, and Arabian Ranches,** ensuring on-time delivery and alignment with client expectations
+- **Secured contracts by leading client negotiations with real estate firms,** developers, and homeowners, helping to build a strong early revenue pipeline
+- **Managed cost estimation, supplier coordination, and contractor alignment** to keep projects on schedule and within budget
+- **Led concept development and design execution,** creating visual proposals and guiding clients from initial briefing to final delivery
+- **Hired and managed a multidisciplinary design team,** mentoring staff and ensuring consistent quality across projects
 
 # Education
 
@@ -163,9 +179,11 @@ Founded a Dubai-based interior design and construction firm during a two-year ac
 
 My final year project was showcased at Made In Brunel and exhibited at the Bargehouse, near the OXO Tower. [Read more about the project here.](https://masayukikishi.com/Blast-from-the-past-exhibiting-at-Made-in-Brunel){: .cv_link target="_blank" }
 
-![Made In Brunel]({{site.baseurl}}/images/Comp/comp_1.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
+![Made in Brunel Event]({{site.baseurl}}/images/Comp/OXO_Tower.jpg){: style="display: block; margin: 0 auto;"}
 
-![Made In Brunel]({{site.baseurl}}/images/Comp/comp_7.jpg){: style="width: 80%; display: block; margin: 0 auto;"}
+![Product Photography]({{site.baseurl}}/images/Comp/comp_1.jpg){: style="display: block; margin: 0 auto;"}
+
+![Metal Machining Workshop]({{site.baseurl}}/images/Comp/comp_7.jpg){: style="display: block; margin: 0 auto;"}
 
 # Dev Certifications
 
