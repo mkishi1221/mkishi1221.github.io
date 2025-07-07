@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Where Is the Money? The Early Revenue Pitfall in Product Validation
-description: Why we can't rest on our validation lawrels with early revenue—and how to keep validating as the idea evolves.
+description: Why we can't rest on our validation lawrels with early revenue and how to keep validating as the idea evolves.
 date:   2025-05-20 09:00:00 +0300
 image:  '/images/revenue.jpg'
 tags:   [mindset, validation, learnings]
@@ -9,50 +9,58 @@ tags:   [mindset, validation, learnings]
 
 When a user pays us, it feels like a breakthrough. We've validated our MVP. We're onto something real. Except… maybe not.
 
-In early product development, revenue is often treated as the gold standard for validation. It's easy to see a Stripe notification and assume we've crossed a meaningful threshold—that now it's time to scale, hire, or raise. But money, especially in the early stages, is a noisy signal. It can mask deeper flaws in the model and lull us into a false sense of product-market fit. I learned this the hard way.
+In early product development, revenue is often treated as the gold standard for validation. It's easy to see a Stripe notification and assume we've crossed a meaningful threshold. It might feel like it's time to go all in, hire, and raise. But money, especially in the early stages, is a noisy signal. It can mask deeper flaws in the model and lull us into a false sense of product-market fit. I learned this the hard way.
 
-## Domainsmith: A Signal Without a System
+## Mistaking Early Traction for a Business Model
 
-My first startup was Domainsmith—a tool to help brand designers and entrepreneurs find unique domain names.
+My first startup was called Domainsmith. It was designed to help brand designers and entrepreneurs discover unique, high-quality domain names.
 
-We started with a Concierge MVP. I wrote custom scripts to generate ideas and ran live workshops with over 100 users, manually guiding them through the naming process. Eventually, some began paying ¥10,000 (about £55) for the experience. It felt like early validation. Users told us existing tools like ChatGPT were too generic or repetitive—we were clearly solving a real pain.
+We launched with a Concierge MVP. I built custom scripts to generate ideas and ran live naming sessions with over 100 users, guiding them through the process by hand. Eventually, some of them began paying ¥10,000 (around £55) for the experience. It felt like early traction. Users told us existing tools like ChatGPT were too generic or repetitive, and our approach felt refreshingly tailored. We were solving a real problem.
 
-The concept seemed solid: curate polished, brandable domains and offer them on a subscription basis. We had paying users and feedback confirming we were doing something differentiated. But underneath that traction was a structural flaw. Most people only need one domain, and our early adopters—solo founders and first-timers—had no reason to return. There was no recurring problem to solve, no retention loop, and no real path to scale.
+Based on that feedback, we built an MVP that curated polished, brandable domains and offered them on a subscription. We had paying users and clear signals that we were doing something different from the rest of the market. But beneath that surface was a deeper issue. Most users only needed a domain once. Our early adopters were solo founders and first-time creators, and once they had their name, they had no reason to come back.
 
-In hindsight, we'd validated a moment of need, not an ongoing one. Acquisition was expensive, churn was inevitable, and monetisation beyond that first transaction was near-impossible. What I mistook for product-market fit was actually a novelty use case with a ceiling baked in. Once the payments started, I shifted from validation to scaling—too early, and without enough data to justify the leap.
+We had validated that people were willing to pay for help with naming for a brand. What we hadn’t validated was whether they needed that help often enough to support a business. The pain was clear, but the frequency was low. We explored ways to create more ongoing value, such as becoming a domain registrar and handling renewals. But that path was out of reach given the cost, complexity, and regulatory barriers. I took those early payments as a signal to move forward with the product. In hindsight, we had only proven that there was demand for a one-time service. We had not shown that there was a sustainable business behind it.
 
-## Early Revenue ≠ Product-Market Fit
+## What Early Revenue Really Tells You
 
-It's tempting to treat early revenue as proof of demand. But in reality, it can be a vanity metric if it's not attached to a repeatable customer journey or a scalable distribution path.
+Early payments can feel like a breakthrough. After so much uncertainty, someone is finally willing to pay. But I’ve learned that revenue on its own doesn’t mean we’ve found a business. It only shows that we solved a problem once.
 
-I've found that money changes how users behave. Early adopters are often forgiving, curious, or just willing to experiment. They might pay for novelty, to support us, or because they don't have a better alternative yet. That doesn't mean we've built something they'll stick with—or that the next 1,000 customers will behave the same. Early success should raise new questions, not silence them:
+With Domainsmith, users paid for a real need. They wanted help naming their brand, and we delivered. But what we didn’t see clearly at the time was that most of them only needed that help once. The problem was not ongoing. There was no return path, no reason for them to come back, and no way to build a relationship beyond the first transaction.
 
-- Will users come back without hand-holding?
-- Can this scale without manual intervention?
-- Are payments driven by true utility, or just early excitement?
+We thought early traction meant we were ready to move forward. What it really meant was that we had solved a single-use problem. That matters, but it is not the same as validating a repeatable business.
 
-## Small Signals, Big Assumptions
+Early revenue should lead to better questions:
 
-Early revenue can be deceptive not because it's unimportant—but because it often comes from a small, non-representative group: friends, early adopters, and the startup-curious. Their willingness to pay doesn't always map to future behaviour. We might be testing generosity, not demand.
+- How often does this problem occur?
+- Who experiences it repeatedly?
+- What does the journey look like after the first payment?
 
-I saw the same pattern again with SpaceforU, a venue-booking platform. We built a working MVP in 24 hours and quickly onboarded listings. Early bookings rolled in—another win, it seemed. But most of those bookings came from friends. Their support was generous, not scalable. The real customers—the ones we hadn't validated—already knew the venues and didn't want to pay for access through a third-party tool. When that early goodwill dried up, so did the traffic.
+Until those answers are clear, early revenue is just that: early.
 
-Revenue wasn't binary. It matters *why* someone paid, what they believed they were buying, and whether they'd do it again—without handholding. Even more importantly: does that revenue still show up when the next version ships?
+## The Limits of Early Support
+
+Early revenue can be deceptive, not because it's unimportant, but because it often comes from a small, non-representative group: friends, early adopters, and the startup-curious. Their willingness to pay doesn't always map to future behaviour. We might be testing generosity, not demand.
+
+I saw the same pattern again with SpaceforU, a venue-booking platform. We built a working MVP in 24 hours and quickly onboarded listings. Early bookings rolled in. It felt like another win. But many of those bookings came from friends who were experiencedevent organisers. Their support was helpful, but short-lived. They used the product once, gave feedback, and moved on.
+
+These organisers weren’t struggling to find venues. Their real challenge was managing logistics more broadly, including catering, ticketing, vendor coordination, equipment, and scheduling. Our platform solved only one small part of that workflow. It wasn’t useful enough on its own to become part of their process.
+
+Revenue is not a binary signal. It matters *why* someone paid, what problem they believed they were solving, and whether they would pay again without personal involvement or goodwill propping things up.
 
 ## Think Like a Developer: Atomic Validation
 
-Just as developers commit code atomically—in small, testable units—I've found product ideas are best developed the same way.
+Just as developers commit code atomically in small, testable units, I've found product ideas are best developed the same way.
 
-Every shift in the experience, delivery model, or pricing approach is a separate experiment. Move from manual to automated? Test it. Switch from a service to a product? Validate it. Change the customer type? Re-test the assumptions. It's so tempting to try to leap straight into a big, scalable product. But validation is complicated—and it's easy to draw the wrong conclusions from early success.
+Every shift in the experience, delivery model, or pricing approach is a separate experiment. Move from manual to automated? Test it. Switch from a service to a product? Validate it. Change the customer type? Re-test the assumptions. It's so tempting to try to leap straight into a big, scalable product. But validation is complicated, and it's easy to draw the wrong conclusions from early success.
 
 Each step in the journey can break what worked in the last one. What solves a niche user's problem might not work for a mainstream audience. What's profitable with ten users might fail at 1,000. Every assumption is up for revalidation.
 
 ## Keep Validating, Always
 
-Whether we're testing the market with a Wizard-of-Oz prototype, stringing together no-code tools, or delivering services by hand, early revenue is just a signal. Money is important—but only if we understand what it means. And only if it keeps showing up when the magic curtain comes down.
+Whether we're testing the market with a Wizard-of-Oz prototype, stringing together no-code tools, or delivering services by hand, early revenue is just a signal. Money is important, but only if we understand what it means. And only if it keeps showing up when the magic curtain comes down.
 
-So yes, I'll follow the money. But I've learned to keep following it, treating every signal—every payment, feature, and workflow—as its own experiment. Build atomically. Test obsessively. Validate continuously.
+So yes, follow the money. But keep following it, treating every signal, every payment, feature, and workflow, as its own experiment. Build atomically. Test obsessively. Validate continuously.
 
-The real startup magic isn't just building a product that people will pay for. It's building something that continues to deliver real value—and keeps doing so as we evolve.
+The real startup magic isn't just building a product that people will pay for. It's building something that continues to deliver real value and keeps doing so as we evolve.
 
-Updated 27th May 2025
+*Updated 7th July 2025*

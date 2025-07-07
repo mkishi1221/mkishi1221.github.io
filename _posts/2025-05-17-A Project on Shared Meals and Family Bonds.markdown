@@ -11,11 +11,11 @@ tags:   [design, product, blast-from-the-past]
 
 How can design encourage families to spend more time together? Can a simple object spark moments of connection and support our mental well-being?
 
-In June 2016, I created a project called *Efflorescence*—a quiet exploration of how mealtime rituals can strengthen relationships. The idea was simple: individual herb pots that, when brought together, form a blooming arrangement. Each pot could be cared for by a different person, turning plant care into a shared activity.
+In June 2016, I created a project called *Efflorescence*, a quiet exploration of how mealtime rituals can strengthen relationships. The idea was simple: individual herb pots that, when brought together, form a blooming arrangement. Each pot could be cared for by a different person, turning plant care into a shared activity.
 
-The act of growing fresh herbs brings more than flavor. It adds color, scent, and a sense of occasion to daily meals—inviting people to slow down and connect. The design supports this with thoughtful features: magnets for attaching to fridges, a tilted form for easy access, and the ability to hang from kitchen rails or windows. A self-draining soil compartment makes upkeep simple and stress-free.
+The act of growing fresh herbs brings more than just flavor. It adds color, scent, and a sense of occasion to everyday meals. It invites people to slow down and connect. The design supports this through practical details: magnets for attaching to fridges, a tilted form for easy access, and the ability to hang from kitchen rails or windows. A self-draining soil compartment keeps maintenance simple and low-stress.
 
-This wasn’t just about growing herbs. It was about growing moments—making everyday interactions feel a little more meaningful. The project continues to remind me that small, intentional design choices can have a lasting emotional impact.
+This wasn’t just about growing herbs. It was about creating small moments that made everyday interactions feel more meaningful. The project still reminds me that simple, intentional design choices can leave a lasting emotional impact.
 
 ![Product Image 3]({{site.baseurl}}/images/efflorescence/efflorescence_3.jpg)
 ![Product Image 4]({{site.baseurl}}/images/efflorescence/efflorescence_4.jpg)

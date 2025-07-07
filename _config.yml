@@ -34,7 +34,7 @@ hero:
 # Newsletter (_includes/footer-widgets/widget-subscribe.html)
 mailchimp: true # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
 mailchimp__title: Some useful PM stuff # Add your Title
-mailchimp__text: Get occasional updates on product management tools, new projects,templates, and practical tips. No spam — just useful content, sent when there's something worth sharing. # Add your description.
+mailchimp__text: Get occasional updates on product management tools, new projects,templates, and practical tips. No spam, just useful content, sent when there's something worth sharing. # Add your description.
 mailchimp__identifier: https://masayukikishi.us2.list-manage.com/subscribe/post?u=911b3c9384e1f6c3d4bf9d029&amp;id=33723eec57&amp;f_id=009bc0e1f0 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 mailchimp__button__text: Join # Add your button text
 
@@ -42,7 +42,7 @@ mailchimp__button__text: Join # Add your button text
 #-------------------------------
 # Contact Settings
 contact:
-  description: I'm open to conversations about new product roles, collaborations, or teams building great products. If you'd like to connect, feel free to get in touch — I check messages regularly and will respond promptly. # Add a description of your form
+  description: I'm open to conversations about new product roles, collaborations, or teams building great products. If you'd like to connect, feel free to get in touch. I check messages regularly and will respond promptly. # Add a description of your form
 
 # NOTE
 # Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.

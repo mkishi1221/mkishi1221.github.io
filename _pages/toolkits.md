@@ -15,7 +15,7 @@ Templates and guides to help with planning, documenting, and communicating produ
 
 ## [Validation Scoring Template <i class="ion ion-md-arrow-round-forward"></i>](https://github.com/mkishi1221/pm-resources/blob/main/validation-template.md)
 
-A scoring template for objectively evaluating how well a product, feature, or idea is supported by customer evidence—helping early-stage startups decide what to improve, test, or scale next.
+A scoring template for objectively evaluating how well a product, feature, or idea is supported by customer evidence, helping early-stage startups decide what to improve, test, or scale next.
 
 ![Validation Template]({{site.baseurl}}/images/validation-template.png)
 
