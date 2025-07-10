@@ -119,7 +119,7 @@ Supported enterprise clients in the automotive, gaming, and translation industri
 
 - **Reduced translation costs by 50% for a startup client** by pitching and leading the development of a machine learning algorithm for automating Japanese menu translations
 - **Led the digital redesign of vehicle repair manuals for a major Japanese automotive brand,** improving usability and technician efficiency
-- **Proposed and delivered a content management workflow for a top-tier Japanese game developer** to streamline localisation and enable asset reuse
+- **Designed the UI/UX for a content management workflow** for a leading Japanese game developer to streamline localisation and ensure consistent tone of voice.
 - **Built data extraction and processing tools for automotive customer service teams** to improve the speed and accuracy of multilingual support operations
 - **Worked directly with clients** to uncover pain points, pitch tailored solutions, scope product requirements, and align delivery with business goals
 
@@ -127,7 +127,7 @@ Supported enterprise clients in the automotive, gaming, and translation industri
 
 Contributed to the quality and scalability of multilingual machine translation by managing evaluation pipelines, training workflows, and QA processes across distributed teams.
 
-- **Improved translation quality and consistency by 30%** by reviewing and refining high-volume Japanese-English machine translations for enterprise use cases
+- **Improved translation quality and consistency by 15%** by reviewing and refining high-volume Japanese-English machine translations for enterprise use cases
 - **Hired and managed a team of 30 evaluators through Upwork,** building and leading a distributed workflow to support large-scale translation analysis projects
 - **Trained and onboarded new team members,** helping analysts become fully independent within three months
 - **Created feedback loops and process improvements** that standardised QA output across multilingual evaluation teams
