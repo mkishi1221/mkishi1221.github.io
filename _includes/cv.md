@@ -24,7 +24,7 @@ Amutri instantly converts complex CAD files into interactive 3D presentations, m
 
 Here's a short demo of the product:
 
-<p><iframe width="1920" height="1054" src="https://www.youtube.com/embed/a6egHqd2qzU" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="1920" height="1054" src="https://youtu.be/o2_rseRIEGI" frameborder="0" allowfullscreen></iframe></p>
 
 - **Took a 0 to 1 product to revenue in the AEC and SMR sectors** by delivering core workflows for CAD sharing, real-time 3D collaboration, and Guided Walkthroughs
 - **Sole owner of product, design, and data across the business,** filling critical capability gaps and acting as the glue between strategy, delivery, and user experience in an early-stage environment
