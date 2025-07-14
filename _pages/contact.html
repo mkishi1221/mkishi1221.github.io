@@ -10,7 +10,18 @@ permalink: /contact/
     <p class="page-description">{{site.contact.description}}</p>
     {% endif %}
   </div>
-  <form class="form" action="https://formspree.io/f/mlekwdbw" method="POST">
+  <form class="form" action="https://formspree.io/f/mlekwdbw" method="POST" id="contact-form">
+    <!-- Honeypot field to catch spam bots -->
+    <div class="form__group" style="display: none;">
+      <input type="text" name="_gotcha" style="display: none;">
+    </div>
+    
+    <!-- Time-based spam protection -->
+    <input type="hidden" name="_timestamp" value="">
+    
+    <!-- JavaScript challenge -->
+    <input type="hidden" name="_js_challenge" value="">
+    
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-name">Your Name</label>
       <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
@@ -23,8 +34,60 @@ permalink: /contact/
       <label class="form__label screen-reader-text" for="form-text">Your Message</label>
       <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="Message" required></textarea>
     </div>
+    
     <div class="form__group">
       <button class="button" type="submit" style="border: 1px solid var(--border-color);">Send Message</button>
     </div>
   </form>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('contact-form');
+  
+  // Set timestamp and JS challenge
+  document.querySelector('input[name="_timestamp"]').value = Date.now();
+  document.querySelector('input[name="_js_challenge"]').value = 'js_enabled_' + Math.random().toString(36).substr(2, 9);
+  
+  // Disable form initially
+  form.style.opacity = '0.5';
+  form.style.pointerEvents = 'none';
+  
+  // Enable form after 2 seconds (prevents instant bot submissions)
+  setTimeout(function() {
+    form.style.opacity = '1';
+    form.style.pointerEvents = 'auto';
+  }, 2000);
+  
+  // Form validation
+  form.addEventListener('submit', function(e) {
+    // Check honeypot field
+    const honeypot = document.querySelector('input[name="_gotcha"]').value;
+    if (honeypot) {
+      e.preventDefault();
+      return false; // Silently reject if honeypot is filled
+    }
+    
+    // Check submission timing (prevent instant submissions)
+    const timestamp = parseInt(document.querySelector('input[name="_timestamp"]').value);
+    const now = Date.now();
+    if (now - timestamp < 3000) { // Less than 3 seconds
+      e.preventDefault();
+      alert('Please wait a moment before submitting.');
+      return false;
+    }
+    
+    // Check if JS challenge is present
+    const jsChallenge = document.querySelector('input[name="_js_challenge"]').value;
+    if (!jsChallenge || !jsChallenge.startsWith('js_enabled_')) {
+      e.preventDefault();
+      return false;
+    }
+    
+    // Disable submit button to prevent double submission
+    const submitBtn = form.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+  });
+});
+</script>
