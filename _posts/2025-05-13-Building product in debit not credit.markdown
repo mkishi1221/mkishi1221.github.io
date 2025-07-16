@@ -1,60 +1,40 @@
 ---
 layout: post
-title:  Building product in debit, not credit
-description: One of the toughest lessons I’ve learned in product - how involving others before truly validating the problem leads to bad debt.
-date:   2025-05-13 09:00:00 +0300
+title:  Working Harder Won't Validate a Startup
+description: True success comes from solving a real problem that people are willing to pay for.
+date:   2025-07-16 09:00:00 +0300
 image:  '/images/loan.jpg'
 tags:   [runway, validation, planning, learnings]
 ---
 
-One of the toughest lessons I’ve learned as a product manager is that going all in before finding the right customers rarely ends well. A product doesn’t magically attract users just because it exists. I’ve learned, sometimes painfully, that bringing in teammates, co-founders, or collaborators too early, before deeply validating the problem, creates debt that’s hard to repay.
+**One of the hardest lessons I’ve learned as a product manager is that working hard does not validate a startup.** 
 
-And when things miss the mark, it’s not just time that’s lost. It’s trust, energy, and goodwill. That’s a heavy cost, and one I’ve since learned to be much more careful about.
+I’ve spent long hours building features, bringing in support from people who believed in the idea, and doing everything I could to make it succeed. But I’ve come to realise that none of it matters if I’m not solving a real problem that I can build a business with.
 
-I’ve gone all in too soon. I’ve pitched solutions I believed in. I asked engineers, early users, and stakeholders to bet on those ideas. For a long time, I thought if we just pushed hard enough, things would fall into place. **But involving more people doesn’t change a core truth. The idea either solves a real, lasting problem or it doesn’t.**
+I’ve learned how easy it is to go all in too early. I committed to ideas before finding paying customers. I brought in collaborators and moved forward without fully understanding whether there were enough people that truly needed what we were making. We poured our passion into crafting the product and cared deeply about the design, but that didn’t turn it into something people were willing to pay for.
 
-In fast-moving environments, it’s easy to confuse activity with traction. But without a clear signal from people willing to pay or commit, we’re not really creating something valueable. We’re borrowing. And when we borrow time, energy, or trust without a clear plan to return it, we take on product debt. The kind that quietly compounds until it becomes unsustainable.
+For a while, I believed that if we just kept building and improving, things would eventually fall into place. But hard work does not always lead to traction. If the problem is not important, the solution will not stick, no matter how much polish or care goes into it.
 
-## Case Study 1: Domainsmith: A Missed Pivot
+## Built to Look the Part
 
-Domainsmith was my first startup. It was a domain name generator for brand designers and solo founders. We built it using Python and Nuxt, layering NLP on business descriptions to generate creative domains in real time. Early workshops with over 100 users gave promising feedback, especially since LLMs weren’t yet producing quality results in this space.
+Back in 2021 I co-founded a venue hire platform through Falmouth University’s Launchpad programme. My co-founder had industry experience in event organising, and I focused on product development and fast iteration. We shipped an MVP in 24 hours, onboarded 20+ venue partners and published 40+ listings within a few months, and continously improved the interface based on feedback from early users.
 
-The idea made sense: offer curated domains for a small annual fee. But we soon realised most of our users only needed one domain. Retention would be low.
+It felt like progress. We were signing up venues, shipping features, and showing momentum. Onboarding supply made the product look more tangible, both to us and to those around us. It gave the impression that we were gaining traction. With limited time in the incubator and funding to deploy, we felt the pressure to commit to a direction early and not not doing so made us feel exposed. But we struggled to find event organisers, and it was hard to validate whether the problem was real. That should have been a dead giveaway.
 
-What we didn’t do was test the concept with consultants, investors, or agencies who had ongoing naming needs. We didn’t have strong access to that market, and we ran out of time to pivot. My technical co-founder had already invested significant effort, and I couldn’t deliver a clear path to a return on that commitment. We decided to pause development. The product worked well for one-off use, but we hadn’t validated it with users who would need it more than once for sustained revenue.
+The event organisers we talked to were people we already knew. They were supportive, but we didn't challenge them enough to actually test the idea. Some booked through the platform, which felt encouraging at the time, but didn’t come back. Eventually, we realised those initial bookings were more about goodwill than genuine need. And when we began speaking with organisers beyond our circle, they put it plainly:
 
-## Case Study 2: SpaceforU: Momentum Without a Market
+*“We already know these venues. Why would we pay to use this?”*
 
-SpaceforU was a venue hire startup I co-founded through Falmouth University’s Launchpad. My co-founder had industry expertise, and I focused on tight feedback loops and fast iteration. We shipped our MVP in 24 hours, listed 40 spaces in a few months, and iterated on the UI based on venue feedback. But we made the same mistake again.
+These organisers weren’t struggling to find venues. Their real challenge was managing logistics more broadly, including catering, ticketing, vendor coordination, equipment, and scheduling. Our platform solved only one small and easy part of that workflow. It wasn’t useful enough on its own to become part of their process. As we looked more closely, it also became clear the market was much smaller than we had hoped for. There weren’t enough event organisers in Cornwall and Devon, and those who were active didn't have the problem we were hoping for. The few bookings we did receive were also typically low value, often around £10 to £20 per hour, which meant our 10 percent commission model wasn’t generating meaningful revenue. Reaching the kind of scale needed to make it work wasn't realistic at all.
 
-We assumed that securing venue listings was the bottleneck. In reality, many event organisers already had strong relationships with venues. A few of them did book through the platform, but when we spoke to them afterward, the truth became clear. They didn’t actually need it. They were supporting us, not solving a real problem. Eventually, the told us:
-
-“We already know these venues. We already have relationships. Why would we pay to use this?”
-
-We had executed hard but skipped insight. We didn’t properly validate demand before onboarding supply. And as we continued our research, we uncovered something even more fundamental. There simply weren’t that many event organisers in the region. The market was much smaller than we had assumed.
-
-By the time we realised our mistake, we had exhausted the trust and time of our venue partners.
+Looking back, we were working hard on all the wrong things. Instead of building the product, we should have kept reaching out to different people to try to find a high value problem we could solve. The pressure to show progress during incubation, combined with the need to deploy funding quickly, made it tempting to commit early and move fast. But without real validation, all that effort became a missed opportunity. It was time and energy spent making something that looked promising instead of uncovering what was truly needed. The time and funding we used could have gone toward solving a real problem. If we had spent even one more day uncovering new problems, we might have found something worth building. It hurts to never knew how close we might have been.
 
 ## The Signals Were Always There
 
-Looking back, the most frustrating part is **knowing that the insights we needed didn’t require a product, or even much time.** Just a handful of honest, early conversations could have redirected both products. But we didn’t prioritise that work. We were too confident in what we thought we already knew, and too eager to go all in.
+At the time, it felt like we were doing the right things. We were building, improving, and talking to users. But we weren’t asking the questions that really mattered. We were persistent with the idea, rather than persistent in finding the right problem for the business.
 
-I’ve learned that when we skip foundational validation, we're not placing a bet. We’re passing the risk onto others. And when those bets don’t work out, it’s not just our own time that’s wasted. It’s everyone’s.
+The signs were all there, we just didn’t recognise them for what they were. We went all in on the solution when we should have still been testing whether the problem was worth solving.
 
-## Time Is Not Free.It’s Borrowed
+I’ve since learned that persistence and hard work only matter when they’re focused in the right direction. It’s not about proving the idea is right, but about staying open, asking honest questions, and being willing to adjust when the signals aren’t strong. Is £10K MRR a realistic goal within the next 6 months? How many customers do I need to reach it?
 
-To those I let down: I’m sorry. I gave everything I had. Sleepless nights, long weekends, all the energy I could. But I’ve since learned that conviction and hard work aren’t enough. What matters is: Are we solving the right problem? For the right person? At the right time? Is the MVP feasible?
-
-## My New Rulebook
-
-- Validate before going all in. Don’t rely on instinct or secondhand anecdotes. Talk directly to the people we're trying to help.
-- Start small. It’s fine to explore early, but don’t commit heavily until the problem and customer are clear.
-- Respect the time of others. Collaborators are not leverage. They’re partners. Don’t ask for their time unless we know how we’ll make it worthwhile.
-- Test assumptions with people outside our circle. If our feedback loop only includes our network, we’re testing familiarity, not value.
-- Don’t confuse momentum with traction. Moving fast only matters if it gets us closer to something people genuinely want.
-
-## Building With Integrity
-
-I still believe in moving fast. But now, I do it with guardrails. I test the problem before going all in on the solution. I earn the trust of collaborators before asking for their time. And I commit with intention, not on credit, making sure that whatever I create has a clear path to value. Because the hardest lesson in product is that going all in on the wrong thing can cost more than just money. It can cost trust. And once that’s gone, it’s hard to earn back.
-
-*Updated 7th July 2025*
+If the problem doesn’t really matter to enough people, even a well-crafted product is unlikely to become a business.

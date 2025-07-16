@@ -1,0 +1,17 @@
+{
+  "name": "masayuki-kishi-site",
+  "version": "1.0.0",
+  "description": "Personal website with contact form spam protection",
+  "main": "index.js",
+  "scripts": {
+    "build": "jekyll build",
+    "serve": "jekyll serve"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+} 

@@ -10,17 +10,36 @@ permalink: /contact/
     <p class="page-description">{{site.contact.description}}</p>
     {% endif %}
   </div>
-  <form class="form" action="https://formspree.io/f/mlekwdbw" method="POST" id="contact-form">
-    <!-- Honeypot field to catch spam bots -->
+  
+  <!-- Loading state -->
+  <div id="form-loading" style="text-align: center; padding: 20px;">
+    <p>Loading contact form...</p>
+  </div>
+  
+  <form class="form" id="contact-form" style="display: none;">
+    <!-- Multiple honeypot fields with different names -->
     <div class="form__group" style="display: none;">
       <input type="text" name="_gotcha" style="display: none;">
+    </div>
+    <div class="form__group" style="display: none;">
+      <input type="email" name="email_confirm" style="display: none;">
+    </div>
+    <div class="form__group" style="display: none;">
+      <input type="text" name="website" style="display: none;">
     </div>
     
     <!-- Time-based spam protection -->
     <input type="hidden" name="_timestamp" value="">
+    <input type="hidden" name="_load_time" value="">
     
     <!-- JavaScript challenge -->
     <input type="hidden" name="_js_challenge" value="">
+    <input type="hidden" name="_mouse_moves" value="">
+    <input type="hidden" name="_key_presses" value="">
+    
+    <!-- Browser fingerprint -->
+    <input type="hidden" name="_user_agent" value="">
+    <input type="hidden" name="_screen_res" value="">
     
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-name">Your Name</label>
@@ -28,66 +47,168 @@ permalink: /contact/
     </div>
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-email">Your Email</label>
-      <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
+      <input class="form__input" id="form-email" type="email" name="email" placeholder="Email" required>
     </div>
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-text">Your Message</label>
-      <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="Message" required></textarea>
+      <textarea class="form__input" id="form-text" name="message" rows="10" placeholder="Message" required></textarea>
     </div>
     
     <div class="form__group">
       <button class="button" type="submit" style="border: 1px solid var(--border-color);">Send Message</button>
     </div>
   </form>
+  
+  <!-- Success/Error messages -->
+  <div id="form-message" style="display: none; margin-top: 20px; padding: 15px; border-radius: 5px;"></div>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const form = document.getElementById('contact-form');
+(function() {
+  let mouseMoves = 0;
+  let keyPresses = 0;
+  let formLoadTime = Date.now();
+  let userInteractions = 0;
   
-  // Set timestamp and JS challenge
-  document.querySelector('input[name="_timestamp"]').value = Date.now();
-  document.querySelector('input[name="_js_challenge"]').value = 'js_enabled_' + Math.random().toString(36).substr(2, 9);
-  
-  // Disable form initially
-  form.style.opacity = '0.5';
-  form.style.pointerEvents = 'none';
-  
-  // Enable form after 2 seconds (prevents instant bot submissions)
-  setTimeout(function() {
-    form.style.opacity = '1';
-    form.style.pointerEvents = 'auto';
-  }, 2000);
-  
-  // Form validation
-  form.addEventListener('submit', function(e) {
-    // Check honeypot field
-    const honeypot = document.querySelector('input[name="_gotcha"]').value;
-    if (honeypot) {
-      e.preventDefault();
-      return false; // Silently reject if honeypot is filled
-    }
-    
-    // Check submission timing (prevent instant submissions)
-    const timestamp = parseInt(document.querySelector('input[name="_timestamp"]').value);
-    const now = Date.now();
-    if (now - timestamp < 3000) { // Less than 3 seconds
-      e.preventDefault();
-      alert('Please wait a moment before submitting.');
-      return false;
-    }
-    
-    // Check if JS challenge is present
-    const jsChallenge = document.querySelector('input[name="_js_challenge"]').value;
-    if (!jsChallenge || !jsChallenge.startsWith('js_enabled_')) {
-      e.preventDefault();
-      return false;
-    }
-    
-    // Disable submit button to prevent double submission
-    const submitBtn = form.querySelector('button[type="submit"]');
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending...';
+  // Track user interactions
+  document.addEventListener('mousemove', function() {
+    mouseMoves++;
+    userInteractions++;
   });
-});
+  
+  document.addEventListener('keypress', function() {
+    keyPresses++;
+    userInteractions++;
+  });
+  
+  document.addEventListener('click', function() {
+    userInteractions++;
+  });
+  
+  // Wait for page to fully load
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      initializeForm();
+    }, 1000 + Math.random() * 2000); // Random delay between 1-3 seconds
+  });
+  
+  function initializeForm() {
+    const form = document.getElementById('contact-form');
+    const loading = document.getElementById('form-loading');
+    
+    // Set all hidden fields
+    document.querySelector('input[name="_timestamp"]').value = Date.now();
+    document.querySelector('input[name="_load_time"]').value = formLoadTime;
+    document.querySelector('input[name="_js_challenge"]').value = 'js_enabled_' + Math.random().toString(36).substr(2, 9);
+    document.querySelector('input[name="_mouse_moves"]').value = mouseMoves;
+    document.querySelector('input[name="_key_presses"]').value = keyPresses;
+    document.querySelector('input[name="_user_agent"]').value = navigator.userAgent;
+    document.querySelector('input[name="_screen_res"]').value = screen.width + 'x' + screen.height;
+    
+    // Show form
+    loading.style.display = 'none';
+    form.style.display = 'block';
+    
+    // Form submission
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      
+      // Multiple honeypot checks
+      const honeypot1 = document.querySelector('input[name="_gotcha"]').value;
+      const honeypot2 = document.querySelector('input[name="email_confirm"]').value;
+      const honeypot3 = document.querySelector('input[name="website"]').value;
+      
+      if (honeypot1 || honeypot2 || honeypot3) {
+        console.log('Honeypot triggered');
+        return false;
+      }
+      
+      // Check submission timing
+      const timestamp = parseInt(document.querySelector('input[name="_timestamp"]').value);
+      const now = Date.now();
+      const timeSinceLoad = now - formLoadTime;
+      
+      if (now - timestamp < 5000) { // Less than 5 seconds
+        showMessage('Please wait a moment before submitting.', 'error');
+        return false;
+      }
+      
+      if (timeSinceLoad < 3000) { // Form submitted too quickly after load
+        showMessage('Please take your time filling out the form.', 'error');
+        return false;
+      }
+      
+      // Check user interactions
+      if (userInteractions < 5) { // Require some user interaction
+        showMessage('Please interact with the form before submitting.', 'error');
+        return false;
+      }
+      
+      // Check JavaScript challenge
+      const jsChallenge = document.querySelector('input[name="_js_challenge"]').value;
+      if (!jsChallenge || !jsChallenge.startsWith('js_enabled_')) {
+        return false;
+      }
+      
+      // Check browser fingerprint
+      const userAgent = document.querySelector('input[name="_user_agent"]').value;
+      if (!userAgent || userAgent.length < 10) {
+        return false;
+      }
+      
+      // Disable submit button
+      const submitBtn = form.querySelector('button[type="submit"]');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+      
+      try {
+        // Collect form data
+        const formData = new FormData(form);
+        const data = {};
+        for (let [key, value] of formData.entries()) {
+          data[key] = value;
+        }
+        
+        // Send to serverless function
+        const response = await fetch('/.netlify/functions/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+          showMessage('Thank you! Your message has been sent successfully.', 'success');
+          form.reset();
+        } else {
+          showMessage('Sorry, there was an error sending your message. Please try again.', 'error');
+        }
+        
+      } catch (error) {
+        console.error('Error:', error);
+        showMessage('Sorry, there was an error sending your message. Please try again.', 'error');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Message';
+      }
+    });
+  }
+  
+  function showMessage(message, type) {
+    const messageDiv = document.getElementById('form-message');
+    messageDiv.textContent = message;
+    messageDiv.style.display = 'block';
+    messageDiv.style.backgroundColor = type === 'success' ? '#d4edda' : '#f8d7da';
+    messageDiv.style.color = type === 'success' ? '#155724' : '#721c24';
+    messageDiv.style.border = `1px solid ${type === 'success' ? '#c3e6cb' : '#f5c6cb'}`;
+    
+    // Hide message after 5 seconds
+    setTimeout(() => {
+      messageDiv.style.display = 'none';
+    }, 5000);
+  }
+})();
 </script>

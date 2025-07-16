@@ -17,9 +17,9 @@ My first startup was called Domainsmith. It was designed to help brand designers
 
 We launched with a Concierge MVP. I built custom scripts to generate ideas and ran live naming sessions with over 100 users, guiding them through the process by hand. Eventually, some of them began paying ¥10,000 (around £55) for the experience. It felt like early traction. Users told us existing tools like ChatGPT were too generic or repetitive, and our approach felt refreshingly tailored. We were solving a real problem.
 
-Based on that feedback, we built an MVP that curated polished, brandable domains and offered them on a subscription. We had paying users and clear signals that we were doing something different from the rest of the market. But beneath that surface was a deeper issue. Most users only needed a domain once. Our early adopters were solo founders and first-time creators, and once they had their name, they had no reason to come back.
+Based on that feedback, we built a platform MVP that curated polished, brandable domains and offered them on a subscription. We had finally got paying users for the concierge MVP and clear signals that we were doing something different from the rest of the market. But beneath that surface was a deeper issue. Most users only needed a domain once. Our early adopters were solo founders and first-time creators, and once they had their name, they had no reason to come back.
 
-We had validated that people were willing to pay for help with naming for a brand. What we hadn’t validated was whether they needed that help often enough to support a business. The pain was clear, but the frequency was low. We explored ways to create more ongoing value, such as becoming a domain registrar and handling renewals. But that path was out of reach given the cost, complexity, and regulatory barriers. I took those early payments as a signal to move forward with the product. In hindsight, we had only proven that there was demand for a one-time service. We had not shown that there was a sustainable business behind it.
+We had validated that people were willing to pay for help with naming for a brand. What we hadn’t validated was whether they needed that help often enough to support our business. The pain was clear, but the frequency was low. We explored ways to create more ongoing value, such as becoming a domain registrar and handling renewals. But that path was out of reach given the cost, complexity, and regulatory barriers. I took those early payments as a signal to move forward with the product. In hindsight, we had only proven that there was demand for a one-time service. We had not shown that there was a sustainable business behind it.
 
 ## What Early Revenue Really Tells You
 
@@ -41,7 +41,7 @@ Until those answers are clear, early revenue is just that: early.
 
 Early revenue can be deceptive, not because it's unimportant, but because it often comes from a small, non-representative group: friends, early adopters, and the startup-curious. Their willingness to pay doesn't always map to future behaviour. We might be testing generosity, not demand.
 
-I saw the same pattern again with SpaceforU, a venue-booking platform. We built a working MVP in 24 hours and quickly onboarded listings. Early bookings rolled in. It felt like another win. But many of those bookings came from friends who were experiencedevent organisers. Their support was helpful, but short-lived. They used the product once, gave feedback, and moved on.
+I saw the same pattern again with a venue-booking platform I co-founded at Falmouth University's incubator. We built a working MVP in 24 hours and quickly onboarded listings. Early bookings rolled in. It felt like another win. But many of those bookings came from friends who were experienced event organisers. Their support was helpful, but short-lived. They used the product once, gave feedback, and moved on.
 
 These organisers weren’t struggling to find venues. Their real challenge was managing logistics more broadly, including catering, ticketing, vendor coordination, equipment, and scheduling. Our platform solved only one small part of that workflow. It wasn’t useful enough on its own to become part of their process.
 
@@ -49,9 +49,9 @@ Revenue is not a binary signal. It matters *why* someone paid, what problem they
 
 ## Think Like a Developer: Atomic Validation
 
-Just as developers commit code atomically in small, testable units, I've found product ideas are best developed the same way.
+Just as developers commit code atomically in small, testable units, I've found product ideas can also be developed in the same way.
 
-Every shift in the experience, delivery model, or pricing approach is a separate experiment. Move from manual to automated? Test it. Switch from a service to a product? Validate it. Change the customer type? Re-test the assumptions. It's so tempting to try to leap straight into a big, scalable product. But validation is complicated, and it's easy to draw the wrong conclusions from early success.
+Every shift in the experience, delivery model, or pricing approach can be a separate experiment. Move from manual to automated? Test it. Switch from a service to a product? Validate it. Change the customer type? Re-test the assumptions. It's so tempting to try to leap straight into a big, scalable product. But validation is complicated, and it's easy to draw the wrong conclusions from early success.
 
 Each step in the journey can break what worked in the last one. What solves a niche user's problem might not work for a mainstream audience. What's profitable with ten users might fail at 1,000. Every assumption is up for revalidation.
 
@@ -59,8 +59,6 @@ Each step in the journey can break what worked in the last one. What solves a ni
 
 Whether we're testing the market with a Wizard-of-Oz prototype, stringing together no-code tools, or delivering services by hand, early revenue is just a signal. Money is important, but only if we understand what it means. And only if it keeps showing up when the magic curtain comes down.
 
-So yes, follow the money. But keep following it, treating every signal, every payment, feature, and workflow, as its own experiment. Build atomically. Test obsessively. Validate continuously.
+The real startup magic isn't building a product that people have paid for once. It's building something that continues to deliver real value and keeps users paying as the business evolves.
 
-The real startup magic isn't just building a product that people will pay for. It's building something that continues to deliver real value and keeps doing so as we evolve.
-
-*Updated 7th July 2025*
+*Updated 16th July 2025*
