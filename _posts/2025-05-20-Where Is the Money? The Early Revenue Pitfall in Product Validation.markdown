@@ -17,23 +17,22 @@ My first startup was called Domainsmith. It was designed to help brand designers
 
 We launched with a Concierge MVP. I built custom scripts to generate ideas and ran live naming sessions with over 100 users, guiding them through the process by hand. Eventually, some of them began paying ¥10,000 (around £55) for the experience. It felt like early traction. Users told us existing tools like ChatGPT were too generic or repetitive, and our approach felt refreshingly tailored. We were solving a real problem.
 
-Based on that feedback, we built a platform MVP that curated polished, brandable domains and offered them on a subscription. We had finally got paying users for the concierge MVP and clear signals that we were doing something different from the rest of the market. But beneath that surface was a deeper issue. Most users only needed a domain once. Our early adopters were solo founders and first-time creators, and once they had their name, they had no reason to come back.
+Based on that feedback, we built a platform MVP that curated polished, brandable domains and offered them on a subscription. We had finally got paying users for the concierge MVP and clear signals that we were doing something different from the rest of the market. But beneath that surface was a deeper issue. Most users only needed a domain once. Our early adopters were solo founders and first-time creators, and once they had their name, they had no reason to come back. It was also hard to find new users and wasn't clear if enough people had the same problem and were willing to pay for it.
 
-We had validated that people were willing to pay for help with naming for a brand. What we hadn’t validated was whether they needed that help often enough to support our business. The pain was clear, but the frequency was low. We explored ways to create more ongoing value, such as becoming a domain registrar and handling renewals. But that path was out of reach given the cost, complexity, and regulatory barriers. I took those early payments as a signal to move forward with the product. In hindsight, we had only proven that there was demand for a one-time service. We had not shown that there was a sustainable business behind it.
+We had validated that at least some people were willing to pay for help with naming for a brand. What we hadn’t validated was the size of the market and whether they needed that help often enough to support our business. The pain was clear, but the frequency was very low. We explored ways to create more ongoing value, such as becoming a domain registrar and handling renewals. But that path was out of reach given the cost, complexity, and regulatory barriers and didn't solve the problem of finding new users. I took those early payments as a signal to move forward with the product. In hindsight, we had only proven that there was some demand for a one-time service. We had not shown that there was a sustainable business behind it.
 
 ## What Early Revenue Really Tells You
 
 Early payments can feel like a breakthrough. After so much uncertainty, someone is finally willing to pay. But I’ve learned that revenue on its own doesn’t mean we’ve found a business. It only shows that we solved a problem once.
 
-With Domainsmith, users paid for a real need. They wanted help naming their brand, and we delivered. But what we didn’t see clearly at the time was that most of them only needed that help once. The problem was not ongoing. There was no return path, no reason for them to come back, and no way to build a relationship beyond the first transaction.
-
-We thought early traction meant we were ready to move forward. What it really meant was that we had solved a single-use problem. That matters, but it is not the same as validating a repeatable business.
+It was easy to think early traction via concierge MVP meant we were ready to move forward. What it really meant was that we had solved a single-use problem. That matters, but it was not the same as validating a repeatable business.
 
 Early revenue should lead to better questions:
 
 - How often does this problem occur?
 - Who experiences it repeatedly?
 - What does the journey look like after the first payment?
+- How many potential customers are out there?
 
 Until those answers are clear, early revenue is just that: early.
 
