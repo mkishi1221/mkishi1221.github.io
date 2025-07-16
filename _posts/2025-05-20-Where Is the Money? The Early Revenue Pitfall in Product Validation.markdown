@@ -33,6 +33,7 @@ Early revenue should lead to better questions:
 - Who experiences it repeatedly?
 - What does the journey look like after the first payment?
 - How many potential customers are out there?
+- How realistic is it to make £10K MRR in 6 months?
 
 Until those answers are clear, early revenue is just that: early.
 
