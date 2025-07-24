@@ -1,0 +1,38 @@
+{% comment %}
+  Case Study Tile Component
+  Usage: {% include case-study-tile.html 
+    image="path/to/image.jpg" 
+    title="Case Study Title" 
+    description="Description text here"
+    tags="tag1,tag2,tag3"
+    link="optional-link-url"
+    image-width="35" %}
+{% endcomment %}
+
+<div class="case-study-tile" {% if include.image-width %}style="--image-width: {{ include.image-width }}%"{% endif %}>
+  {% if include.link %}
+    <a href="{{ include.link }}" class="case-study-tile__link">
+  {% endif %}
+  
+  <div class="case-study-tile__image">
+    <img src="{{ site.baseurl }}/images/{{ include.image }}" alt="{{ include.title }}" loading="lazy">
+  </div>
+  
+  <div class="case-study-tile__content">
+    <h3 class="case-study-tile__title">{{ include.title }}</h3>
+    <p class="case-study-tile__description">{{ include.description }}</p>
+    
+    {% if include.tags %}
+      <div class="case-study-tile__tags">
+        {% assign tag_array = include.tags | split: ',' %}
+        {% for tag in tag_array %}
+          <span class="case-study-tile__tag">{{ tag | strip }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+  
+  {% if include.link %}
+    </a>
+  {% endif %}
+</div> 

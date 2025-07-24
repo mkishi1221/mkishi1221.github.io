@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<!-- begin page -->
+{% if page.image %}
+<div class="container">
+  <div class="page-image">
+    <img src="{{site.baseurl}}/images/{{page.image}}" alt="{{page.title}}">
+  </div>
+</div>
+{% endif %}
+
+<div class="container animate">
+
+  {% unless page.hide_title %}
+  <div class="page__info">
+    <h1 class="page__title">{{ page.title | escape }}</h1>
+  </div>
+  {% endunless %}
+
+  <article class="page">
+    <div class="page__content">
+      {{ content }}
+      
+      {% if page.tags %}
+      <div class="article__bottom" style="margin-top: 40px;">
+        <div class="article-tags__box">
+          {% assign tag_array = page.tags | split: ',' %}
+          {% for tag in tag_array %}
+            <span class="article__tag">{{ tag | strip }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </article>
+
+</div>
+<!-- end page --> 

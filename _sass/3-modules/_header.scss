@@ -301,3 +301,9 @@
     }
   }
 }
+
+/* Active Navigation Link */
+.nav__link--active {
+  color: var(--brand-color) !important;
+  font-weight: 700 !important;
+}

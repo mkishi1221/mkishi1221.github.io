@@ -1,0 +1,21 @@
+<!-- Certificate Tile Component -->
+<!-- Usage: {% include certificate-tile.html title="Certificate Name" platform="Platform Name" icon="icon-class" link="optional-link" %} -->
+
+<div class="certificate-tile">
+  <div class="certificate-tile__content">
+    <div class="certificate-tile__icon">
+      <i class="{{ include.icon | default: 'ion ion-md-school' }}"></i>
+    </div>
+    <div class="certificate-tile__info">
+      <h3 class="certificate-tile__title">{{ include.title }}</h3>
+      <p class="certificate-tile__platform">{{ include.platform }}</p>
+    </div>
+    {% if include.link %}
+    <div class="certificate-tile__link">
+      <a href="{{ include.link }}" target="_blank" rel="noopener">
+        <i class="ion ion-md-open"></i>
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</div> 

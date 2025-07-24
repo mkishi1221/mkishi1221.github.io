@@ -20,15 +20,21 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
   }
 
   @media only screen and (max-width: $desktop) {
-    max-width: 740px;
+    max-width: 900px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   @media only screen and (max-width: $tablet) {
-    max-width: 560px;
+    max-width: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   @media only screen and (max-width: $mobile) {
-    max-width: 480px;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 

@@ -6,16 +6,18 @@ layout: default
 {% if page.image %}
 <div class="container">
   <div class="page-image">
-    <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+    <img src="{{site.baseurl}}/images/{{page.image}}" alt="{{page.title}}">
   </div>
 </div>
 {% endif %}
 
 <div class="container animate">
 
+  {% unless page.hide_title %}
   <div class="page__info">
     <h1 class="page__title">{{ page.title | escape }}</h1>
   </div>
+  {% endunless %}
 
   <article class="page">
     <div class="page__content">

@@ -20,26 +20,26 @@
               <i class="ion ion-md-close"></i>
             </div>
             <div class="nav__title">Menu</div>
-            <ul class="nav__list list-reset">
-
-              <!-- CV Link -->
+            <ul class="nav__list list-reset">              
+                
+              <!-- Case Studies Link -->
               <li class="nav__item">
-                <a href="{{ site.baseurl }}/" class="nav__link">CV</a>
-              </li> 
+                <a href="{{ site.baseurl }}/case-studies/" class="nav__link{% if page.url contains '/case-studies/' or page.url contains '/amutri/' or page.url contains '/domainsmith/' or page.url contains '/spaceforu/' %} nav__link--active{% endif %}">Case Studies</a>
+              </li>
 
               <!-- Toolkits Link -->
               <li class="nav__item">
-                <a href="{{ site.baseurl }}/toolkits/" class="nav__link">Toolkits</a>
-              </li>             
-              
+                <a href="{{ site.baseurl }}/toolkits/" class="nav__link{% if page.url contains '/toolkits/' %} nav__link--active{% endif %}">Toolkits</a>
+              </li>
+                
               <!-- Blog Link -->
               <li class="nav__item">
-                <a href="{{ site.baseurl }}/blog/" class="nav__link">Blog</a>
+                <a href="{{ site.baseurl }}/blog/" class="nav__link{% if page.url contains '/blog/' or page.url contains '/tags/' %} nav__link--active{% endif %}">Blog</a>
               </li>  
         
               <!-- Contact Link -->
               <li class="nav__item">
-                <a href="{{ site.baseurl }}/contact/" class="nav__link">Contact</a>
+                <a href="https://www.linkedin.com/in/mkishi/" class="nav__link" target="_blank" rel="noopener">Contact</a>
               </li>
 
               <!-- Theme Toggle -->

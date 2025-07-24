@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Blast from the past - exhibiting at Made in Brunel
+title:  Blast from the past - Made in Brunel
 description: A reflection on my 2017 exhibition at Made in Brunel, where I explored how everyday objects can express stories of change, resilience, and healing.
 date:   2025-05-09 11:00:00 +0300
 image:  '/images/Comp/Comp_Banner.jpg'
