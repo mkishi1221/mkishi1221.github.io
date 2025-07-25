@@ -152,4 +152,8 @@ I also have experience working with AWS products, including EC2 instances, Lambd
 
 # Contact me
 
-I'm open to conversations about new product roles, collaborations, or teams building great products. If you'd like to learn more or discuss working together, feel free [contact me on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. I check messages regularly and will respond promptly.
+I'm open to conversations about new product roles, collaborations, or teams building great products. **If you'd like to learn more or discuss working together, feel free to contact me on LinkedIn.** I check messages regularly and will respond promptly.
+
+<div style="text-align: left; margin-top: 32px;">
+  <a href="https://www.linkedin.com/in/mkishi/" target="_blank" style="display: inline-block; background-color: #533feb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: 600; transition: background-color 0.3s ease;">Find me on LinkedIn</a>
+</div>

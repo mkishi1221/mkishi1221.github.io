@@ -3,7 +3,7 @@
 :root {
   --brand-color: #533feb;
   --white: #fff;
-  --light-gray: #f0f0f0;
+  --light-gray: #dddddd;
   --gray: #6a6d76;
   --dark: #0c101a;
   --dark-blue: #1e2740;
@@ -34,7 +34,7 @@
 :root[dark] {
   --brand-color: #8683dc;
   --white: #fff;
-  --light-gray: #f0f0f0;
+  --light-gray: #f5f5f5;
   --dark: #0c101a;
 
   --background-color: var(--dark);
@@ -52,7 +52,7 @@
   --button-background-color: #080b12;
   --button-background-hover: var(--brand-color);
 
-  --border-color: #252629;
+  --border-color: #55575c;
   --border-color-alt: #212630;
 
   --tr-color: #080b12;

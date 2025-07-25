@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  Working Harder Won't Validate a Startup Idea
-description: True success comes from solving a real problem that people are willing to pay for.
+title:  More Hours Won’t Make a Bad Idea Good
+description: Putting in extra hours feels productive, but effort alone can’t fix a weak concept. If the market isn’t responding, more grind won’t magically create validation.
 date:   2025-07-16 09:00:00 +0300
-image:  '/images/loan.jpg'
+image:  '/images/grind.jpg'
 tags:   [runway, validation, planning, learnings]
 ---
 
-**One of the hardest lessons I’ve learned as a product manager is that working hard does not validate a startup.** 
+**One of the toughest lessons I’ve learned as a product manager is that persistence and hard work alone doesn’t validate a startup.**
 
-I’ve spent long hours building features, bringing in support from people who believed in the idea, and doing everything I could to make it succeed. But I’ve come to realise that none of it matters if I’m not solving a real problem that I can build a business with.
+I’ve spent long hours building features, bringing in support from people who believed in the idea, and doing everything I could to make it succeed. But I’ve come to realise that none of it matters if I’m not solving a real problem that people are willing to pay for that I can build a business with.
 
 It's far too easy to go all in too early. I committed to ideas before finding paying customers. I brought in collaborators and moved forward without fully understanding whether there were enough people that truly needed what we were making. We poured our passion into crafting the product and cared deeply about the design, but that didn’t turn it into something people were willing to pay for.
 
@@ -17,13 +17,13 @@ For a while, I believed that if we just kept building and improving, things woul
 
 ## Built to Look the Part
 
-Back in 2021 I co-founded a venue hire platform, inspired by airbnb, through Falmouth University’s Launchpad programme. My co-founder had industry experience in event organising, and I focused on product development and fast iteration. We shipped an MVP in 24 hours, onboarded 20+ venue partners, published 40+ listings within a few months and bookings trickled in. We continously improved the product based on feedback from early users.
+Back in 2021 I co-founded a venue hire platform, inspired by airbnb, through Falmouth University’s Launchpad programme. My co-founder had industry experience in event organising, and I focused on product development and fast iteration. We shipped an MVP in 24 hours, onboarded 20+ venue partners, published 40+ listings within a few months and bookings trickled in. We continuously improved the product based on feedback from early users.
 
 It felt like progress. We were signing up venues, getting some early bookings, shipping features, and showing momentum. Onboarding supply made the product look more tangible, both to us and to those around us. It gave the impression that we were gaining traction. With limited time in the incubator and funding to deploy, we felt the pressure to commit to a direction early and not doing so made us feel exposed. But we struggled to find enough event organisers, and it was hard to validate whether the problem of finding and booking venues was real. That should have been a dead giveaway.
 
 The event organisers we talked to were people we already knew. They were supportive, but we didn't challenge them enough to actually test the idea. Some booked through the platform, which felt encouraging at the time, but didn’t come back. Eventually, we realised those initial bookings were more about goodwill than genuine need. And when we began speaking with organisers beyond our circle, they put it plainly:
 
-*“We already know these venues. Why would we pay to use this?”*
+**“We already know these venues. Why would we pay to use this?”**
 
 These organisers weren’t struggling to find and book venues. Their real challenge was managing logistics more broadly, including catering, ticketing, vendor coordination, equipment, and scheduling. Our platform solved only one small and easy part of that workflow. It wasn’t useful enough on its own to become part of their process. It also became very clear the market was much smaller than we had hoped for. There weren’t enough event organisers in Cornwall and Devon, and those who were active didn't have the problem we were hoping for. The few bookings we did receive were also typically low value, often around £10 to £20 per hour, which meant our 10 percent commission model wasn’t generating meaningful revenue. Reaching the kind of scale needed to make the business work wasn't realistic at all.
 

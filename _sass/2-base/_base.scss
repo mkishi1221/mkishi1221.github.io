@@ -255,14 +255,14 @@ table td {
   text-decoration: none;
   border-radius: 4px;
   border: none;
-  color: var(--white);
-  background-color: var(--button-background-color);
+  color: #ffffff;
+  background-color: #080b12;
   outline: none;
   cursor: pointer;
   transition: all .25s;
 
   &:hover {
-    background: var(--button-background-hover);
+    background: #533feb;
   }
 
   &:active {

@@ -3,7 +3,7 @@ layout: post
 title:  Where Is the Money? The Early Revenue Pitfall in Product Validation
 description: Why we can't rest on our validation lawrels with early revenue and how to keep validating as the idea evolves.
 date:   2025-05-20 09:00:00 +0300
-image:  '/images/revenue.jpg'
+image:  '/images/digging.jpg'
 tags:   [mindset, validation, learnings]
 ---
 
