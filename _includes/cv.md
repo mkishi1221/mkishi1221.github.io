@@ -1,13 +1,13 @@
 
 # Here's a TL;DR on my career:
 
-I'm a high-impact product manager and full-stack builder with a strong background in design, data and software development. I've led teams in the UK and Japan and worked in **customer-facing product roles**, at both early-stage startups and large enterprises.
+I’m a product manager and full-stack MVP builder with 5+ years of experience specialising in validating early-stage ideas and building MVPs at speed. I’ve led 0 to 1 launches of 6+ AI, SaaS, and marketplace products for both B2B and B2C. I've led teams in the UK and in Japan at both early-stage startups and large enterprises.
 
-- **I have deep experience driving early-stage products to adoption** by tracking success via customer workshops and experiments using scrappy prototypes, securing enterprise traction and early funding.
+- **I have deep experience driving early-stage products to adoption** by tracking success via customer workshops and experiments using scrappy prototypes, securing traction and early funding.
 - **My superpower is rapidly building and testing prototypes under pressure** and using that hands-on insight to have deep, meaningful conversations that build trust, align cross-functional teams, and drive products to success.
 - **I focus on managing the work rather than just the people**, staying closely involved in the details to set clear direction, relentlessly leveling up in unfamiliar areas to uphold high standards, and empowering teams through functional leadership.
 
-If you'd like to learn more or discuss working together, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }.
+I'm open to conversations about new product roles, collaborations, or teams building great products. If you'd like to learn more or discuss working together, feel free [contact me on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. I check messages regularly and will respond promptly.
 
 ***
 
@@ -152,4 +152,4 @@ I also have experience working with AWS products, including EC2 instances, Lambd
 
 # Contact me
 
-If you'd like to learn more about what I can do for you, feel free to [drop me a message](/contact){: .cv_link target="_blank" } or [reach out on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }.
+I'm open to conversations about new product roles, collaborations, or teams building great products. If you'd like to learn more or discuss working together, feel free [contact me on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. I check messages regularly and will respond promptly.
