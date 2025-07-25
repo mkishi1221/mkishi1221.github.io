@@ -5,9 +5,9 @@ permalink: /case-studies/
 hide_title: true
 ---
 
-{% include case-study-tile.html 
-  image="Amutri_SMR_device.jpg" 
-  title="Amutri" 
+{% include case-study-tile.html
+  image="Amutri_SMR_Device.jpg"
+  title="Amutri"
   description="Cloud-rendered 3D Visualisation product that converts complex CAD and 3D models into shareable, interactive 3D presentations."
   tags="Enterprise,SaaS,B2B,Cloud computing,NLP,AI,Emerging Tech"
   link="/amutri/"
