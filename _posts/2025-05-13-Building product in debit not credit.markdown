@@ -7,7 +7,7 @@ image:  '/images/grind.jpg'
 tags:   [runway, validation, planning, learnings]
 ---
 
-**One of the toughest lessons I’ve learned as a product manager is that persistence and hard work alone doesn’t validate a startup.**
+## One of the toughest lessons I’ve learned as a founder is that persistence and hard work alone doesn’t validate a startup
 
 I’ve spent long hours building features, bringing in support from people who believed in the idea, and doing everything I could to make it succeed. But I’ve come to realise that none of it matters if I’m not solving a real problem that people are willing to pay for that I can build a business with.
 

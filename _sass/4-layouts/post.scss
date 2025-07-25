@@ -133,13 +133,13 @@
   color: var(--heading-font-color);
   text-transform: uppercase;
 
-  @media only screen and (max-width: $desktop) {
-    font-size: $font-size-h2;
+  @media only screen and (max-width: $tablet) {
+    font-size: 36px;
   }
 
   @media only screen and (max-width: $mobile) {
     margin: 0 0 16px 0;
-    font-size: $font-size-h3;
+    font-size: 32px;
   }
 }
 
@@ -176,6 +176,14 @@
   color: var(--text-color);
   font-weight: $base-font-weight;
 
+  @media only screen and (max-width: $tablet) {
+    font-size: 16px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    font-size: 15px;
+  }
+
   p {
     margin-bottom: 1.5em;
   }
@@ -195,6 +203,14 @@
 
   h2 {
     font-size: $font-size-h2;
+
+    @media only screen and (max-width: $tablet) {
+      font-size: 22px;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      font-size: 20px;
+    }
   }
 
   h3 {
@@ -322,23 +338,23 @@
   flex-wrap: wrap;
   
   .post__tag {
-    padding: 12px 24px;
+    padding: 8px 16px;
     margin: 4px 8px 4px 0;
     font-size: 11px;
     line-height: 13px;
     font-weight: 500;
     text-transform: uppercase;
-    border: none;
-    border-radius: 4px;
-    color: var(--text-color) !important;
-    background-color: var(--light-gray);
-  
+    border: 2px solid #55575c;
+    border-radius: 30px;
+    color: #eff1fc;
+
     &:last-child {
       margin-right: 0;
     }
-  
+
     &:hover {
-      color: var(--dark);
+      color: var(--heading-font-color);
+      border-color: var(--brand-color);
     }
   }
 }
