@@ -6,7 +6,7 @@ tags: Enterprise, SaaS, B2B, Cloud computing, NLP, AI, Emerging Tech
 hide_title: true
 ---
 
-![Amutri SMR]({{site.baseurl}}/images/Amutri_SMR_device.jpg){: style="display: block; margin: 0 auto;"}
+![Amutri SMR]({{site.baseurl}}/images/Amutri_SMR_Device.jpg){: style="display: block; margin: 0 auto;"}
 
 # Amutri
 
