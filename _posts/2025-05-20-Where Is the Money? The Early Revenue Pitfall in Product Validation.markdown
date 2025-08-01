@@ -3,7 +3,7 @@ layout: post
 title:  Where Is the Money? The Early Revenue Pitfall in Product Validation
 description: Why we can't rest on our validation lawrels with early revenue and how to keep validating as the idea evolves.
 date:   2025-05-20 09:00:00 +0300
-image:  '/images/digging.jpg'
+image:  '/images/open_sign.jpg'
 tags:   [mindset, validation, learnings]
 ---
 
@@ -51,4 +51,4 @@ Whether we're testing the market with a Wizard-of-Oz prototype, stringing togeth
 
 The real startup magic isn't building a product that people have paid for once. It's building something that continues to deliver real value and keeps users paying as the business evolves.
 
-*Updated 16th July 2025*
+*Photo by [Tim Mossholder](https://unsplash.com/@timmossholder) on [Unsplash](https://unsplash.com/photos/white-open-signage-sxb8StmTfaw). Updated 16th July 2025*
