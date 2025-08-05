@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  More Hours Won’t Make a Bad Idea Good
+title:  Why Testing the Concept Early and Inexpensively Is So Critical
 description: Working long hours can feel productive, but effort alone won’t rescue a weak idea. Testing the concept early and inexpensively is crucial to ensure we’re heading in the right direction.
 date:   2025-07-16 09:00:00 +0300
 image:  '/images/digging.jpg'
