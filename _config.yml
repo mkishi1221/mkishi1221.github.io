@@ -60,7 +60,7 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Build Settings
 markdown: kramdown
-permalink: /:title
+permalink: /:year/:month/:day/:title
 future: true
 plugins:
   - jekyll-sitemap
