@@ -9,8 +9,6 @@ I’m a product manager and full-stack MVP builder with 5+ years of experience s
 
 I'm open to conversations about new product roles, collaborations, or teams building great products. If you'd like to learn more or discuss working together, feel free [contact me on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. I check messages regularly and will respond promptly.
 
-***
-
 # Case studies
 
 {% include case-study-tile.html
@@ -33,8 +31,6 @@ I'm open to conversations about new product roles, collaborations, or teams buil
   description="AI-powered platform helping brand designers and startup founders discover high-quality domain names."
   tags="Cloud computing,B2C,NLP,AI"
   link="/domainsmith" %}
-
-***
 
 # Speaking and Events
 
@@ -62,8 +58,6 @@ I’ve spoken at events, panels, and academic sessions, sharing insights on buil
 
 ![Global Plymouth event]({{site.baseurl}}/images/highres_514784802.jpeg){: style="display: block; margin: 0 auto;"}
 *Global Plymouth (Photo by Mithuan Alwis)*
-
-***
 
 # PM Toolkits
 
@@ -93,8 +87,6 @@ A small but battle-tested set of templates and guidelines I keep coming back to 
   link="https://github.com/mkishi1221/pm-resources/blob/main/feature-spec-template.md"
   image-width="25" %}
 
-***
-
 # Dev Toolkits
 
 Templates I rely on to keep code collaboration clear and consistent. This set includes pull request descriptions, feature PRs, and bug reports. All in Markdown, ready to drop into GitHub.
@@ -123,8 +115,6 @@ Templates I rely on to keep code collaboration clear and consistent. This set in
   link="https://github.com/mkishi1221/dev-resources/blob/main/bug-report-template.md"
   image-width="25" %}
 
-***
-
 # Dev Certifications
 
 I’ve completed development courses across data science, web development, and backend technologies, applying these skills to build prototypes, ship products faster and contribute across the stack. I stay current through platforms like Kaggle (Machine Learning), Google (Digital Marketing), Codecademy, and Udemy, with training in MongoDB, React, Vue.js, Go, Python, JavaScript, TypeScript, and FastAPI.
@@ -147,8 +137,6 @@ I’ve completed development courses across data science, web development, and b
 - **Complete FastAPI masterclass from scratch 2022** (Udemy)
 
 I also have experience working with AWS products, including EC2 instances, Lambdas, Cognito, CloudWatch, S3, and DynamoDB, as well as deploying EC2 instances and Lambdas using Terraform.
-
-***
 
 # Contact me
 

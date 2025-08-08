@@ -11,6 +11,15 @@ layout: default
 </div>
 {% endif %}
 
+{% if page.content_narrow %}
+<div class="container animate">
+  <div class="row animate">
+    <div class="col col-8 push-2 col-d-12 push-d-0">
+      {{ content }}
+    </div>
+  </div>
+</div>
+{% else %}
 <div class="container animate">
 
   {% unless page.hide_title %}
@@ -26,4 +35,5 @@ layout: default
   </article>
 
 </div>
+{% endif %}
 <!-- end page -->
