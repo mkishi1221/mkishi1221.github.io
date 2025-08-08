@@ -66,7 +66,7 @@ I’ve spoken at events, panels, and academic sessions, sharing insights on buil
 
 <br>
 
-![Global Plymouth event]({{site.baseurl}}/images/highres_514784802.jpeg){: style="display: block; margin: 0 auto;"}
+![Global Plymouth event]({{site.baseurl}}/images/highres_514784802.jpeg){: style="display: block; margin: 0 auto; width: 80%;"}
 *Global Plymouth (Photo by Mithuan Alwis)*
 
 # PM Toolkits
