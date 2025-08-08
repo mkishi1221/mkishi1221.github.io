@@ -36,13 +36,23 @@ I'm open to conversations about new product roles, collaborations, or teams buil
 
 I’ve spoken at events, panels, and academic sessions, sharing insights on building with emerging technologies including AI, cloud computing, real-time systems, and complex design workflows. I also organise my own events in London.
 
-- **Kickstarter x Blue Garage: Crowdfunding Creators Meetup** *(July 2025)*: Organised and hosted a Kickstarter-sponsored event on launching hardware and design crowdfunding projects
+- **Kickstarter x Blue Garage: Crowdfunding Creators Meetup** *(July 2025)*: Organised and hosted a Kickstarter-sponsored event with 50+ attendees and 90+ signups on launching hardware and design crowdfunding projects
 - **Cornwall Angel Network launch** *(April 2024)*: Presented as part of a [regional tech innovation showcase](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" }
 - **Hertzian's AI Summit** *(June 2024)*: Spoke on how real-time 3D supports sales and stakeholder engagement
 - **MLOps London** *(Nov 2023)*: Talked about integrating AI into 3D design workflows
 - **Cranfield University Airport Design module** *(Feb 2024 & Feb 2025)*: Led workshops on using visualisation tools in infrastructure planning
 - **Global Plymouth Panelist at University of Plymouth** *(July 2023)*: Participated in a panel on AI’s societal and cross-sector impact
 - **SETsquared Bristol Interview** *(April 2024)*: Featured in a written article on [Amutri's vision and impact in 3D visualisation](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" }
+
+<br>
+
+![Kickstarter x BlueGarage]({{site.baseurl}}/images/Kickstarter_1.jpg){: style="display: block; margin: 0 auto; width: 80%;"}
+*Kickstarter x Blue Garage: Crowdfunding Creators Meetup (Photo by Michael Korn)*
+
+<br>
+
+![Kickstarter x BlueGarage]({{site.baseurl}}/images/Kickstarter_2.jpg){: style="display: block; margin: 0 auto; width: 80%;"}
+*Kickstarter x Blue Garage: Crowdfunding Creators Meetup (Photo by Michael Korn)*
 
 <br>
 
