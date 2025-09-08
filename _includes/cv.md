@@ -1,7 +1,7 @@
 
 # Here's a TL;DR on my career:
 
-I’m a product manager and full-stack MVP builder with 5+ years of experience specialising in validating early-stage ideas and building MVPs at speed. I’ve led 0 to 1 launches of 6+ AI, SaaS, and marketplace products for both B2B and B2C. I've led teams in the UK and in Japan at both early-stage startups and large enterprises.
+I’m a Senior Product Manager and full-stack MVP builder with 5+ years of experience specialising in validating early-stage ideas and building MVPs at speed. I’ve led 0 to 1 launches of 6+ AI, SaaS, and marketplace products for both B2B and B2C. I've led teams in the UK and in Japan at both early-stage startups and large enterprises.
 
 - **I have deep experience driving early-stage products to adoption** by tracking success via customer workshops and experiments using scrappy prototypes, securing traction and early funding.
 - **My superpower is rapidly building and testing prototypes under pressure** and using that hands-on insight to have deep, meaningful conversations that build trust, align cross-functional teams, and drive products to success.
@@ -36,13 +36,19 @@ I'm open to conversations about new product roles, collaborations, or teams buil
 
 I’ve spoken at events, panels, and academic sessions, sharing insights on building with emerging technologies including AI, cloud computing, real-time systems, and complex design workflows. I also organise my own events in London.
 
-- **Kickstarter x Blue Garage: Crowdfunding Creators Meetup** *(July 2025)*: Organised and hosted a Kickstarter-sponsored event with 50+ attendees and 90+ signups on launching hardware and design crowdfunding projects
+- **Kickstart Your Make/100: Crowdfunding Creators Meetup** *(Sept 2025)*: Organised and hosted an event sponsored by Solid Solutions (SolidWorks), drawing 100+ signups and 40+ attendees. Featured Rob Hallifax, a London-based product manager and Kickstarter expert, who shared how he funded ten campaigns, raised nearly $400K, and broke two world records. Also joined by members of Kickstarter’s Design & Tech team, including Nathan Nalevanko (Senior Outreach Lead) and Heather Swift Hunt (Head of Design & Tech).
+- **Kickstarter x Blue Garage: Crowdfunding Creators Meetup** *(July 2025)*: Organised and hosted an event sponsored by Kickstarter on launching hardware and design crowdfunding projects, drawing 90+ signups and 50+ attendees. Featured Nathan Nalevanko, Senior Outreach Lead (Design/Tech), who joined remotely from Oregon to share insights on running a successful Kickstarter campaign.
 - **Cornwall Angel Network launch** *(April 2024)*: Presented as part of a [regional tech innovation showcase](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" }
 - **Hertzian's AI Summit** *(June 2024)*: Spoke on how real-time 3D supports sales and stakeholder engagement
 - **MLOps London** *(Nov 2023)*: Talked about integrating AI into 3D design workflows
 - **Cranfield University Airport Design module** *(Feb 2024 & Feb 2025)*: Led workshops on using visualisation tools in infrastructure planning
 - **Global Plymouth Panelist at University of Plymouth** *(July 2023)*: Participated in a panel on AI’s societal and cross-sector impact
 - **SETsquared Bristol Interview** *(April 2024)*: Featured in a written article on [Amutri's vision and impact in 3D visualisation](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" }
+
+<br>
+
+![Kickstart Your Make/100]({{site.baseurl}}/images/Kickstarter_3.jpg){: style="display: block; margin: 0 auto; width: 80%;"}
+*Kickstart Your Make/100: Crowdfunding Creators Meetup (Photo by Duncan Raban)*
 
 <br>
 

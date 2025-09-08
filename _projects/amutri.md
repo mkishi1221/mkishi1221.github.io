@@ -12,7 +12,7 @@ hide_title: true
 
 **Amutri converts complex CAD models into interactive 3D presentations that can be easily shared and understood across entire organisations.** SMR nuclear energy technology is still in development, and these 3D presentations help make their work more tangible to support investment pitches, early sales, and alignment with regulatory requirements.
 
-As Product Manager, I led the product from concept to MVP, delivering 13 core features including Secure Sharing and Guided Tours. These enabled non-technical stakeholders to turn engineering files into shareable presentations and directly contributed to our first enterprise wins in the SMR sector.
+As Senior Product Manager, I led the product from concept to MVP, delivering 13 core features including Secure Sharing and Guided Tours. These enabled non-technical stakeholders to turn engineering files into shareable presentations and directly contributed to our first enterprise wins in the SMR sector.
 
 Here's a short demo of the product:
 

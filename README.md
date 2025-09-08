@@ -1,6 +1,6 @@
 # Masayuki Kishi - Personal Website
 
-A personal website and blog built with Jekyll, showcasing my work as a Product Manager and Full-Stack 0→1 MVP Builder. Features a clean, minimal design with dark/light mode support and responsive layout.
+A personal website and blog built with Jekyll, showcasing my work as a Senior Product Manager and Full-Stack 0→1 MVP Builder. Features a clean, minimal design with dark/light mode support and responsive layout.
 
 ## 🚀 Live Site
 
@@ -115,7 +115,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👤 About
 
-**Masayuki Kishi** - Product Manager and Full-Stack 0→1 MVP Builder
+**Masayuki Kishi** - Senior Product Manager and Full-Stack 0→1 MVP Builder
 
 - 🚀 Led AI and SaaS product launches from 0 to 1
 - 🏭 Experience in 3D visualization for nuclear industry
