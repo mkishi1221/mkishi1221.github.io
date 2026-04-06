@@ -23,10 +23,18 @@ layout: default
     <div class="page__content">
       {{ content }}
       
-      {% if page.tags %}
+      {% assign study_tags = nil %}
+      {% for study in site.data.case_studies %}
+        {% assign study_link_slash = study.link | append: '/' %}
+        {% if study.link == page.url or study_link_slash == page.url %}
+          {% assign study_tags = study.tags %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if study_tags %}
       <div class="article__bottom" style="margin-top: 40px;">
         <div class="article-tags__box">
-          {% assign tag_array = page.tags | split: ',' %}
+          {% assign tag_array = study_tags | split: ',' %}
           {% for tag in tag_array %}
             <span class="article__tag">{{ tag | strip }}</span>
           {% endfor %}

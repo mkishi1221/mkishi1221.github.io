@@ -1,0 +1,39 @@
+- id: resry
+  title: Resry
+  image: resry.png
+  description: "Building an AI tool for job seekers. Shipped V1 in late 2025, ran structured discovery with users, currently building V2 for May 2026 Launch."
+  tags: "SaaS,B2C,NLP,AI,Compliance"
+  years: "2025–Current"
+  link: /resry
+
+- id: aray
+  title: ARAY
+  image: aray.png
+  description: "Building a UGC creator platform solo for a UK based agency. Launched to creators within 3 months via their Instagram audience of 6,000+."
+  tags: "SaaS,B2B,Marketplace,Compliance"
+  years: "2025–Current"
+  link: /aray
+
+- id: amutri
+  title: Amutri
+  image: Amutri_SMR_Device.jpg
+  description: "Delivered a 6 month enterprise pilot for a cloud rendered 3D visualisation product in the nuclear SMR industry. Led a team of developers while handling product, design, DevOps, releases, and testing."
+  tags: "Enterprise,SaaS,B2B,Cloud computing,NLP,AI,Emerging Tech"
+  years: "2022–2025"
+  link: /amutri
+
+- id: spaceforu
+  title: SpaceforU
+  image: SpaceforU_Homepage_Device.jpg
+  description: "Built a working peer to peer venue marketplace in 24 hours. Onboarded real customers, built local relationships and acquired bookings within months."
+  tags: "Marketplace,B2C,B2B,Compliance"
+  years: "2021–2022"
+  link: /spaceforu
+
+- id: domainsmith
+  title: Domainsmith
+  image: ui_example_domainsmith_ST09_1.jpg
+  description: "Started as a concierge MVP, running AI-leveraged domain name workshops with real customers before building the full product."
+  tags: "Cloud computing,B2C,NLP,AI,Compliance"
+  years: "2019–2021"
+  link: /domainsmith

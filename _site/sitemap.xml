@@ -20,6 +20,9 @@
 <loc>http://localhost:4000/amutri/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/aray/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/case-studies/</loc>
 </url>
 <url>
@@ -38,6 +41,9 @@
 <loc>http://localhost:4000/tags/product/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/tags/mindset/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/tags/learnings/</loc>
 </url>
 <url>
@@ -47,13 +53,13 @@
 <loc>http://localhost:4000/tags/validation/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tags/mindset/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/blog/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/resry/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/spaceforu/</loc>

@@ -2,7 +2,6 @@
 layout: case-study
 title: SpaceforU
 permalink: /spaceforu/
-tags: Marketplace,B2C,B2B
 hide_title: true
 ---
 

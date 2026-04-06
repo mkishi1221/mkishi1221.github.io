@@ -2,7 +2,6 @@
 layout: case-study
 title: Domainsmith
 permalink: /domainsmith/
-tags: Cloud computing,B2C,NLP,AI
 hide_title: true
 ---
 

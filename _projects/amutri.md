@@ -2,7 +2,6 @@
 layout: case-study
 title: Amutri
 permalink: /amutri/
-tags: Enterprise, SaaS, B2B, Cloud computing, NLP, AI, Emerging Tech
 hide_title: true
 ---
 
