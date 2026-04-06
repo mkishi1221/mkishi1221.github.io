@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Page not found</title>
-  <meta name='description' content='Personal website and blog of Masayuki Kishi, Senior Product Manager and Full-Stack 0→1 MVP Builder'>
+  <meta name='description' content='Personal website of Masayuki Kishi, Product-first CTO for startups. I enable founders to build the business.'>
 
   <link rel="canonical" href="http://localhost:4000/404.html">
   <link rel="alternate" type="application/rss+xml" title="Masayuki Kishi" href="/feed.xml">
@@ -95,11 +95,6 @@
               <!-- Case Studies Link -->
               <li class="nav__item">
                 <a href="/case-studies/" class="nav__link">Case Studies</a>
-              </li>
-
-              <!-- Toolkits Link -->
-              <li class="nav__item">
-                <a href="/toolkits/" class="nav__link">Toolkits</a>
               </li>
                 
               <!-- Blog Link -->
@@ -226,7 +221,7 @@
         </div>
       </div>
     </div>
-    <p class="footer-text">I've led the launch of AI and SaaS products from idea to MVP, including 3D visualisation for the nuclear industry. <strong><em>Obsessed</em></strong> with driving cutting-edge products from validation to real-world results.</p>
+    <p class="footer-text">I enable founders to build the business. Product strategy, design, full stack build, and compliance. <strong><em>First users active in months, not years.</em></strong></p>
     
   <div class="social">
     <ul class="social__list list-reset">
@@ -240,11 +235,7 @@
       </li>
       
       <li class="social__item">
-        <a class="social__link" href="https://www.instagram.com/whereismasa/" target="_blank" rel="noopener" aria-label="Instagram link"><i class="ion ion-logo-instagram"></i></a>
-      </li>
-      
-      <li class="social__item">
-        <a href="https://www.linkedin.com/in/mkishi/" class="button hire-me-btn" target="_blank" rel="noopener">HIRING?</a>
+        <a href="https://www.linkedin.com/in/mkishi/" class="button hire-me-btn" target="_blank" rel="noopener">Get in touch</a>
       </li>
     </ul>
     <style>
@@ -276,84 +267,6 @@
   </div>
 </div>
         
-<div class="col col-4 col-d-6 col-t-12">
-  <div class="widget widget-subscribe">
-    <div class="widget__head">
-      <h3 class="widget__title">Some useful PM stuff</h3>
-    </div>
-    <div class="subscribe__inner">
-      
-      <div class="subscribe__group">
-        <div class="subscribe__description">Get occasional updates on product management tools, new projects, templates, and practical tips. No spam, just useful content, sent when there's something worth sharing.</div>
-      </div>
-      
-      <form class="subscribe-form validate"
-        action="https://masayukikishi.us2.list-manage.com/subscribe/post?u=911b3c9384e1f6c3d4bf9d029&amp;id=33723eec57&amp;f_id=009bc0e1f0" method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" novalidate>
-        <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-        <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
-          placeholder="Email address">
-        <button class="button subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">Join</button>
-      </form>
-      <div id="subscribe-success" style="display: none; margin-top: 5px; color: white; font-size: 14px; font-weight: 600; padding-left: 16px;">
-        Thanks for subscribing! 🎉
-      </div>
-      <div id="subscribe-error" style="display: none; margin-top: 5px; color: #ff4444; font-size: 14px; font-weight: 600; padding-left: 16px;">
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-document.getElementById('membedded-subscribe-form').addEventListener('submit', function(e) {
-  e.preventDefault();
-  const form = this;
-  const emailInput = form.querySelector('#mce-EMAIL');
-  const errorDiv = document.getElementById('subscribe-error');
-  const successDiv = document.getElementById('subscribe-success');
-  
-  // Reset previous messages and styles
-  errorDiv.style.display = 'none';
-  successDiv.style.display = 'none';
-  emailInput.style.border = '';
-  
-  // Validate email
-  const email = emailInput.value.trim();
-  if (!email) {
-    errorDiv.textContent = 'Please enter your email address';
-    errorDiv.style.display = 'block';
-    emailInput.style.border = '1px solid #ff4444';
-    return;
-  }
-  
-  // Basic email validation
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(email)) {
-    errorDiv.textContent = 'Please enter a valid email address';
-    errorDiv.style.display = 'block';
-    emailInput.style.border = '1px solid #ff4444';
-    return;
-  }
-  
-  const formData = new FormData(form);
-  
-  fetch(form.action, {
-    method: 'POST',
-    body: formData,
-    mode: 'no-cors'
-  }).then(() => {
-    successDiv.style.display = 'block';
-    form.reset();
-    setTimeout(() => {
-      successDiv.style.display = 'none';
-    }, 3000);
-  }).catch(() => {
-    errorDiv.textContent = 'Something went wrong. Please try again.';
-    errorDiv.style.display = 'block';
-    emailInput.style.border = '1px solid #ff4444';
-  });
-});
-</script>
-
         <div class="col col-4 col-d-6 col-t-12">
   <div class="widget widget-tags">
     <div class="widget__head">
@@ -388,7 +301,7 @@ document.getElementById('membedded-subscribe-form').addEventListener('submit', f
     <div class="row">
       <div class="col col-12">
         <div class="footer__info">
-          <div class="copyright">2025 &copy; <a href="/">Masayuki Kishi</a>. Modified from a design by  <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+          <div class="copyright">2026 &copy; <a href="/">Masayuki Kishi</a>. Modified from a design by  <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
           <div class="toggle-theme">
             <div class="toggle-moon"><i class="ion ion-ios-moon"></i></div>
             <div class="toggle-sun"><i class="ion ion-ios-sunny"></i></div>

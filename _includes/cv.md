@@ -1,13 +1,14 @@
 
-# Here's a TL;DR on my career:
+# Your product should work for you
 
-I’m a Senior Product Manager and full-stack MVP builder with 5+ years of experience specialising in validating early-stage ideas and building MVPs at speed. I’ve led 0 to 1 launches of 6+ AI, SaaS, and marketplace products for both B2B and B2C. I've led teams in the UK and in Japan at both early-stage startups and large enterprises.
+Your first product needs to be load bearing. It's what customers interact with, what revenue flows through, and what you point investors at. It should be giving you momentum, not costing you time and runway. I build that product fast enough that you can start running the business on it in months, not years.
 
-- **I have deep experience driving early-stage products to adoption** by tracking success via customer workshops and experiments using scrappy prototypes, securing traction and early funding.
-- **My superpower is rapidly building and testing prototypes under pressure** and using that hands-on insight to have deep, meaningful conversations that build trust, align cross-functional teams, and drive products to success.
-- **I focus on managing the work rather than just the people**, staying closely involved in the details to set clear direction, relentlessly leveling up in unfamiliar areas to uphold high standards, and empowering teams through functional leadership.
+- **Conversations become product.** You share what the business needs, I handle everything between that conversation and working software. No specs, no briefs, no managing a backlog.
+- **Revenue ready.** What I build solves a real problem from day one. Your first customers get value, not a beta they're testing for you. The product does the work so you can focus on the relationship.
+- **Built to last from day one.** Thousands of automated tests, hundreds of iterative PRs, auditable full stack repos. No throwaway prototypes that need rebuilding when you get traction.
+- **The boring stuff is done.** Compliance, testing, infrastructure, security. You don't have to think about it, and it never becomes the reason a deal stalls or a launch slips.
 
-I'm open to conversations about new product roles, collaborations, or teams building great products. If you'd like to learn more or discuss working together, feel free [contact me on LinkedIn](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }. I check messages regularly and will respond promptly.
+Sound like what you're looking for? [Get in touch.](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }
 
 # Case studies
 
@@ -74,85 +75,6 @@ I’ve spoken at events, panels, and academic sessions, sharing insights on buil
 
 ![Global Plymouth event]({{site.baseurl}}/images/highres_514784802.jpeg){: style="display: block; margin: 0 auto; width: 80%;"}
 *Global Plymouth (Photo by Mithuan Alwis)*
-
-# PM Toolkits
-
-A small but battle-tested set of templates and guidelines I keep coming back to when validating and planning products. They've been used across real teams to move ideas from concept to execution. All in Markdown for easy copying into tools like Notion without losing formatting.
-
-{% include case-study-tile.html
-  image="drawkit/teamwork_6.png"
-  title="Validation Scoring"
-  description="A scoring template for objectively evaluating how well a product, feature, or idea is supported by customer evidence, helping early-stage startups decide what to improve, test, or scale next."
-  tags="Product Management,Validation"
-  link="https://github.com/mkishi1221/pm-resources/blob/main/validation-template.md"
-  image-width="25" %}
-
-{% include case-study-tile.html
-  image="drawkit/teamwork_1.png"
-  title="Product Plans"
-  description="A template for product planning, including sections for stakeholders, opportunity assessment, dependencies, risks, and solution overview."
-  tags="Product Management,Product Roadmap"
-  link="https://github.com/mkishi1221/pm-resources/blob/main/product-plan-template.md"
-  image-width="25" %}
-
-{% include case-study-tile.html
-  image="drawkit/teamwork_11.png"
-  title="Feature Specification"
-  description="A template for writing feature specifications, covering summaries, proposals, scope, edge cases, and appendices."
-  tags="Product Management,Feature Prioritisation"
-  link="https://github.com/mkishi1221/pm-resources/blob/main/feature-spec-template.md"
-  image-width="25" %}
-
-# Dev Toolkits
-
-Templates I rely on to keep code collaboration clear and consistent. This set includes pull request descriptions, feature PRs, and bug reports. All in Markdown, ready to drop into GitHub.
-
-{% include case-study-tile.html
-  image="drawkit/teamwork_4.png"
-  title="Pull Requests"
-  description="A simple pull request template to help developers cover key details like context, changes made, and testing steps."
-  tags="Development,QA,Github"
-  link="https://github.com/mkishi1221/dev-resources/blob/main/pull-request-template.md"
-  image-width="25" %}
-
-{% include case-study-tile.html
-  image="drawkit/teamwork_8.png"
-  title="Feature Branch PRs"
-  description="A checklist-based pull request template for larger or long-lived feature branches, with sections for context, testing, and rollout steps."
-  tags="Development,Release Management"
-  link="https://github.com/mkishi1221/dev-resources/blob/main/feature-PR-template.md"
-  image-width="25" %}
-
-{% include case-study-tile.html
-  image="drawkit/teamwork_5.png"
-  title="Bug Reports"
-  description="A template for reporting bugs, including fields for expected vs actual behaviour, steps to reproduce, and environment details."
-  tags="Development,QA,Customer Success"
-  link="https://github.com/mkishi1221/dev-resources/blob/main/bug-report-template.md"
-  image-width="25" %}
-
-# Dev Certifications
-
-I’ve completed development courses across data science, web development, and backend technologies, applying these skills to build prototypes, ship products faster and contribute across the stack. I stay current through platforms like Kaggle (Machine Learning), Google (Digital Marketing), Codecademy, and Udemy, with training in MongoDB, React, Vue.js, Go, Python, JavaScript, TypeScript, and FastAPI.
-
-- **Learn MongoDB Course** (Codecademy)
-- **Learn React Course** (Codecademy)
-- **Learn Vue.js Course** (Codecademy)
-- **Learn Go Course** (Codecademy)
-- **Learn Statistics with NumPy Course** (Codecademy)
-- **Learn Data Analysis with Pandas Course** (Codecademy)
-- **Learn TypeScript Course** (Codecademy)
-- **How to Deploy a Website** Course (Codecademy)
-- **Learn Bootstrap Course** (Codecademy)
-- **Learn HTML Course** (Codecademy)
-- **Learn JavaScript Course** (Codecademy)
-- **Learn Python 3 Course** (Codecademy)
-- **Learn the Command Line Course** (Codecademy)
-- **Intro to Machine Learning** (Kaggle)
-- **The Fundamentals of Digital Marketing** (Google)
-- **Complete FastAPI masterclass from scratch 2022** (Udemy)
-
-I also have experience working with AWS products, including EC2 instances, Lambdas, Cognito, CloudWatch, S3, and DynamoDB, as well as deploying EC2 instances and Lambdas using Terraform.
 
 # Contact me
 

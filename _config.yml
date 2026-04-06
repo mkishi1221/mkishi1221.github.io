@@ -2,7 +2,7 @@
 # General Site Settings
 title: Masayuki Kishi
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Personal website and blog of Masayuki Kishi, Senior Product Manager and Full-Stack 0→1 MVP Builder
+description:  Personal website of Masayuki Kishi, Product-first CTO for startups. I enable founders to build the business.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://masayukikishi.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -10,13 +10,12 @@ url: "https://masayukikishi.com" # the base hostname & protocol for your site, e
 # Author Settings
 author:
   name: Masayuki Kishi
-  bio: I've led the launch of AI and SaaS products from 0 to 1, including 3D visualisation for the nuclear industry. Obsessed with driving cutting-edge products from validation to real-world results.
+  bio: "Product-first CTO for startups. I enable founders to build the business. Product strategy, design, full stack build, and compliance."
   avatar: '/images/ZGP_8208_1_square.jpg'
 
 social:
 - {icon: "ion-logo-github", label: Github, link: "https://github.com/mkishi1221"}
 - {icon: "ion-logo-linkedin", label: LinkedIn, link: "https://www.linkedin.com/in/mkishi/"}
-- {icon: "ion-logo-instagram", label: Instagram, link: "https://www.instagram.com/whereismasa/"}
 
 # Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -24,16 +23,16 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I'm Masa! 👋 Senior Product Manager and 0 to 1 MVP Builder
-  hero__description: I've led the launch of AI and SaaS products from idea to MVP, including 3D visualisation for the nuclear industry. <strong><em>Obsessed</em></strong> with driving cutting-edge products from validation to real-world results.
+  hero__title: Hey, I'm Masa! 👋 Product-first CTO for startups.
+  hero__description: I enable founders to build the business. Product strategy, design, full stack build, and compliance. <strong><em>First users active in months, not years.</em></strong>
   hero__image: '/images/ZGP_8199_xs.jpg'
 
 
 #-------------------------------
 # Newsletter (_includes/footer-widgets/widget-subscribe.html)
-mailchimp: true # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
-mailchimp__title: Some useful PM stuff # Add your Title
-mailchimp__text: Get occasional updates on product management tools, new projects, templates, and practical tips. No spam, just useful content, sent when there's something worth sharing. # Add your description.
+mailchimp: false # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
+mailchimp__title: Stay in the loop # Add your Title
+mailchimp__text: Occasional posts on building products and shipping fast. # Add your description.
 mailchimp__identifier: https://masayukikishi.us2.list-manage.com/subscribe/post?u=911b3c9384e1f6c3d4bf9d029&amp;id=33723eec57&amp;f_id=009bc0e1f0 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 mailchimp__button__text: Join # Add your button text
 
@@ -41,7 +40,7 @@ mailchimp__button__text: Join # Add your button text
 #-------------------------------
 # Contact Settings
 contact:
-  description: I'm open to conversations about new product roles, collaborations, or teams building great products. If you'd like to connect, feel free to get in touch. I check messages regularly and will respond promptly. # Add a description of your form
+  description: I take on fractional CTO engagements and fixed-price product builds. If you're a founder who needs a product built properly and quickly, let's talk. # Add a description of your form
 
 # NOTE
 # Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
