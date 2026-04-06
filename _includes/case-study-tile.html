@@ -19,7 +19,10 @@
   </div>
   
   <div class="case-study-tile__content">
-    <h3 class="case-study-tile__title">{{ include.title }}</h3>
+    <div class="case-study-tile__header">
+      <h3 class="case-study-tile__title">{{ include.title }}</h3>
+      {% if include.years %}<span class="case-study-tile__years">{{ include.years }}</span>{% endif %}
+    </div>
     <p class="case-study-tile__description">{{ include.description }}</p>
     
     {% if include.tags %}

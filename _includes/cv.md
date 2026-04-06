@@ -15,36 +15,58 @@ Sound like what you're looking for? [Get in touch.](https://www.linkedin.com/in/
 {% include case-study-tile.html
   image="Amutri_SMR_Device.jpg"
   title="Amutri"
-  description="Cloud-rendered 3D Visualisation product that converts complex CAD and 3D models into shareable, interactive 3D presentations."
+  description="Delivered a 6 month enterprise pilot for a cloud rendered 3D visualisation product in the nuclear SMR industry. Led a team of developers while handling product, design, DevOps, releases, and testing."
   tags="Enterprise,SaaS,B2B,Cloud computing,NLP,AI,Emerging Tech"
+  years="2022–2025"
   link="/amutri" %}
 
 {% include case-study-tile.html
   image="SpaceforU_Homepage_Device.jpg"
   title="SpaceforU"
-  description="Peer-to-peer online marketplace connecting venues in Cornwall and Devon with local event organisers."
+  description="Built a working peer to peer venue marketplace in 24 hours. Onboarded real customers, built local relationships and acquired bookings within months."
   tags="Marketplace,B2C,B2B"
+  years="2021–2022"
   link="/spaceforu" %}
 
 {% include case-study-tile.html
   image="ui_example_domainsmith_ST09_1.jpg"
   title="Domainsmith" 
-  description="AI-powered platform helping brand designers and startup founders discover high-quality domain names."
+  description="Started as a concierge MVP, running AI-leveraged domain name workshops with real customers before building the full product."
   tags="Cloud computing,B2C,NLP,AI"
+  years="2019–2021"
   link="/domainsmith" %}
 
 # Speaking and Events
 
-I’ve spoken at events, panels, and academic sessions, sharing insights on building with emerging technologies including AI, cloud computing, real-time systems, and complex design workflows. I also organise my own events in London.
+I speak at events, organise my own in London, and compete in hackathons.
 
-- **Kickstart Your Make/100: Crowdfunding Creators Meetup** *(Sept 2025)*: Organised and hosted an event sponsored by Solid Solutions (SolidWorks), drawing 100+ signups and 40+ attendees. Featured Rob Hallifax, a London-based product manager and Kickstarter expert, who shared how he funded ten campaigns, raised nearly $400K, and broke two world records. Also joined by members of Kickstarter’s Design & Tech team, including Nathan Nalevanko (Senior Outreach Lead) and Heather Swift Hunt (Head of Design & Tech).
-- **Kickstarter x Blue Garage: Crowdfunding Creators Meetup** *(July 2025)*: Organised and hosted an event sponsored by Kickstarter on launching hardware and design crowdfunding projects, drawing 90+ signups and 50+ attendees. Featured Nathan Nalevanko, Senior Outreach Lead (Design/Tech), who joined remotely from Oregon to share insights on running a successful Kickstarter campaign.
+## Hackathons
+
+- **AI Voice and Meeting Agents Hackathon, Antler London (Sept 2025).** Won with a team of three. Built an AI powered travel itinerary generator in under 7 hours, from first meeting our teammates to a working demo.
+
+## Events I've organised
+
+- **Kickstart Your Make/100: Crowdfunding Creators Meetup** *(Sept 2025)*: Sponsored by Solid Solutions (SolidWorks), 100+ signups, 40+ attendees. Featured Rob Hallifax, a London based product manager and Kickstarter expert who funded ten campaigns, raised nearly $400K, and broke two world records. Joined by members of Kickstarter's Design and Tech team including Nathan Nalevanko (Senior Outreach Lead) and Heather Swift Hunt (Head of Design and Tech).
+- **Kickstarter x Blue Garage: Crowdfunding Creators Meetup** *(July 2025)*: Sponsored by Kickstarter, 90+ signups, 50+ attendees. Featured Nathan Nalevanko joining remotely from Oregon to share insights on launching hardware and design crowdfunding projects.
+
+## Speaking and features:
+
 - **Cornwall Angel Network launch** *(April 2024)*: Presented as part of a [regional tech innovation showcase](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" }
 - **Hertzian's AI Summit** *(June 2024)*: Spoke on how real-time 3D supports sales and stakeholder engagement
 - **MLOps London** *(Nov 2023)*: Talked about integrating AI into 3D design workflows
 - **Cranfield University Airport Design module** *(Feb 2024 & Feb 2025)*: Led workshops on using visualisation tools in infrastructure planning
 - **Global Plymouth Panelist at University of Plymouth** *(July 2023)*: Participated in a panel on AI’s societal and cross-sector impact
 - **SETsquared Bristol Interview** *(April 2024)*: Featured in a written article on [Amutri's vision and impact in 3D visualisation](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" }
+
+<br>
+
+![AI Voice and Meeting Agents Hackathon]({{site.baseurl}}/images/hackathon_1.jpg){: style="display: block; margin: 0 auto; width: 80%;"}
+*AI Voice and Meeting Agents Hackathon, Antler London (Photo by MeetStream AI)*
+
+<br>
+
+![AI Voice and Meeting Agents Hackathon]({{site.baseurl}}/images/hackathon_2.jpg){: style="display: block; margin: 0 auto; width: 80%;"}
+*AI Voice and Meeting Agents Hackathon, Antler London (Photo by MeetStream AI)*
 
 <br>
 
