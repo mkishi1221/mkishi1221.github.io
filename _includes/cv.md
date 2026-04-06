@@ -78,7 +78,9 @@ I’ve spoken at events, panels, and academic sessions, sharing insights on buil
 
 # Contact me
 
-I'm open to conversations about new product roles, collaborations, or teams building great products. **If you'd like to learn more or discuss working together, feel free to contact me on LinkedIn.** I check messages regularly and will respond promptly.
+I take on fractional CTO engagements and fixed price product builds for early stage startups. Most of my work is with founders who are post revenue or at angel and pre seed stage, with an idea that's been validated but no product yet. 
+
+If that sounds like where you are, I'd love to hear about what you're building.
 
 <div style="text-align: left; margin-top: 32px;">
   <a href="https://www.linkedin.com/in/mkishi/" target="_blank" style="display: inline-block; background-color: #533feb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: 600; transition: background-color 0.3s ease;">Find me on LinkedIn</a>
