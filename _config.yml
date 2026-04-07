@@ -11,7 +11,7 @@ url: "https://masayukikishi.com" # the base hostname & protocol for your site, e
 author:
   name: Masayuki Kishi
   bio: "Product-first CTO for startups. I enable founders to build the business. Product strategy, design, full stack build, and compliance."
-  avatar: '/images/ZGP_8208_1_square.jpg'
+  avatar: '/images/ZGP_8188_xs_square.jpg'
 
 social:
 - {icon: "ion-logo-github", label: Github, link: "https://github.com/mkishi1221"}
