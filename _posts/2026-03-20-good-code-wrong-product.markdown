@@ -18,5 +18,3 @@ This used to be unavoidable. Specialisation made sense when handoffs were the on
 The builder who holds all three at once doesn't just move faster. They make different decisions. They notice when a feature isn't worth building before they architect for it. They feel the friction in a flow before they wire it up. They know when to push back on the founder and when to just ship.
 
 Most early stage products don't fail because the engineering was bad. They fail because the engineering was disconnected from everything that mattered. A clean codebase is not a substitute for the right product. It's a more expensive way to find out you built the wrong one.
-
-*Photo by [Tim Mossholder](https://unsplash.com/@timmossholder) on [Unsplash](https://unsplash.com/photos/white-open-signage-sxb8StmTfaw). Updated 16th July 2025*

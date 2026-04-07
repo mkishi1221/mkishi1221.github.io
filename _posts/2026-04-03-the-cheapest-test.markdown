@@ -18,5 +18,3 @@ But that's the whole point. The spreadsheet tells you the answer is no before th
 I've watched founders build for a year and then discover the unit economics never worked. I've also watched founders kill an idea in an afternoon because the spreadsheet said the chain was too long. The second outcome is the better one. Both founders learned the same thing. Only one paid for the lesson.
 
 The cheapest test you're not running is the one that stops you building the wrong thing. Run it first.
-
-*Photo by [Roger Starnes Sr](https://unsplash.com/@rstar50) on [Unsplash](https://unsplash.com/photos/a-man-digging-in-the-sand-_0fQJVDDB8I)*

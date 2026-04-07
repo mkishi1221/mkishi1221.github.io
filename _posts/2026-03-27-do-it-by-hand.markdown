@@ -17,5 +17,3 @@ Most of the products I've built were preceded by a manual version. Sometimes the
 The best early stage technical hire isn't someone who builds fast. It's someone who asks whether the thing is worth building at all. The fastest way to ship the wrong product is to skip the question entirely, write a clean spec, and execute it beautifully.
 
 If you can't find anyone who wants the manual version, you don't have a product. You have a hypothesis you haven't tested.
-
-*Photo by [Roger Starnes Sr](https://unsplash.com/@rstar50) on [Unsplash](https://unsplash.com/photos/a-man-digging-in-the-sand-_0fQJVDDB8I)*
