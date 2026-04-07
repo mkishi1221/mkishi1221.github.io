@@ -4,11 +4,11 @@
 Your first product needs to be load bearing. It's what customers interact with, what revenue flows through, and what you point investors at. It should be giving you momentum, not costing you time and runway. I build that product fast enough that you can start running the business on it in months, not years.
 
 - **Conversations become product.** You share what the business needs, I handle everything between that conversation and working software. No specs, no briefs, no managing a backlog.
-- **Revenue ready.** What I build solves a real problem from day one. Your first customers get value, not a beta they're testing for you. The product does the work so you can focus on the relationship.
+- **Revenue ready.** What I build solves a real-world problem from day one. Your first customers get value, not a beta they're testing for you. The product does the work so you can focus on the relationship.
 - **Built to last from day one.** Thousands of automated tests, hundreds of iterative PRs, auditable full stack repos. No throwaway prototypes that need rebuilding when you get traction.
 - **The boring stuff is done.** Compliance, testing, infrastructure, security. You don't have to think about it, and it never becomes the reason a deal stalls or a launch slips.
 
-Sound like what you're looking for? [Get in touch.](https://www.linkedin.com/in/mkishi/){: .cv_link target="_blank" }
+Sound like what you're looking for? [Book a call with me.](https://calendar.app.google/ArggMpz3o9JyfnfT9){: .cv_link target="_blank" }
 
 # Case studies
 
@@ -100,12 +100,21 @@ I speak at events and panels on building with emerging technologies, organise my
 ![Global Plymouth event]({{site.baseurl}}/images/highres_514784802.jpeg){: style="display: block; margin: 0 auto; width: 80%;"}
 *Global Plymouth (Photo by Mithuan Alwis)*
 
-# Contact me
+# Building something?
 
-I take on fractional CTO engagements and fixed price product builds for early stage startups. Most of my work is with founders who are post revenue or at angel and pre seed stage, with an idea that's been validated but no product yet. 
+I work with founders shipping products that customers will pay for. Most of the time that means there's commercial pressure, and a clear sense of who the first buyers are. If that sounds like you, here's how I work.
 
-If that sounds like where you are, I'd love to hear about what you're building.
+**I work in three shapes:**
 
-<div style="margin-top: 32px;">
-<a href="https://www.linkedin.com/in/mkishi/" class="button hire-me-btn" target="_blank" rel="noopener" style="display: inline-block; width: auto; border: 1px solid #55575c;">Find me on LinkedIn</a>
+- **Proof of concept validation** in one to three weeks, covering problem validation, technical feasibility, compliance and legal blockers, and anything else that could stop the product existing. You come out of it knowing whether and how to build.
+- **Fixed price builds** that put a working product in front of users in three to six months.
+- **Fractional CTO engagements** for founders who want product and engineering leadership held by one person across multiple phases of the company's growth.
+
+In all cases I run delivery from strategy through to launch, with weekly check ins and no team for you to manage. Occasionally I also explore co founder and equity arrangements where the fit is right.
+
+Engagements start at £5,000 for validation work and scale based on scope. If any of this sounds like where you are, I'd love to hear about what you're building. Book a 20 minute intro call and we can talk it through.
+
+<div style="margin-top: 32px; display: flex; align-items: center; gap: 16px;">
+<a href="https://calendar.app.google/ArggMpz3o9JyfnfT9" class="button hire-me-btn" target="_blank" rel="noopener" style="display: inline-block; width: auto; border: 1px solid #55575c;">Book a call</a>
+<a href="https://www.linkedin.com/in/mkishi/" class="cv_link" target="_blank" rel="noopener">Find me on LinkedIn</a>
 </div>

@@ -11,7 +11,7 @@ hide_title: true
 
 # SpaceforU
 
-**SpaceForU was a peer to peer marketplace connecting venues in Cornwall and Devon with local event organisers.** Booking a venue in the region meant emails, phone calls, and back and forth. The platform replaced that with fast listing creation, real time availability, and instant bookings."
+**SpaceForU was a peer to peer marketplace connecting venues in Cornwall and Devon with local event organisers.** Booking a venue in the region meant emails, phone calls, and back and forth. The platform replaced that with fast listing creation, real-time availability, and instant bookings."
 
 I built and launched the MVP within 24 hours using no code tools. Live users were testing it within the first week. Over the following months I secured partnerships with over 20 venue owners, onboarded 40+ rentable spaces, and ran 40+ user interviews to shape the product around real behaviour. I owned everything: product development, UX, user acquisition, support, and hands on outreach to convert leads into activated users."
 
