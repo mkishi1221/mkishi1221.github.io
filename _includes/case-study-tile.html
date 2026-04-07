@@ -15,7 +15,11 @@
   {% endif %}
   
   <div class="case-study-tile__image">
-    <img src="{{ site.baseurl }}/images/{{ include.image }}" alt="{{ include.title }}" loading="lazy">
+    {% if include.image contains '/' %}
+      <img src="{{ site.baseurl }}{{ include.image }}" alt="{{ include.title }}" loading="lazy">
+    {% else %}
+      <img src="{{ site.baseurl }}/images/{{ include.image }}" alt="{{ include.title }}" loading="lazy">
+    {% endif %}
   </div>
   
   <div class="case-study-tile__content">
@@ -24,7 +28,8 @@
       {% if include.years %}<span class="case-study-tile__years">{{ include.years }}</span>{% endif %}
     </div>
     <p class="case-study-tile__description">{{ include.description }}</p>
-    
+    {% if include.date %}<span class="case-study-tile__date">{{ include.date | date: "%B %d, %Y" }}</span>{% endif %}
+
     {% if include.tags %}
       <div class="case-study-tile__tags">
         {% assign tag_array = include.tags | split: ',' %}

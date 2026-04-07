@@ -22,27 +22,25 @@ Sound like what you're looking for? [Get in touch.](https://www.linkedin.com/in/
   link=study.link %}
 {% endfor %}
 
+# Writing
+
+{% for post in site.posts limit:3 %}{% assign post_tags = post.tags | join: ',' %}
+{% include case-study-tile.html
+  image=post.image
+  title=post.title
+  description=post.description
+  tags=post_tags
+  date=post.date
+  link=post.url %}
+{% endfor %}
+
 # Speaking and Events
 
-I speak at events, organise my own in London, and compete in hackathons.
+I speak at events and panels on building with emerging technologies, organise my own meetups in London, and compete in hackathons. The topics range across crowdfunding, startups, AI, and product strategy. Each one has been a chance to test ideas with people closer to the work than I am.
 
 ## Hackathons
 
 - **AI Voice and Meeting Agents Hackathon, Antler London (Sept 2025).** Won with a team of three. Built an AI powered travel itinerary generator in under 7 hours, from first meeting our teammates to a working demo.
-
-## Events I've organised
-
-- **Kickstart Your Make/100: Crowdfunding Creators Meetup** *(Sept 2025)*: Sponsored by Solid Solutions (SolidWorks), 100+ signups, 40+ attendees. Featured Rob Hallifax, a London based product manager and Kickstarter expert who funded ten campaigns, raised nearly $400K, and broke two world records. Joined by members of Kickstarter's Design and Tech team including Nathan Nalevanko (Senior Outreach Lead) and Heather Swift Hunt (Head of Design and Tech).
-- **Kickstarter x Blue Garage: Crowdfunding Creators Meetup** *(July 2025)*: Sponsored by Kickstarter, 90+ signups, 50+ attendees. Featured Nathan Nalevanko joining remotely from Oregon to share insights on launching hardware and design crowdfunding projects.
-
-## Speaking and features:
-
-- **Cornwall Angel Network launch** *(April 2024)*: Presented as part of a [regional tech innovation showcase](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" }
-- **Hertzian's AI Summit** *(June 2024)*: Spoke on how real-time 3D supports sales and stakeholder engagement
-- **MLOps London** *(Nov 2023)*: Talked about integrating AI into 3D design workflows
-- **Cranfield University Airport Design module** *(Feb 2024 & Feb 2025)*: Led workshops on using visualisation tools in infrastructure planning
-- **Global Plymouth Panelist at University of Plymouth** *(July 2023)*: Participated in a panel on AI’s societal and cross-sector impact
-- **SETsquared Bristol Interview** *(April 2024)*: Featured in a written article on [Amutri's vision and impact in 3D visualisation](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" }
 
 <br>
 
@@ -53,6 +51,13 @@ I speak at events, organise my own in London, and compete in hackathons.
 
 ![AI Voice and Meeting Agents Hackathon]({{site.baseurl}}/images/hackathon_2.jpg){: style="display: block; margin: 0 auto; width: 80%;"}
 *AI Voice and Meeting Agents Hackathon, Antler London (Photo by MeetStream AI)*
+
+<br>
+
+## Events I've organised
+
+- **Kickstart Your Make/100: Crowdfunding Creators Meetup** *(Sept 2025)*: Sponsored by Solid Solutions (SolidWorks), 100+ signups, 40+ attendees. Featured Rob Hallifax, a London based product manager and Kickstarter expert who funded ten campaigns, raised nearly $400K, and broke two world records. Joined by members of Kickstarter's Design and Tech team including Nathan Nalevanko (Senior Outreach Lead) and Heather Swift Hunt (Head of Design and Tech).
+- **Kickstarter x Blue Garage: Crowdfunding Creators Meetup** *(July 2025)*: Sponsored by Kickstarter, 90+ signups, 50+ attendees. Featured Nathan Nalevanko joining remotely from Oregon to share insights on launching hardware and design crowdfunding projects.
 
 <br>
 
@@ -68,6 +73,17 @@ I speak at events, organise my own in London, and compete in hackathons.
 
 ![Kickstarter x BlueGarage]({{site.baseurl}}/images/Kickstarter_2.jpg){: style="display: block; margin: 0 auto; width: 80%;"}
 *Kickstarter x Blue Garage: Crowdfunding Creators Meetup (Photo by Michael Korn)*
+
+<br>
+
+## Speaking and features:
+
+- **Cornwall Angel Network launch** *(April 2024)*: Presented as part of a [regional tech innovation showcase](https://www.business-live.co.uk/professional-services/banking-finance/cornwall-angel-network-aims-boost-29057545){: .cv_link target="_blank" }
+- **Hertzian's AI Summit** *(June 2024)*: Spoke on how real-time 3D supports sales and stakeholder engagement
+- **MLOps London** *(Nov 2023)*: Talked about integrating AI into 3D design workflows
+- **Cranfield University Airport Design module** *(Feb 2024 & Feb 2025)*: Led workshops on using visualisation tools in infrastructure planning
+- **Global Plymouth Panelist at University of Plymouth** *(July 2023)*: Participated in a panel on AI’s societal and cross-sector impact
+- **SETsquared Bristol Interview** *(April 2024)*: Featured in a written article on [Amutri's vision and impact in 3D visualisation](https://setsquared-bristol.co.uk/news/amutri-revolutionising-3d-visualisation/){: .cv_link target="_blank" }
 
 <br>
 
@@ -90,6 +106,6 @@ I take on fractional CTO engagements and fixed price product builds for early st
 
 If that sounds like where you are, I'd love to hear about what you're building.
 
-<div style="text-align: left; margin-top: 32px;">
-  <a href="https://www.linkedin.com/in/mkishi/" target="_blank" style="display: inline-block; background-color: #533feb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: 600; transition: background-color 0.3s ease;">Find me on LinkedIn</a>
+<div style="margin-top: 32px;">
+<a href="https://www.linkedin.com/in/mkishi/" class="button hire-me-btn" target="_blank" rel="noopener" style="display: inline-block; width: auto; border: 1px solid #55575c;">Find me on LinkedIn</a>
 </div>

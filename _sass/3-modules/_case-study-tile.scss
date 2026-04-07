@@ -89,6 +89,13 @@
     }
   }
   
+  &__date {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    opacity: 0.5;
+    margin-bottom: 12px;
+  }
+
   &__tags {
     display: flex;
     align-items: center;
