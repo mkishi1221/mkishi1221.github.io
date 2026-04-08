@@ -4,20 +4,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title }} – {{ site.title }}{% endif %}">
+  <meta name="twitter:title" content="{% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title | xml_escape }} – {{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.url == "/" %}{{ site.description | strip_html | xml_escape }}{% elsif page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
   <meta name="twitter:image:src" content="{% if page.url == "/" %}{{ site.hero.hero__image | absolute_url }}{% else %}{{ page.image | absolute_url }}{% endif %}">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="{% if page.url == "/" %}{{ site.title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.title }}{% endif %}" />
-  <meta property="og:description" content="{% if page.url == "/" %}{{ site.description | strip_html | xml_escape }}{% elsif page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}" />
+  <meta property="og:title" content="{% if page.url == "/" %}{{ site.title }} – {{ page.title }}{% else %}{{ page.title | xml_escape }}{% endif %}" />
+  {% assign og_desc = nil %}{% if page.url == "/" %}{% assign og_desc = site.description %}{% elsif page.description %}{% assign og_desc = page.description %}{% else %}{% for study in site.data.case_studies %}{% if study.title == page.title %}{% assign og_desc = study.description %}{% break %}{% endif %}{% endfor %}{% endif %}{% unless og_desc %}{% assign og_desc = page.excerpt %}{% endunless %}
+  <meta property="og:description" content="{{ og_desc | strip_html | xml_escape }}" />
   <meta property="og:image" content="{% if page.url == "/" %}{{ site.hero.hero__image | absolute_url }}{% else %}{{ page.image | absolute_url }}{% endif %}" />
 
   <!-- Fonts -->

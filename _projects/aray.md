@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: ARAY
+description: "Building a UGC creator platform solo for a UK based agency. Launched to creators within 3 months via their Instagram audience of 6,000+ in March 2026."
 permalink: /aray/
 hide_title: true
 ---

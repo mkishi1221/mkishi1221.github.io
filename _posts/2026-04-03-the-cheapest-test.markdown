@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The cheapest test you're not running
+title:  "The cheapest test you're not running"
 description: Before you spend a weekend building, spend an hour with a spreadsheet. The forecast you're avoiding is the one that tells you whether to build at all.
 date:   2026-04-03 09:00:00 +0300
 image:  '/images/eva-corbisier-rHlEwm0Dhyk-unsplash.jpg'

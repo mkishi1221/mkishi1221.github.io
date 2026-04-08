@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title: Resry
+description: "Building an AI tool for job seekers. Shipped V1 in late 2025, ran structured discovery with users, currently building V2 for May 2026 Launch."
 permalink: /resry/
 hide_title: true
 ---
