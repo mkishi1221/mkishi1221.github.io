@@ -20,6 +20,9 @@
   {% assign og_desc = nil %}{% if page.url == "/" %}{% assign og_desc = site.description %}{% elsif page.description %}{% assign og_desc = page.description %}{% else %}{% for study in site.data.case_studies %}{% if study.title == page.title %}{% assign og_desc = study.description %}{% break %}{% endif %}{% endfor %}{% endif %}{% unless og_desc %}{% assign og_desc = page.excerpt %}{% endunless %}
   <meta property="og:description" content="{{ og_desc | strip_html | xml_escape }}" />
   <meta property="og:image" content="{% if page.url == "/" %}{{ site.hero.hero__image | absolute_url }}{% else %}{{ page.image | absolute_url }}{% endif %}" />
+  {% if page.date %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />{% endif %}
+  {% if page.layout == "post" %}<meta property="og:type" content="article" />
+  <meta property="article:author" content="Masayuki Kishi" />{% endif %}
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
