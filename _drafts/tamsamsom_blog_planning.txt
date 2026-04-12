@@ -1,0 +1,38 @@
+I'm thinking of writing a blog on how to validate a new startup idea. Not the usual way of writing TAM SAM SOM and speculating the size of the opportunity. What's the minimum income expectation? Realistically, can the idea meet that minimum? Can you help me validate this idea as part of my blog posts as CTO? 
+
+The issue with how ideas are validated:
+- It often measures the idea from an investor's perspective, not the founders. There's an uncomfortable assumption that the founder would be willing to sacrifice themselves for the investment which I don't think is right. It glosses over informed consent.
+- Investors are making a bet on a spreadsheet. Founders are putting their life on the line. It's easy to conflate the dollar amount and undervalue the founder's life but the stakes are vastly different for the founder.
+- TAM SAM SOM is technically a scaling metric which the ceiling is only relevant at scaling (after you've fully validated the idea with actual sales volume) and likely only feasible with great resources the investment brings. It doesn't likely measure the actual ceiling without investment pre-scaling. 
+- It's now easier than ever to build anything. So investors are more unlikely than ever to fund an idea. Using TAM SAM SOM likely comes from an era where you needed investment to build anything which was also probably not a healthy way to think about it.
+- It doesn't take into account the founder ability, resource and circumstance. The market being big is a great metric but just because it's big doesn't mean the founder can practically generate revenue.
+- Feasible but at what cost? Its easy to overlook how much you have to pay in time, energy, savings, opportunity cost to make the idea feasible. Is that an investment you would consent to?
+- The founder's justification for this sacrifice is the exit sale. But exit sales rarely happen let alone a seed investment. Why would you pay something enormously tangible (your time, energy, savings, opportunity cost) for a wildly unknown outcome.
+- Regardless of TAM SOM SAM or another opportunity metric, it's asking what the ceiling of the opportunity might be which generates bad speculation which then leads to behavior similar to gambling and becomes the wrong question.
+
+
+How I like to refocus the validation:
+- The most realistic outcome pre-scaling is you end up operating a modest business that raises no funding and no exit perhaps for many years before you shut it down. Sounds rough but statistically its the most overwhelmingly likely outcome. (need a source for this) You need to be able to shut it down amicably with as little downside as possible. (Downside includes debt, legal exposure, bad health etc.)
+- What does this business pre-investment, pre-scaling realistically look like and can it meet your minimum expectations? 
+- Here we get to the real validation metric which isn't actually related to the idea or market size at all. What are your minimum expectations to do this sustainably? Unless this is made clear, its not possible to validate or consent to work on any idea.
+
+Regardless of the idea or market size:
+- What's the minimum revenue do you need to generate to make working on this idea sustainable?
+- How long can you tolerate working on this under that number?
+
+Now you can start judging the likelihood of an idea reaching that number working backwards:
+- What does the unit price realistically look like based on your competitors?
+- How many customers do you need at any given time to get to your minimum revenue?
+- How long would it take to get that many customers? 
+- How would you make your business known to each customer and how much does that cost? 
+- Do you know any potential customers or do you first have to invest into creating a new relationship with this group?
+- What's the likely conversion rate? If unknown use maybe 2-3%. This means you reach out to 100 people with the problem you're trying to solve and you get maybe 2-3 paying customers.
+- It is possible to find an estimate for that number fairly quickly. See if there are any events that deliver that value - how many clicked on the event and how many showed up? Even if it's a free event, showing up costs time, transport and refreshment etc. so it does measure some commitment and willingness to pay to solve that problem even if its a very rough proxy - you'll find the number of available customers and conversion rate. See how many are recurring attendees.
+
+Now you're in the position to judge the idea rationally,
+- How likely would that idea generate the income you are looking for?
+- Most importantly, does that ceiling also account for the lost opportunity cost of having a normal job?
+
+Lastly, its not a good idea to sacrifice your life for an idea. You need to be fairly certain working on the idea can meet the minimum expectations life expects from you as those are often not negotiable.
+
+See the Vangogh and Blackberry posts for writing direction and style. Do not under any circumstances be preachy or "teach" the reader. I'm thinking outloud. Do not also self-deprecate. I'm trying to create a reputation to become a CTO. I'm not a junior founder.

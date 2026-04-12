@@ -1,0 +1,749 @@
+ AI might actually need more PMs
+Amol Avasare, Anthropic’s Head of Growth, said on Lenny’s Podcast that maybe PM jobs are not going to shrink as much as we may have thought…
+
+Rather than immediately replacing PMs, AI is currently increasing engineering leverage the fastest, which creates new pressure on PMs and designers. In larger organizations, that may actually increase the value of PMs who can guide priorities, manage alignment, and sharpen decision-making—especially as engineers take on more "mini-PM" responsibilities.
+
+10 April 2026
+ Eight years of wanting, three months of building with AI
+Lalit Maganti writes about building a SQLite parser with AI — a project he’d been putting off for eight years, finished in three months. His comparison of AI coding to slot machines is uncomfortably familiar:
+
+I found myself up late at night wanting to do “just one more prompt,” constantly trying AI just to see what would happen even when I knew it probably wouldn’t work. The sunk cost fallacy kicked in too: I’d keep at it even in tasks it was clearly ill-suited for, telling myself “maybe if I phrase it differently this time.”
+
+Also, I agree that this is still true today, but I’m not convinced it will remain true beyond 2026:
+
+AI is an incredible force multiplier for implementation, but it’s a dangerous substitute for design.
+
+29 March 2026
+ Endgame for the open web
+Anil Dash has a long essay on the state of the open web and not all of it rings true for me, but buried in the opening is a wonderful definition of what the open web actually is:
+
+The open web is something extraordinary: anybody can use whatever tools they have, to create content following publicly documented specifications, published using completely free and open platforms, and then share that work with anyone, anywhere in the world, without asking for permission from anyone. Think about how radical that is.
+
+It does feel like if the web got invented in 2026, it would not have been left as an open technology for long (see also AI and how much open source models are lagging).
+
+23 March 2026
+ Negative space in writing
+Tracy Durnell explores non-visual negative space—what happens when writing leaves room for the reader to think:
+
+The current design trend of business and self-help style books is to use tons of subheadings and callout boxes and always, a list of the key points at the end of the chapter. While this is a highly skimmable format and often nice visual design, it essentially sucks the negative space out of the text — the places in which the reader might step back and consider their own examples or anticipate what point the author is trying to make. There’s no time for hunches here.
+
+And:
+
+The negative space of the text helps build the aesthetic experience. Small details flavor the text with a sense of reality. Drawing out events — leaving questions unresolved and conflicts unsettled — can build tension. And textual space creates a gap for the reader to make the personal decodings of the text that build meaning.
+
+Not everything has to get to the point immediately. Sometimes the best thing a writer can do is leave room for the reader to get there on their own. I’m thinking about this because I’m currently reading The Will of the Many. It is slow, and long, and one of the best books I’ve read in ages. The negative space is probably a big reason why I love it so much.
+
+23 March 2026
+ Agentic manual testing
+Simon Willison has a practical guide on manual testing with coding agents. Two tips I’ve already started using:
+
+It’s still quick for an agent to write out a demo file and then compile and run it. I sometimes encourage it to use /tmp purely to avoid those files being accidentally committed to the repository later on.
+
+And:
+
+If an agent finds something that doesn’t work through their manual testing, I like to tell them to fix it with red/green TDD. This ensures the new case ends up covered by the permanent automated tests.
+
+14 March 2026
+From Assistant to Collaborator: How My AI Second Brain Grew Up
+Over the past few months I’ve been writing about how I use AI for product work. The first post covered the philosophy: context files, opinionated prompts, and how to compose the right inputs for each task. The second added slash commands and daily summaries. The third was a hands-on setup guide. And the fourth introduced project brains for keeping complex initiatives organized.
+
+This post covers a different kind of change. The earlier additions were incremental: more commands, better context, smoother workflows. What changed recently feels more like a threshold. The system graduated from a tool I invoke for specific tasks to something closer to a collaborator I dispatch to do real work. Three capabilities drove that shift: multi-agent orchestration, cross-session memory, and the encoding of domain expertise into the system itself.
+
+Multi-Agent Workflows
+The clearest example is customer escalation investigations. As a PM for data products, I regularly investigate customer-reported issues: logging gaps, data discrepancies, behavior that doesn’t match expectations. These investigations require pulling information from multiple sources and cross-referencing it all into an analysis that engineering can act on.
+
+I built a slash command that handles this as a multi-phase workflow. When I run it with a ticket ID, here’s what happens:
+
+The system reads the customer ticket, extracts the core problem, identifies which product area is involved, and classifies the issue type.
+Three specialist agents launch simultaneously, each focused on a different data source. One searches the codebase for the relevant logic and recent changes. Another searches for related tickets and prior incidents across projects. A third checks documentation and internal wiki pages for relevant operational context.
+A fourth agent receives the combined findings and produces database queries that can confirm or refute the working hypothesis.
+The system combines everything into a structured analysis: issue classification, root cause anchored in code where possible, customer impact, and recommended next steps.
+A blind validator independently re-fetches every source cited in the draft to verify the claims hold up. Then an adversarial challenger looks for alternative explanations and tests whether the classification is correct.
+The output is a document I can review with an engineering colleague or paste into a chat thread. It includes a confidence assessment and a data collection status table showing what was checked and what was unavailable, along with how the analysis compensated for gaps.
+
+The command file that orchestrates all of this isn’t prompting in the traditional sense. It defines which agents to dispatch, what information each one needs, when to wait for results before proceeding, and how to handle failures gracefully. Writing this felt more like designing a workflow than writing a prompt.
+
+I’ve applied the same pattern to other tasks. A “fix feasibility” command evaluates whether a ticket describes a code change simple enough for a PM to implement with AI coding assistance, and produces an implementation brief if the answer is yes. The specific use cases differ, but the architecture is the same: break the problem into specialist tasks that run in parallel, then synthesize and validate the results.
+
+Cross-Session Memory
+AI conversations are stateless by default. Every new session starts from zero, which means re-explaining context that should already be established. Over a few weeks of working on the same projects, this friction adds up.
+
+I addressed this with a four-layer memory system:
+
+The first layer is stable facts: a compact file that captures the current state of all active work, including project status, recent decisions, and environment constraints. This is the primary orientation file. When I start a session, the AI reads it and immediately knows what’s in flight.
+The second is a session log: a reverse-chronological list of handoff notes. Each entry records what happened in a session and what threads remain open. The last three entries give enough context to pick up where I left off.
+Third, a corrections file. This holds behavioral fixes for things the AI consistently gets wrong. It’s a staging area that should shrink over time as fixes get promoted elsewhere.
+And finally, a decisions log: a cross-cutting record of decisions that don’t belong to a specific project. Each entry captures context and rationale so I don’t relitigate settled questions.
+Two commands manage this. /session-start loads all four files and presents a brief summary of current state and recent sessions. /session-end reviews the conversation, writes a handoff note, and then checks whether any learnings should be promoted to infrastructure.
+
+“Promote to infrastructure” means taking something learned during a session and baking it into the files the agent actually reads. A correction about how to handle a specific edge case in escalation investigations might start in the corrections file, then get promoted into the escalation command or a domain skill once it’s validated. The corrections file shrinks over time as knowledge graduates into the right places.
+
+This creates a loop where the system improves its own instructions. I approve every change, so it’s not self-modifying in a creepy way. But in practice each work session can make the next one slightly better, and the compound effect over weeks is noticeable.
+
+Domain Expertise
+The earlier posts described skills like pm-thinking, which applies product methodology (problem-first thinking, measurable outcomes) to any PM-related conversation. That’s useful, but generic. It works the same way regardless of what product you’re building.
+
+The bigger shift was building skills that encode institutional knowledge about specific products. I now have skills for each major product area my team owns: log delivery, analytics, audit logs, alerting, and data pipelines. Each skill contains the product’s architecture and common failure modes, along with which code repositories to search and which database tables hold relevant data.
+
+This is what makes the multi-agent workflows genuinely useful. When the code investigator agent examines an escalation about missing logs, the domain skill tells it which service handles job state and which repository contains the delivery pipeline. It also flags recent architectural changes that might be relevant. Without that context, the agent produces plausible-sounding analysis that misses the specific details engineering needs.
+
+Now every investigation that uses a skill validates or extends the knowledge it contains, and /session-end catches insights that should be added back.
+
+How The Work Changes
+A few practical observations from working this way:
+
+The role has shifted from “write the right prompt” to “design the right process.” The escalation command is a workflow with phases, dependencies, and validation steps. Thinking about it that way produces better results than trying to pack everything into a single conversation.
+Validation has to be built in. The blind validator exists because agents make mistakes. They cite files that don’t exist, mischaracterize what code does, or draw conclusions the evidence doesn’t support. Catching those issues before they reach anyone else is the whole point.
+Cross-session memory requires discipline. The system only works if I run /session-end after substantive sessions and keep stable facts current. When I skip it, the next session starts cold and I lose the compounding benefit. Automation helps, but the commitment to maintain the memory is mine.
+And domain skills need regular maintenance. Products change. Code gets refactored, pipelines get rearchitected. Skills that aren’t periodically updated drift from reality. I haven’t solved this well yet. It’s still a manual process of noticing when a skill’s knowledge is stale and updating it.
+The system still makes mistakes. Multi-agent workflows are more thorough than single-prompt conversations, but they’re not infallible. The confidence assessment in the escalation output exists because sometimes the answer is “medium confidence, we couldn’t confirm this from the available data.” That honesty about limitations is more useful than false certainty.
+
+Where This Is Going
+I’m sure the specific commands and skills will look different in six months as I learn what works and what doesn’t. But the underlying pattern feels durable: compose specialist agents with deep domain context, validate their output, and feed learnings back into the system.
+
+I’ve published updated files to the Product AI Public repo, including the session memory commands and a generalized version of the multi-agent escalation workflow. If you’re building something similar, those might be useful starting points.
+
+The value of this system is in how the pieces reinforce each other. Domain skills make agents useful for real investigations. Session memory means the system gets smarter over time. And the promote-to-infrastructure loop ties it together, so each piece of work has a chance to make the next one better.
+
+14 March 2026
+ When Using AI Leads to “Brain Fry”
+I am definitely feeling the "brain fry" right now:
+
+We found that the phenomenon described in these posts—cognitive exhaustion from intensive oversight of AI agents—is both real and significant. We call it “AI brain fry,” which we define as mental fatigue from excessive use or oversight of AI tools beyond one’s cognitive capacity. Participants described a “buzzing” feeling or a mental fog with difficulty focusing, slower decision-making, and headaches.
+
+The research is fascinating and worth reading, with super interesting findings like this:
+
+ As employees go from using one AI tool to two simultaneously, they experience a significant increase in productivity. As they incorporate a third tool, productivity again increases, but at a lower rate. After three tools, though, productivity scores dipped. Multitasking is notoriously unproductive, and yet we fall for its allure time and again.
+
+Earlier this week I had this thought: "Oh no, I think I’ve blown out my context window. I wish I could add some more tokens to my brain. Until then I might just have to respond to new requests with 401 Unauthorized."
+
+And that’s when I realized I probably need to go touch grass or something.
+
+14 March 2026
+ AI should help us produce better code
+As usual, Simon Willison hits the nail on the head here:
+
+If adopting coding agents demonstrably reduces the quality of the code and features you are producing, you should address that problem directly: figure out which aspects of your process are hurting the quality of your output and fix them. Shipping worse code with agents is a choice. We can choose to ship code that is better instead.
+
+Also see Mitchell Hashimoto’s idea of “harness engineering”:
+
+It is the idea that anytime you find an agent makes a mistake, you take the time to engineer a solution such that the agent never makes that mistake again.
+
+1 March 2026
+ An AI Wake-Up Call
+Matt Shumer’s Something Big Is Happening has made the rounds over the last couple of weeks, but just in case you haven’t seen it, I think it’s very much worth reading. He’s an AI startup founder writing for the non-technical people in his life:
+
+AI isn’t replacing one specific skill. It’s a general substitute for cognitive work. It gets better at everything simultaneously. When factories automated, a displaced worker could retrain as an office worker. When the internet disrupted retail, workers moved into logistics or services. But AI doesn’t leave a convenient gap to move into. Whatever you retrain for, it’s improving at that too.
+
+Previous waves of automation always left somewhere to go. The uncomfortable implication here is that the escape routes are closing as fast as they open.
+
+There are too many quotes worth commenting on, but this observation about what we tell our kids feels important:
+
+The people most likely to thrive are the ones who are deeply curious, adaptable, and effective at using AI to do things they actually care about. Teach your kids to be builders and learners, not to optimize for a career path that might not exist by the time they graduate.
+
+Predictions about the pace of change tend to be simultaneously too aggressive and too conservative in ways that are hard to anticipate. But the direction feels right, and the practical advice is sound: use the tools seriously, don’t assume they can’t do something just because it seems too hard, and spend your energy adapting rather than debating whether this is real.
+
+1 March 2026
+ Toolshed, blueprints, and why good agents need good DevEx
+Alistair Gray published part two of Stripe’s “Minions” series, going deeper on how they built their internal coding agents. It’s a great read throughout, but three ideas really stood out to me.
+
+First, blueprints. These are workflows that mix deterministic steps with agentic ones:
+
+Blueprints are workflows defined in code that direct a minion run. Blueprints combine the determinism of workflows with agents’ flexibility in dealing with the unknown: a given node can run either deterministic code or an agent loop focused on a task. In essence, a blueprint is like a collection of agent skills interwoven with deterministic code so that particular subtasks can be handled most appropriately.
+
+If you know a step should always happen the same way, don’t let an LLM decide how to do it. Let the agent handle the ambiguous parts, and hardcode the rest (this can also dramatically reduce token cost).
+
+Second, their centralized MCP server:
+
+We built a centralized internal MCP server called Toolshed, which makes it easy for Stripe engineers to author new tools and make them automatically discoverable to our agentic systems. All our agentic systems are able to use Toolshed as a shared capability layer; adding a tool to Toolshed immediately grants capabilities to our whole fleet of hundreds of different agents.
+
+A shared tool layer that all agents can use… 500 tools, one server, hundreds of agents. Very cool idea.
+
+And third, what they call “shifting feedback left”:
+
+We have pre-push hooks to fix the most common lint issues. A background daemon precomputes lint rule heuristics that apply to a change and caches the results of running those lints, so developers can usually get lint fixes in well under a second on a push.
+
+If you can catch a problem before it hits CI, do it there. A sub-second lint fix on push is better than a 10-minute CI failure, whether you’re a person or an LLM burning tokens.
+
+So much of Stripe’s agent success is built on top of investments they made for human developer productivity. Good dev environments, fast feedback loops, shared tooling. The agents benefit from all of it, and developers remain in control.
+
+23 February 2026
+Project Brains: Organizing Complex Initiatives for AI-Assisted Work
+I’ve written before about how I use AI for product work and how that workflow evolved with slash commands and skills. This post focuses on how to maintain context for complex, long-running projects.
+
+The Problem: Context Fragmentation
+When I’m working on a major initiative, relevant information ends up scattered everywhere: PRDs in one tool, tickets in another, meeting notes in a third, plus emails and chat threads. Every time I return to a project after a few days, I spend time reconstructing where things stand.
+
+AI assistants can make this worse because each conversation starts fresh. I can reference files, but the model doesn’t know which files matter for this project, what decisions we’ve already made, or what questions remain open. I end up re-explaining context that should be obvious.
+
+Project brains solve this by creating a dedicated folder for each major initiative with a standard structure that both humans and AI can navigate.
+
+What a Project Brain Looks Like
+The structure looks like this:
+
+projects/[project-name]/
+├── CONTEXT.md        # The hub: status, stakeholders, decisions, open questions
+├── artifacts/        # PRDs, specs, designs, one-pagers
+├── decisions/        # Decision logs with rationale and alternatives
+├── research/         # Customer feedback, data analysis, technical investigation
+└── meetings/         # Meeting notes related to this project
+The CONTEXT.md file is a living document that answers the questions I’d need to answer every time I pick up a project:
+
+What’s the current status?
+Who are the stakeholders and what do they care about?
+What decisions have we made and why?
+What questions are still open?
+Where are the relevant artifacts?
+When I start a conversation about a project, I point the AI to the project folder. It reads CONTEXT.md first, then can drill into specific artifacts as needed. The model immediately knows the project state without me explaining it.
+
+A Real Example
+Say I’m working on adding observability to an internal platform—something that needs coordination across multiple teams over several months. The CONTEXT.md includes:
+
+Quick reference table: Status, PM, engineering lead, target dates, links to the PRD and relevant tickets. Everything I’d need to orient myself.
+Problem statement: A clear articulation of the user pain. In this case: “Platform incidents go undetected until users report them, and debugging takes hours due to lack of visibility.”
+Success metrics with baselines and targets: Things like uptime targets, reduction in mean time to resolution, and alert accuracy. These anchor every conversation about scope.
+Key decisions made: A table showing what was decided, when, why, and what alternatives we considered. When someone asks “why aren’t we including component X in v1?”, the answer is already documented.
+Open questions: A checklist of unresolved issues. This prevents the AI from assuming things are settled when they’re not.
+Links: Direct paths to the PRD, spec, analysis docs, and related pages.
+The decisions/ folder contains detailed decision logs for significant choices. The research/ folder holds whatever analysis informed the project direction. The meetings/ folder captures sync notes that would otherwise disappear into Gemini notes in a Google Drive… somewhere.
+
+When to Create a Project Brain
+Not every task needs this treatment. I create a project brain when:
+
+The work spans multiple weeks or months. Short-term tasks don’t need the overhead.
+Multiple stakeholders are involved. If I need to coordinate with other teams, having a single source of context helps.
+Decisions require documented rationale. If someone might ask “why did you do it this way?” later, a decision log is worth the investment.
+The project crosses team boundaries. Cross-functional initiatives benefit from dedicated context that doesn’t live in any one team’s space.
+For simpler work, I use a flatter folder structure with documents organized by type. Project brains are for the complex initiatives where context fragmentation is a real cost.
+
+How AI Uses Project Brains
+The payoff comes when I’m working with AI on project-specific tasks. A few examples:
+
+Preparing for a meeting: “Read the CONTEXT.md in the [project] folder. I have a spec review meeting tomorrow. What are the open questions I should raise?”
+Drafting an update: “Based on the project context, draft a status update for leadership. Focus on progress since the start of the month and remaining blockers.”
+Decision analysis: “We need to decide whether to include [component] in scope. Read the research folder and the current CONTEXT.md. What would you recommend and why?”
+The AI knows the project history, the stakeholders, the constraints. Its recommendations are grounded in documented context rather than generic best practices.
+
+Maintaining the Project Brain
+The value depends on keeping CONTEXT.md current. I’ve found a few practices help:
+
+Update after significant events. When a decision is made, a meeting happens, or the status changes, update the file immediately. “I’ll do it later” means it won’t happen. LLMs are great at making these updates, so you can simply say “update relevant files based on the session we just concluded.”
+Move open questions to resolved. When a question gets answered, don’t delete it. Mark it resolved and note the answer. This preserves the reasoning trail.
+Link, don’t duplicate. CONTEXT.md should point to artifacts, not contain them. Keep PRDs in the artifacts folder. Keep meeting notes in the meetings folder. The context file is a hub, not a repository.
+Scaffolding New Projects
+I have a slash command that scaffolds new project brains:
+
+/new-project platform-observability
+This creates the folder structure, generates a CONTEXT.md from a template, and fills out a rough draft based on whatever context I provide. Removing the friction of setup means I’m more likely to actually use the system. You can view the command here.
+
+The template includes the standard sections (Quick Reference, Problem Statement, Success Metrics, etc.) with placeholder text. I fill in what I know and mark other sections as TBD. Even an incomplete project brain is more useful than scattered notes.
+
+What I’ve Learned
+A few observations from using this approach:
+
+Structure beats volume. A well-organized project brain with sparse content is more useful than a folder full of undifferentiated documents. The AI (and future me) can navigate structure. It can’t navigate chaos.
+Decision logs compound. Every decision I document now saves time later. When stakeholders ask “why didn’t we do X?”, I can point to a decision log instead of reconstructing my reasoning from memory.
+CONTEXT.md is for humans too. I originally built this for AI assistance, but I reference these files constantly in my own work. The discipline of maintaining project context helps me stay oriented, not just the AI.
+The folder structure is flexible. Some projects need more subfolders (like research/customer-interviews/). Some need fewer. The template is a starting point, not a requirement.
+This approach requires discipline to maintain, and the upfront setup takes time. But for complex initiatives where context fragmentation is a real problem, project brains have been worth the investment. The AI becomes a more useful collaborator when it has access to the same context I do.
+
+I’m still iterating on the structure. I suspect the template will look different six months from now as I learn what sections actually get used and which ones I skip every time. The point isn’t to get the folder structure perfect, but to stop losing context between conversations and start building on what you already know.
+
+21 February 2026
+ The A.I. Disruption Has Arrived, and It Sure Is Fun
+Paul Ford writes about vibe coding for the NYT (gift link) and what happens when software suddenly becomes cheap and fast to ship:
+
+There are many arguments against vibe coding through A.I. It is an ecological disaster, with data centers consuming billions of gallons of water for cooling each year; it can generate bad, insecure code; it creates cookie-cutter apps instead of real, thoughtful solutions; the real value is in people, not software. All of these are true and valid. But I’ve been around too long. The web wasn’t “real” software until it was. Blogging wasn’t publishing. Big, serious companies weren’t going to migrate to the cloud, and then one day they did.
+
+And then he brings it home in a way that continues to make him one of my favorite web writers:
+
+The simple truth is that I am less valuable than I used to be. It stings to be made obsolete, but it’s fun to code on the train, too. And if this technology keeps improving, then everyone who tells me how hard it is to make a report, place an order, upgrade an app or update a record — they could get the software they deserve, too. That might be a good trade, long term.
+
+We can grieve what we lost, while also being optimistic about the future AI is unlocking for all of us. It’s uncomfortable, but that’s ok, all technological shifts are.
+
+21 February 2026
+ The Father-Daughter Divide
+Isabel Woodford has a research-heavy essay in The Atlantic about why dads and daughters crave closeness but struggle to find it. 28% of American women are estranged from their father, and even where relationships are intact, they tend to be thinner—more transactional, less emotionally honest—than daughters want.
+
+At the root of the modern father-daughter divide seems to be a mismatch in expectations. Fathers, generally speaking, have for generations been less involved than mothers in their kids’ (and especially their daughters‘) lives. But lots of children today expect more: more emotional support and more egalitarian treatment. Many fathers, though, appear to have struggled to adjust to their daughters’ expectations. The result isn’t a relationship that has suddenly ruptured so much as one that has failed to fully adapt.
+
+And the psychological explanation that cuts deepest:
+
+“What generates closeness is another person’s vulnerability,” Coleman explained, and dads may not be ready for that.
+
+Daughters aren’t asking for grand gestures or dramatic change—they’re asking for their fathers to show up emotionally. Which turns out to be hard for a lot of men who were raised to see that kind of openness as weakness.
+
+21 February 2026
+ The AI baseline has moved
+Geoffrey Huntley wrote about what happens when people finally “get” AI:
+
+If you’re having trouble sleeping because of all the things that you want to create, congratulations. You’ve made it through to the other side of the chasm, and you are developing skills that employers in 2026 are expecting as a bare minimum.
+
+The only question that remains is whether you are going to be a consumer of these tools or someone who understands them deeply and automates your job function? Trust me, you want to be in the latter camp because consumption is now the baseline for employment.
+
+Knowing how to use these tools is no longer a differentiator. The gap is between people who consume AI outputs and people who understand the systems well enough to build on top of them.
+
+For product managers, this means that prompting ChatGPT for a first draft doesn’t count as an AI skill anymore. The question is whether you can wire together agents, automate your own workflows, and spot opportunities others miss because they’re still thinking in manual processes.
+
+2 February 2026
+ The Jevons Paradox and the Future of Knowledge Work
+I keep thinking about this essay by Mike Fisher about what happens when automation makes work easier. His central argument challenges the assumption that’s baked into most AI-and-jobs discourse:
+
+In every domain where automation becomes powerful, the pattern remains consistent. Human expertise becomes more valuable because the total volume of meaningful work increases. Early fears of automation nearly always assume a fixed amount of work being redistributed. But work is not fixed. Work expands when constraints are removed.
+
+He anchors this on the Jevons Paradox—the 19th century observation that improved steam engine efficiency led to more coal consumption, not less. And then he traces the pattern through radiology, where the number of US radiologists grew from 30,723 in 2014 to 36,024 in 2023, despite Hinton’s 2016 prediction that deep learning would make them obsolete within five years.
+
+He concludes:
+
+AI will reshape the profession, but only in the sense that cars reshaped transportation or spreadsheets reshaped finance. Not by eliminating the field, but by expanding its scope. Not by reducing labor, but by elevating it. Not by shrinking opportunity, but by multiplying it. The world does not need fewer people who understand systems. It needs far more of them.
+
+I find this framing useful because it shifts the question from “will AI take my job?” to “how will the work change as the volume increases?” That’s a much more interesting thing to figure out (which is also why I have been so focused on expanding my Product Second Brain).
+
+25 January 2026
+ Why “Correction of Error” Gets Incidents (and Product Failures) Wrong
+I’ve covered “root cause” thinking in incident reviews before, and Lorin Hochstein takes aim at a related issue: AWS’s “Correction of Error” terminology:
+
+I hate the term “Correction of Error” because it implies that incidents occur as a result of errors. As a consequence, it suggests that the function of a post-incident review process is to identify the errors that occurred and to fix them. I think this view of incidents is wrong, and dangerously so: It limits the benefits we can get out of an incident review process.
+
+What makes his critique compelling is the observation that production systems are full of defects that never cause outages:
+
+If your system is currently up (which I bet it is), and if your system currently has multiple undetected defects in it (which I also bet it does), then it cannot be the case that defects are a sufficient condition for incidents to occur. In other words, defects alone can’t explain incidents.
+
+This applies to product work too. When users report problems, our instinct is to find “the bug” and fix it. But often the bug has been there for months—what changed is the context around it. A new user flow, a spike in traffic, a feature interaction we didn’t anticipate. If we stop at “fixed the bug,” we miss the chance to understand why the system let that failure through in the first place.
+
+ The Jevons Paradox and the Future of Knowledge Work
+I keep thinking about this essay by Mike Fisher about what happens when automation makes work easier. His central argument challenges the assumption that’s baked into most AI-and-jobs discourse:
+
+In every domain where automation becomes powerful, the pattern remains consistent. Human expertise becomes more valuable because the total volume of meaningful work increases. Early fears of automation nearly always assume a fixed amount of work being redistributed. But work is not fixed. Work expands when constraints are removed.
+
+He anchors this on the Jevons Paradox—the 19th century observation that improved steam engine efficiency led to more coal consumption, not less. And then he traces the pattern through radiology, where the number of US radiologists grew from 30,723 in 2014 to 36,024 in 2023, despite Hinton’s 2016 prediction that deep learning would make them obsolete within five years.
+
+He concludes:
+
+AI will reshape the profession, but only in the sense that cars reshaped transportation or spreadsheets reshaped finance. Not by eliminating the field, but by expanding its scope. Not by reducing labor, but by elevating it. Not by shrinking opportunity, but by multiplying it. The world does not need fewer people who understand systems. It needs far more of them.
+
+I find this framing useful because it shifts the question from “will AI take my job?” to “how will the work change as the volume increases?” That’s a much more interesting thing to figure out (which is also why I have been so focused on expanding my Product Second Brain).
+
+25 January 2026
+ Why “Correction of Error” Gets Incidents (and Product Failures) Wrong
+I’ve covered “root cause” thinking in incident reviews before, and Lorin Hochstein takes aim at a related issue: AWS’s “Correction of Error” terminology:
+
+I hate the term “Correction of Error” because it implies that incidents occur as a result of errors. As a consequence, it suggests that the function of a post-incident review process is to identify the errors that occurred and to fix them. I think this view of incidents is wrong, and dangerously so: It limits the benefits we can get out of an incident review process.
+
+What makes his critique compelling is the observation that production systems are full of defects that never cause outages:
+
+If your system is currently up (which I bet it is), and if your system currently has multiple undetected defects in it (which I also bet it does), then it cannot be the case that defects are a sufficient condition for incidents to occur. In other words, defects alone can’t explain incidents.
+
+This applies to product work too. When users report problems, our instinct is to find “the bug” and fix it. But often the bug has been there for months—what changed is the context around it. A new user flow, a spike in traffic, a feature interaction we didn’t anticipate. If we stop at “fixed the bug,” we miss the chance to understand why the system let that failure through in the first place.
+
+25 January 2026
+Why AI in Interviews Is Bad for Candidates, Not Just Companies
+A quick post on LinkedIn about interviewing a candidate who used real-time AI got more engagement than is usual for me. And as often happens when something goes semi-viral, some folks took issue with what I said, so I want to expand on the point I was trying to make (it wasn’t that “AI is cheating”).
+
+Here’s what I wrote:
+
+I had my first experience interviewing a candidate who used real-time AI today. If you’re someone who uses AI daily, it’s so easy to spot. The pause before the answer, the constant eyes flicking to the other screen, the perfectly-manicured 3-point answer…
+
+Friends, just don’t do this. It’s too easy to spot, and it will also set you up for failure, because it might get you a job that you’re not a good fit for, which is bad for everyone.
+
+Use AI in your job, for sure. But don’t use it to get the job. The interview process is about you. Be you.
+
+One response called this “absolutely myopic” (I had to double check I didn’t accidentally post on Hacker News) and asked why candidates shouldn’t use AI if it allows for “a better, more creative answer.” Another suggested that if candidates will use AI on the job anyway, then the “real you” isn’t going to be working, so what’s the difference?
+
+Let’s dig into this.
+
+What interviews are actually for
+I don’t interview people to test whether they can produce a good answer to a question. I interview people to understand how they think, what they’ve actually done, and whether we’ll work well together.
+
+(more…)
+
+23 January 2026
+ The invisible 40% of engineering work
+Anton Zaides wrote a good post about shadow work in engineering teams. He discovered a senior engineer on his team was spending over 40% of his time on work that didn’t show up anywhere—code reviews, mentoring, ad-hoc support fixes, etc.
+
+This part is important:
+
+The shadow backlog isn’t the problem—in my opinion, that’s probably the work that should have been done in the first place. The solution is to stop doing it under the table and make sure you have space for it. The more people don’t agree with your roadmap because it was decided for them, the more shadow backlog you’ll have.
+
+The shadow backlog is a symptom of a roadmap that doesn’t reflect reality—and that often happens when engineering teams are not involved in planning and prioritization. That is the real fix—making sure everyone understands and is aligned on the roadmap, and making sure this kind of BAU (Business As Usual) work is visible and planned for.
+
+16 January 2026
+ The B2B Product Leadership Delusion
+Jason Knight wrote about a fascinating disconnect between how B2B product leaders rate themselves and how their teams see them. The data from his survey is striking:
+
+Across the board, B2B Product Leaders think they’re doing pretty well in all of these areas, but B2B IC PMs are not convinced. The difference is stark, and they can’t both be right.
+
+The survey measured six core responsibilities—setting strategy, aligning teams, enabling prioritization, fostering ownership, removing blockers, and investing in people. In every category, leaders rated themselves significantly higher than their ICs rated them. Jason offers three possible explanations: leaders are doing poorly and don’t know it, leaders are doing well but not communicating it, or ICs have unreasonable expectations. He concludes:
+
+Product Leaders need to do a much better job of setting expectations within their teams and communicating with them openly and well. IC Product Managers need to do a much better job of understanding the constraints of their business context and, indeed, the business they work for.
+
+I keep coming back to the iceberg effect he mentions—where only some of the work someone does is visible. This cuts both ways. Leaders underestimate how opaque their work is to their teams, and ICs underestimate the constraints leaders are working within. The gap isn’t just about performance; it’s about mutual understanding.
+
+16 January 2026
+ The invention of “classic rock”
+Daniel Parris wrote a statistical analysis of when rock became “classic rock”, and it’s not the story I expected.
+
+He assumed the genre emerged organically from music nerds debating on message boards and in the pages of Rolling Stone. Instead:
+
+What I found was a deliberate realignment engineered by music executives chasing an ephemeral advertising demographic. Like many entertainment industry decisions, it was a small (mostly male) group of executives quietly deciding the future of popular culture behind closed doors.
+
+The data shows two concentrated periods when stations rapidly switched to classic rock: the mid–1980s (to capture aging Boomers entering their peak earning years) and the mid–1990s (after the Telecommunications Act enabled Clear Channel to buy up local stations and prioritize low-risk, high-profit formats).
+
+The kicker is that this rebrand was designed around economic incentives that have since eroded. Radio isn’t the default distribution channel anymore. On streaming, music can just exist without being packaged for a hyper-valuable consumer cohort.
+
+Another reminder that so much of what feels like culture is really just business decisions made in conference rooms.
+
+8 January 2026
+How to Set Up OpenCode as Your Product Second Brain
+This is the hands-on companion to How I Use AI for Product Work and How My AI Product Second Brain Evolved. Those posts explain the philosophy; this one gets you to a working OpenCode setup in 30 minutes.
+
+By the end, you’ll have a folder structure, three useful slash commands, and a context file that makes the AI actually useful.
+
+Prerequisites
+You’ll need OpenCode installed and configured. Follow the installation guide to get started. If you can run opencode in your terminal and get a response, you’re ready.
+
+Step 1: Create the Folder Structure
+Create a new directory for your product second brain. I recommend keeping it in a git repo so you can version your prompts over time.
+
+mkdir -p product-ai/{context,prompts/pm,.opencode/command}
+cd product-ai
+git init
+Your structure should look like this:
+
+product-ai/
+├── .opencode/
+│   └── command/       # Slash commands live here
+├── context/           # Personal context files
+├── prompts/
+│   └── pm/            # PM-specific prompts
+├── AGENTS.md          # Instructions for OpenCode
+└── opencode.jsonc     # OpenCode config
+Step 2: Create Your Context File
+The context file tells the AI who you are and how you work. Create context/about-me.md:
+
+# About Me
+
+## Role
+[Your title] at [Company], working on [your area].
+
+## What I Care About
+- [Your product philosophy, e.g., "Start with the problem, not the solution"]
+- [Your working style, e.g., "Bias toward shipping and learning"]
+- [Your communication preferences, e.g., "Direct feedback, no hedging"]
+
+## Current Focus
+- [Project or initiative 1]
+- [Project or initiative 2]
+
+## How I Want AI to Help
+- Push back on weak reasoning
+- Explain technical concepts without condescension
+- Help with documentation and communication tasks
+- Don't do my thinking for me
+Keep this updated as your focus changes. The more specific you are, the more useful the AI becomes.
+
+Step 3: Create AGENTS.md
+This file tells OpenCode how to behave in your repo. Create AGENTS.md in the root:
+
+# Product AI Second Brain
+
+Read this file before responding.
+
+## Who I Am
+Read `context/about-me.md` for personal context.
+
+## Slash Commands
+Run these by typing the command in OpenCode:
+
+| Command | Purpose |
+|---------|---------|
+| `/prd` | Review a PRD |
+| `/debate` | Stress-test a product idea |
+| `/okr` | Review OKRs |
+
+## Writing Style
+- Be direct and outcome-oriented
+- Acknowledge trade-offs openly
+- Don't hedge unnecessarily
+Step 4: Add Your First Commands
+Slash commands are markdown files in .opencode/command/. Each command file is a thin wrapper that points to a full prompt file in prompts/pm/. This separation keeps commands simple while allowing prompts to be detailed and shareable.
+
+Command 1: /debate (Stress-test an Idea)
+Create .opencode/command/debate.md:
+
+---
+description: Stress-test a product idea with pro vs skeptic debate
+---
+
+# Product Debate
+
+Read these files before proceeding:
+- `prompts/pm/debate-product-idea.md` - **REQUIRED: Full debate framework**
+- `context/about-me.md` - Your product beliefs and context
+
+## Your Task
+
+$ARGUMENTS
+
+## Instructions
+
+Follow the framework in `prompts/pm/debate-product-idea.md` exactly.
+Then create the prompt file prompts/pm/debate-product-idea.md with your full debate methodology. The basic structure: define two personas (a Visionary who argues for the idea and a Skeptic who pokes holes), have them debate, then synthesize the strongest arguments from both sides.
+
+Command 2: /okr (Review OKRs)
+Create .opencode/command/okr.md:
+
+---
+description: Review OKRs for clarity and outcome-orientation
+---
+
+# OKR Review
+
+Read these files before proceeding:
+- `prompts/pm/review-okrs.md` - **REQUIRED: Full OKR review framework**
+- `context/about-me.md` - Your product beliefs and context
+
+## Your Task
+
+$ARGUMENTS
+
+## Instructions
+
+Follow the framework in `prompts/pm/review-okrs.md` exactly.
+Then create prompts/pm/review-okrs.md with your OKR criteria. Mine checks for outcome-orientation (are these outputs or outcomes?), measurability, and whether the key results actually ladder up to the objective.
+
+Command 3: /prd (Review a PRD)
+Create .opencode/command/prd.md:
+
+---
+description: Review a PRD for completeness and clarity
+---
+
+# PRD Review
+
+Read these files before proceeding:
+- `prompts/pm/review-prd.md` - **REQUIRED: Full PRD review framework**
+- `context/about-me.md` - Your product beliefs and context
+
+## Your Task
+
+$ARGUMENTS
+
+## Instructions
+
+Follow the framework in `prompts/pm/review-prd.md` exactly.
+Then create prompts/pm/review-prd.md with your PRD review criteria.
+
+Step 5: Try It Out
+Navigate to your product-ai directory and run OpenCode:
+
+cd product-ai
+opencode
+Test each command:
+
+/debate Should we build a self-serve dashboard for customers to debug their own issues?
+/okr [paste your OKRs here]
+What’s Next
+Once you’re comfortable with this setup, consider adding:
+
+More commands: /retro for retrospectives, /feedback for drafting colleague feedback
+Skills: Methodology files that OpenCode loads automatically based on context (see the skills documentation)
+Daily summaries: A /today command that summarizes what you worked on
+Project-specific context: Folders for major initiatives with their own context files
+The key is to start small and add complexity as you identify repeated workflows. If you find yourself doing the same thing more than twice, it’s probably worth automating.
+
+If you build something useful on top of this, I’d love to hear about it!
+
+7 January 2026
+ Learning in the Age of AI
+Scott H. Young has a thoughtful piece on what’s still worth learning in a world with AI. He cuts through both the panic and the hype to look at what the data actually shows. The biggest finding is probably not all that surprising: early-career workers in AI-exposed fields are getting hit hardest.
+
+Another report from the Stanford Digital Economy Lab notes that early-career workers in AI-exposed fields (such as programming) have seen a relative decline in employment, even as employment among workers aged 30 years and older increased. This matches my intuition that AI coding agents can do a lot of junior developer tasks pretty well, but struggle to match the experience needed to tackle more serious work.
+
+Young’s advice is to cultivate generalist skills. Not the content-free “critical thinking” kind, but genuinely transferable knowledge:
+
+In an environment of change, it’s better to be the hardy dandelion rather than the hothouse orchid. Similarly, I expect with AI-induced change, people who have maintained diverse interests and skills will be best positioned to take advantage of the change, whereas extreme specialists will face a greater risk of extinction.
+
+30 December 2025
+ Humans make mistakes, and so does AI. It’s fine.
+Will Larson has a good post about implementing “Agent Skills” in their internal agent framework at Imprint. The whole piece is worth reading, but I wanted to highlight this observation:
+
+Humans make mistakes all the time. For example, I’ve seen many dozens of JIRA tickets from humans that don’t explain the actual problem they are having. People are used to that, and when a human makes a mistake, they blame the human. However, when agents make a mistake, a surprising percentage of people view it as a fundamental limitation of agents as a category, rather than thinking that, “Oh, I should go update that prompt.”
+
+There’s a double standard at play here that I’ve noticed too. When a colleague writes a confusing document, we ask them to clarify. When an agent produces something off, we tend to smirk and declare the technology fundamentally broken.
+
+The fix is often as simple as updating a prompt—the same way you’d coach a team member to write better tickets. Skills, in Larson’s implementation, are essentially reusable prompt snippets that encode learned behaviors across workflows. It’s the kind of organizational knowledge we build up with people over time, just made explicit.
+
+30 December 2025
+How My AI Product “Second Brain” Evolved
+A couple of weeks ago I wrote about how I use AI for product work—the basic setup of context files, prompts, and the @ mention system in Windsurf. Since then the system evolved quite a bit, so I figured it’s time for an update.
+
+The philosophy has shifted a bit. I still don’t use AI to do my core thinking—I write my own PRDs and strategy docs. But I’ve come to rely on it more as a helpful assistant for the work around the work: reviewing documents before I share them, researching technical questions, summarizing my week, preparing for meetings. It’s now less “sparring partner” and more “capable colleague who’s always available.”
+
+From Windsurf to Claude Code / OpenCode
+The biggest shift was moving from Windsurf to Claude Code, Anthropic’s terminal-based AI assistant. Claude Code runs in your terminal and has direct access to your filesystem, which changes how you can structure these workflows.
+
+The key feature that made this worthwhile is slash commands. Instead of manually @-mentioning prompt files, I can type /ask-se and Claude Code automatically loads the right context, reads the relevant files, and knows how to respond. It’s a small thing, but removing that friction makes a real difference in how often I actually use these tools.
+
+(more…)
+
+22 December 2025
+Introducing TL;DL: AI-Powered Podcast Summaries
+Do you ever listen to a podcast episode and wish you could have a summary you could reference later? Not the whole transcript or someone else’s review, just a concise breakdown of the key points in a format you can scan quickly when you need to remember what was covered. Well, that’s why I spent the weekend building TL;DL (Too Long; Didn’t Listen). It generates AI summaries from podcast episodes.
+
+Beyond that, there were a few other podcast use cases I kept running into:
+
+Catching up on episodes I missed. Sometimes a podcast gets 10 episodes ahead while life happens. A summary helps me decide which ones are worth going back to.
+Getting a feel for a new podcast. Before committing to a full episode, I want to know if a new show covers topics in a way that works for how I think and learn.
+Quick reference after listening. When I want to apply something from an episode—like a framework or technique—I don’t want to re-listen to an hour of audio to find the relevant 5 minutes.
+So I built something for myself, and now I’m making it available to others. (more…)
+
+18 December 2025
+Building a music discovery app (and what I learned about Product)
+I miss liner notes. In the age of infinite streaming and algorithmic playlists I find myself longing for the days when you’d flip open a CD case and actually read about the music you were listening to. Who produced this? What’s the story behind the album? Why does this track feel different from everything else they’ve made?
+
+Spotify and Apple Music are great at giving you more music. They’re less good at helping you understand why you might love something, or what to explore next. So I built my own solution—and then rebuilt it twice.
+
+The problem I was trying to solve
+My relationship with Last.fm goes back to 2007. In case you’re not familiar, Last.fm is a service that “scrobbles” (tracks) everything you listen to, building a comprehensive history of your musical life. It’s become a wonderful archive of my taste evolution over nearly two decades.
+
+Last.fm is great at telling you what you listened to. It’s less useful for helping you understand why you might love something, or what else you should explore. Spotify and Apple Music’s algorithmic playlists are fine, but they often feel like they’re optimizing for engagement rather than genuine discovery.
+
+I wanted a tool that would:
+
+(more…)
+
+16 December 2025
+ Where Do the Children Play?
+Eli Stark-Elster has a piece that reframes the “kids and screens” debate in a way I haven’t seen before. The usual narrative blames addictive tech design, but he offers an alternative:
+
+Why do our children spend more time in Fortnite than forests? Usually, we blame the change on tech companies. They make their platforms as addicting as possible, and the youth simply can’t resist — once a toddler locks eyes with an iPad, game over.
+
+I want to suggest an alternative: digital space is the only place left where children can grow up without us.
+
+The argument is that kids have always needed spaces away from adult supervision. We’ve just paved over the forests and creeks where they used to find it.
+
+What makes this more than speculation is the research he cites: 72% of 8 to 12-year-olds say they’d rather spend time together in person, without screens. 61% wish they had more time to play with friends without adults around. The kids don’t actually want to be on screens all day. They’re looking for something we’ve taken away.
+
+It seems like what they want is to wander together in a forest. But they can’t. So they boot up Fortnite or TikTok instead.
+
+I’m still sitting with this one. It doesn’t let tech companies off the hook, but it does suggest that “just take away the iPad” isn’t addressing the real problem.
+
+16 December 2025
+ Building MCP servers in the real world
+This has been my experience with MCP servers as well. As useful as I think my Last.fm MCP server is, I can’t see it every having more than a dozen users. But internal company servers are massively useful:
+
+MCP is being used especially heavily by internal data and platform teams to give internal users access to systems. These are systems that these users perhaps already had access to, but it was either too complex or too broad, or needed a lot of documentation or special skills to use.
+
+Wiki search is so much better now that I can use our internal MCP server for it via Windsurf.
+
+Source: Building MCP servers in the real world →
+
+16 December 2025
+ Measuring AI’s Impact on Shipping Speed and Code Quality
+Will Larson has a good post about how they’re adopting AI at his company. The process is interesting, but this is the part that jumped out at me:
+
+My biggest fear for AI adoption is that they can focus on creating the impression of adopting AI, rather than focusing on creating additional productivity. Optics are a core part of any work, but almost all interesting work occurs where optics and reality intersect.
+
+It’s really hard to figure out if AI tools are (1) helping teams ship faster (2) without sacrificing quality.
+
+We’re working on figuring out this problem right now at Cloudflare. Our proposed approach sidesteps the problem of per-commit AI attribution (did Copilot write this line? did Claude?) by correlating team-level AI tool usage with team-level health metrics over time. If a team’s AI adoption increases by 30% and their change failure rate stays stable, that’s a useful signal. If AI usage spikes and incidents start trending up, that’s worth investigating.
+
+The key insight is that you don’t need perfect attribution to get directionally useful data. Correlation isn’t causation, and teams adopting AI tools may already be more experimental or higher-performing. But at least you’re measuring something real instead of the something like “# of lines written by AI”, which leads straight to the Goodhart’s Law problem where metrics become targets.
+
+14 December 2025
+How I Use AI for Product Work
+Update! I wrote a follow-up post here: How My AI Product “Second Brain” Evolved.
+
+I’ve been refining my approach to using LLMs for product work, and I figured it’s time to write up how I actually use them day-to-day.
+
+I think the most valuable thing an AI assistant can do isn’t to write your PRD or draft your strategy docs. It’s to push back on weak reasoning, spot gaps you missed, and force you to articulate why your idea is actually good. It’s less a ghostwriter and more a skeptical colleague who shares your product philosophy. With the right prompts AI assistants are also really good at creating background and framing documents (such as explainers that synthesize complex topics, summaries of technical concepts, etc.).
+
+So let’s walk through how I’ve set this up, what makes it work, and how you might build something similar for yourself.
+
+The Philosophy: Sparring Partner, Not Ghostwriter
+I believe LLMs are most useful when you give them two things: context and constraints.
+
+Context tells the model who you are, what you’re working on, and what “good” looks like in your world.
+Constraints keep the model from going off the rails with generic advice or hallucinated frameworks.
+Every prompt I use is designed to provide both. They’re opinionated on purpose. I’d rather have an assistant that pushes back on bad ideas than one that says “Great idea!” to everything.
+
+The goal isn’t to have AI write presentations for me. It’s to have a thinking partner that:
+
+Challenges weak problem statements before I waste time on solutions
+Spots missing success criteria I forgot to define
+Asks “why?” when my reasoning gets hand-wavy
+Points out when I’m jumping to solutions before understanding the problem
+Helps me create background docs and explainers that set context for others
+The Building Blocks
+The system works because of how all the pieces fit together. Here’s an overview of the general folder structure I maintain with a series of Markdown files inside:
+
+ “Disagree and Let’s See”
+I like this alternative to the “Disagree and Commit” saying:
+
+“Disagree and let’s see” allows you to stay aligned with the team without forcing you to pretend you had conviction you didn’t have. It lets you walk into a room with your team and be honest:
+
+“Here’s the path that was chosen. It wasn’t my first pick, but here’s the experiment we’re running, and here’s what we’re trying to learn.”
+
+That’s a much more authentic stance for most leaders than repeating something with a tight smile and hoping no one notices your doubt.
+
+Source: "Disagree and Let’s See" →
+
+29 November 2025
+New side project: Discord Stock & Crypto Bot
+Not sure how many people would be interested in this, but it was fun to make so I thought I’d share. This is a Discord bot that provides real-time stock and cryptocurrency information, 30-day price trends, and AI-powered news summaries through slash commands. When you add the bot to Discord you can use the /stock and /crypto commands to get information like this:
+
+
+Want to add it to your Discord server? Head over here!
+
+29 November 2025
+ Horrible edge cases to consider when dealing with music
+Metadata is the hardest problem in software, and these examples prove my point. Don’t @ me!
+
+My favourite: a band named brouillard, with a single member called brouillard, whose every single album is named brouillard, and of course, so is every single track.
+
+Source: Horrible edge cases to consider when dealing with music →
+
+29 November 2025
+ Brief thoughts on the recent Cloudflare outage
+Lorin Hochstein is a big name in the LFI (Learning From Incidents) space. He often writes about post-incident reviews, and he has a very interesting write-up of the Cloudflare outage on November 18, 2025 blog post. I especially loved this part:
+
+Companies generally err on the side of saying less rather than more. After all, if you provide more detail, you open yourself up to criticism that the failure was due to poor engineering. The fewer details you provide, the fewer things people can call you out on. It’s not hard to find people online criticizing Cloudflare online using the details they provided as the basis for their criticism.
+
+I think it would advance our industry if people held the opposite view: the more details that are provided an incident writeup, the higher esteem we should hold that organization. I respect Cloudflare is an engineering organization a lot more precisely because they are willing to provide these sorts of details. I don’t want to hear what Cloudflare should have done from people who weren’t there, I want to hear us hold other companies up to Cloudflare’s standard for describing the details of a failure mode and the inherently confusing nature of incident response.
+
+Source: Brief thoughts on the recent Cloudflare outage →
+
+27 October 2025
+ The price of admission
+Some tough love here about what it means to have “executive presence”.
+
+When someone tells you that you need more business sense, or that you’re not ready for more scope, or that you need to level up, this is typically what they’re trying to communicate. That you’re more concerned with how work happens than with what work should happen in the first place.
+
+Source: The price of admission →
+
+27 October 2025
+ How I give the right amount of context (in any situation)
+A great list of things to keep in mind when communicating via writing. The article is focused on “managing up” but these principles are relevant in a much broader context as well.
+
+What questions does your manager usually ask? Answer those questions yourself. If you take anything away from this article, make it this. Every manager has their own idiosyncrasies, worldview, values, etc. That’s why the best thing to do is to pattern match. Consider what they’ve asked you in the past, when talking to you or others. Try to give context through that lens.
+
+Source: How I give the right amount of context (in any situation) →
+
+19 October 2025
+ Selling Lemons
+This is an essay I think everyone should read, front to back. It’s about all the things we are living through right now, but it’s especially about work (and AI):
+
+I’m not sure hiring can ever be much more efficient, because neither side has reason to show themselves as they really are, warts and all. Idealistically, both would come straight; pragmatically, it is a game of chicken. Candidates polish résumés and present curated versions of their abilities, listing outcomes and impact statistics with dubious accuracy and provenance. Companies do the same, putting culture and mission front and center while hiding systematic dysfunctions and looming existential risks. When neither side is forthcoming, you’re left with proxies: a famous logo on a resume, a polished culture deck.
+
+Source: Selling Lemons →
+
+17 October 2025
+ ChatGPT Is Blowing Up Marriages as It Goads Spouses Into Divorce
+Wild story:
+
+Multiple people we spoke to for this story lamented feeling “ganged up on” as a partner used chatbot outputs against them during arguments or moments of marital crisis. One of these sources, a man who’s now in the process of selling his home as he and his spouse barrel toward divorce, recounted feeling voiceless as his partner turned to ChatGPT to pathologize their relationship. “I was really hurt by the way [ChatGPT] was being used against me,” said the man, speaking through tears. “I felt like it was being leveraged… like, ‘I didn’t feel great about whatever happened, and so I went to ChatGPT, and ChatGPT said that you’re not a supportive partner, and this is what a supporting partner would do.’”
+
+I think we have to realize that non-tech people don’t have a good understanding of the sycophantic nature of LLM bots, so we’ll see more and more examples like this.
+
+Source: ChatGPT Is Blowing Up Marriages as It Goads Spouses Into Divorce → 

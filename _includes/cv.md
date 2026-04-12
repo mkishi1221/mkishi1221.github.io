@@ -34,6 +34,13 @@ Sound like what you're looking for? [Book a call with me.](https://calendar.app.
   link=post.url %}
 {% endfor %}
 
+{% assign remaining = site.posts.size | minus: 3 %}
+{% if remaining > 0 %}
+<div style="margin: 20px 0 40px;">
+<a href="{{ site.baseurl }}/blog/" class="button" style="display: inline-block; width: auto; border: 1px solid #55575c; padding: 10px 40px;">See {{ remaining }} more articles</a>
+</div>
+{% endif %}
+
 # Speaking and Events
 
 I speak at events and panels on building with emerging technologies, organise my own meetups in London, and compete in hackathons. The topics range across crowdfunding, startups, AI, and product strategy. Each one has been a chance to test ideas with people closer to the work than I am.

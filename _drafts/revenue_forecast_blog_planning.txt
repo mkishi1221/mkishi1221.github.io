@@ -1,0 +1,59 @@
+I'm thinking about writing a blog about forecasting the revenue during the ideation stage. I often get advice to use a bottoms-up TAM SAM SOM - and that's never been helpful for me. Instead I've come to think about it differently and think about the minimum amount of revenue it needs to generate for it to not be a disappointment and the likelihood of getting there. Can you help me validate this idea as part of my blog posts as CTO? 
+
+The issue with bottoms up TAM/SAM/SOM
+
+- Its primarily a sales mechanism for investors. Investors need to see the maximum market opportunity. If their bet doesn't work out, chances are it won't affect them materially.
+- I need to think about if I'm going to be happy with the likely income this is going to generate. If the business doesn't meet my expectations, I'm definitely going to be materially affected.
+
+
+Revenue forecasting means establishing three things:
+
+1. What is the lowest MRR I need to make this worthwhile for me.
+2. How long can we endure working below that number?
+3. What are the odds?
+4. Finally, are I and my co-founders comfortable with this scenario?
+
+
+Firstly on the lowest MRR
+
+1. The lowest MRR isn't going to be minimum wage x number of founders cause chances are your normal dayjob pays much more than minimum wage. You're going to be working for free for a long time. Your MRR needs to be much higher than your current salary otherwise rationally it's not worth doing.
+
+2. How many co-founders are there? What are their income expectations? Your co-founder may disagree with your lowest income expectation. The lowest MRR needs to use the highest salary expectation from all of your co-founders. Not having equal salaries will probably cause friction especially if everyone is equally committed. (there is something else about measuring individual contribution but for the sake of this blog, let's assume each founder is delivering equal amounts of value)
+
+3. What do your expenses look like? If you don't know I would use 1.5 times.
+
+This means the formula is (Highest salary expected) x (number of cofounders) x (expenses multiplier ie 1.5) = Minimum MRR
+
+Secondly how long can we endure working below that number? Instead of using time, its better to attach a price to understand this.
+
+1. Every minute working on this idea below market rate means I'm losing money I could have earned elsewhere. 
+2. I usually come up with a dayrate and times that by the number of days I'll be working on it. If you're willing to spend 6 months exploring the idea full-time for free, that's 125 working days on average. A tech contractor earns on average 500 pounds a day. That's £62,000 so that's the opportunity cost. I have to think, am I willing to spend that to get this idea off the ground? If not, then I'll need to keep reducing that number until it feels justified.
+
+3. Now that's the opportunity cost per co-founder. What's the opportunity cost your co-founders is willing to tolerate?
+
+This means the formula is (Highest acceptable opportunity cost) / (acceptable dayrate) = (number of days allocated)
+
+
+Now you need to visualise what your journey would look like to get there. 
+
+Firstly, what's the number of customers required to get to the MRR?
+Customers often have fixed ideas about what things cost - its often hard to change them upwards and given that this is a new product and there is risk that it doesn't deliver the value expected, there will be pressure to apply a discount until you've earned a positive reputation. That positive reputation probably won't be earned while you're still underneath your expected MRR.
+
+1. How much do competitors charge for something similar? (Are your expectations on price grounded?)
+2. How many times do you expect a single customer to make a purchase per year?
+
+The formula is (Minimum MRR) / (expected price) * (number of purchases per year) / 12 = number of customers required
+
+2. How much does it cost to acquire that customer? How much time does it take?
+3. What does the margins look like when it scales? It doesn't matter if you can service the first few customers cheaply, some business ideas become more expensive with more customers. (Can you think of some examples? I'm thinking ones that require workshops or where you're sacrificing your own time as a founder for the first few customers but you can't scale to generate modest revenue)
+4. How much would you have to pay before the first pound in revenue comes in? Are you comfortable with paying that and finding out the business has failed?
+5. How long would it take for the product to reach the desired MRR? If you don't have a number, I recommend 10K MRR. It sounds big but it's just 120K in revenue pre-costs - its kind of like a nice big salary. At most that's maybe 2 or 3 people at very modest salaries after taxes and costs.
+6. What's an industry conversion rate? If you approach 100 people with the problem you're trying to solve, how many people would pay? If you can't find a number, I'd go with 5%.
+7. How many people can you reach per month? Since this is a new product, this might at the start involve door-to-door sales or attending events or creating your own ones. How would you find the people to get to 10K MRR? Online ads probably isn't the right way (explain why?)
+8. When would they stop paying? What's the industry rate for churn per month?
+
+Also really useful metric is how painful is the problem and how frequently does it occur per user? I think this is something Y-Combinator talked about.
+
+If its really painful but happens every once in a while, that means the customer acquisition cost is really high (because the people that have the problem don't occur regularly and the window to solve the problem is really narrow so there is a timing problem. Also it means the nature of the problem could shift slowly but significantly so a solution that made sense now might not make sense in the future) - this is likely not a good problem to solve with software that's hard and expensive to pivot and its underutilising the value prop of software which is that it is its always available within arms reach. That problem is probably best served by a human-based consultancy that's solving multiple other problems at the same time.
+
+See the Vangogh and Blackberry posts for writing direction and style

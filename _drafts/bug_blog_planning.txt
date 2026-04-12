@@ -1,0 +1,23 @@
+I'm thinking of writing a blog on how to design a product against bugs that cause a lot of damage.
+
+The characteristics of the bug:
+
+- It is an active bug, not passive. There is an erranous action happening at scale and cannot be undone. 
+- At scale could mean a large number of erranous activity happening within a short period of time or large number of erranous activity happening unnoticed across a larger timespan.
+- It actively harms the user. This could include accidental email spamming, false charges being made repeatedly or across multiple users, mass data deletion or mass data exposure etc. (what are some other examples?)
+- It actively harms the company. This could include domain reputation tanking due to accidental spamming, refund charges piling up due to accidental charges, data being breached or valuable data being deleted or API costs piling up. (what are some other examples?)
+- It's often an edge case and lays dormant. The bug only happens due to a specific combination of events. Pre-deployment testing can't write tests for every possibility
+
+- Example 1: I was part of the engineering team that was doing a sales demo. Unfortunately while demoing the product, the customer triggered an action that resulted in 60 repeated emails sent to him within 5 minutes. That triggered a frantic set of phone calls through the company to stop the bug. We pushed an update within 20 minutes but the damage was done - our domain reputation sank and our emails ended up in spam over the next few weeks.
+
+- Example 2: I was part of another engineering team that had accidentally let a function make thousands of API requests that ended in a 20K bill. We didn't even know that happened until the bill came through. It looks like something stopped the API calls but not before 20K was spent.
+
+Here are a few solutions.
+- Allowing high-risk functions to try again repeatedly without supervision is not a good solution. It increases the risk of a runaway function.
+- The order to try again needs to be triggered explicitly by a human. This could be the end user clicking try again or someone in the team that is responsible for the function's outputs.
+- These high-risk functions must have a cap on the number of times they can perform that acton within a given timeframe.
+- If possible, queue that sensitive action so that a human with the correct business context can audit it from time to time. Make those audits a legitimate business activity and responsibility.
+- Visualise the data meaningfully in the product themselves so that the person responsible for the business outcome can audit it. Do not let an engineer audit the data - they may not have the right business context to diagnose an issue.
+- Make sure to build in thresholds and build notifications that notifies the relevant team when an urgent incident is going on.
+- Visualising the data could be as simple as a line graph that shows the number of actions within a timeframe or a table that can be sorted and filtered properly.
+- Install a kill switch that could be activated either by the user that is being harmed or a frontline worker or the founder themselves. This is the last resort but its an essential feature to stop the bleeding.

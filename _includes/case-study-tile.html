@@ -24,10 +24,10 @@
   
   <div class="case-study-tile__content">
     <div class="case-study-tile__header">
-      <h3 class="case-study-tile__title">{{ include.title }}</h3>
-      {% if include.years %}<span class="case-study-tile__years">{{ include.years }}</span>{% endif %}
+      <h3 class="case-study-tile__title">{{ include.title }}<span style="white-space: nowrap;">&nbsp;<i class="ion ion-md-arrow-round-forward"></i></span></h3>
     </div>
     <p class="case-study-tile__description">{{ include.description }}</p>
+    {% if include.years %}<span class="case-study-tile__date">{{ include.years }}</span>{% endif %}
     {% if include.date %}<span class="case-study-tile__date">{{ include.date | date: "%B %d, %Y" }}</span>{% endif %}
 
     {% if include.tags %}

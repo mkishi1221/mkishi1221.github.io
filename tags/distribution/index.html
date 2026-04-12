@@ -1,0 +1,37 @@
+---
+layout: default
+title: distribution
+tag: distribution
+---
+{% assign posts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
+{% assign first_post = posts.first %}
+
+<div class="container">
+  <div class="tag" {% if first_post.image %} style="background-image: url({{ first_post.image }});" {% endif %}>
+    <div class="row">
+      <div class="col col-8 push-2 col-d-12 push-d-0">
+        <div class="tag__inner">
+          <h1 class="tag__title">{{ page.title }}</h1>
+          <div class="tag__counter">
+            <span>{{ posts.size }}</span>
+            <small>{% if posts.size < 2 %}Article{% else %}Articles{% endif %}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="contaniner__inner animate">
+        <div class="row">
+          {% for post in posts %}
+            {% include article-content.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

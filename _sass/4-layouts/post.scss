@@ -5,10 +5,21 @@
   color: var(--text-color);
 
   a {
+    text-decoration: underline;
     transition: $global-transition;
     &:hover {
       border-color: transparent;
     }
+  }
+
+  a.article__inner,
+  a.article__inner * {
+    text-decoration: none;
+  }
+
+  a.case-study-tile__link,
+  a.case-study-tile__link * {
+    text-decoration: none;
   }
 
   .button {
